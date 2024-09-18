@@ -631,6 +631,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ForceDragonRage" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a2bf3dd9-5dec-457a-bd61-736f2ef19f73" />
         <field name="Passives" type="StringTableFieldDefinition" value="ForceDragonRageBoost" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="If(HasPassive('DragonBreathRage',context.source)):UnlockSpell(Zone_DragonsRageBreathForce);Tag(VFX_RAGE);UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue(DragonRage),Bludgeoning));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue(DragonRage),Bludgeoning));CharacterUnarmedDamage(LevelMapValue(DragonRage),Bludgeoning));FallDamageMultiplier(0.5)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

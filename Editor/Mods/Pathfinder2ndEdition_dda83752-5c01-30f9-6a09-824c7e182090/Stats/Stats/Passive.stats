@@ -41,7 +41,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="51141426-0212-46ef-8486-243e7c57c166" />
         <field name="Name" type="NameTableFieldDefinition" value="PathfinderStatBoosts" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h394df0e6g9729g8d59gbcdcg6a82876cdf2e" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Strength, 2);Ability(Dexterity,2);Ability(Constitution,2);Ability(Intelligence,2);Ability(Wisdom,2);Ability(Charisma,2);SpellSaveDC(2);AddProficiencyToAC()" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Strength, 2);Ability(Dexterity,2);Ability(Constitution,2);Ability(Intelligence,2);Ability(Wisdom,2);Ability(Charisma,2);AddProficiencyToAC()" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -900,7 +900,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="DragonRageBreath" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f03d2a2ge8e9g0ef1g5b26g5b61cf106e43" version="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="If(HasPassive('DragonRageBoost',context.source)):UnlockSpell(Zone_DragonsRageBreathBludgeoning);If(HasPassive('FireDragonRageBoost',context.source)):UnlockSpell(Zone_DragonsRageBreathFire);If(HasPassive('PoisonDragonRageBoost',context.source)):UnlockSpell(Zone_DragonsRageBreathPoison);If(HasPassive('ForceDragonRageBoost',context.source)):UnlockSpell(Zone_DragonsRageBreathForce);If(HasPassive('PsychicDragonRageBoost',context.source)):UnlockSpell(Zone_DragonsRageBreathPsychic)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

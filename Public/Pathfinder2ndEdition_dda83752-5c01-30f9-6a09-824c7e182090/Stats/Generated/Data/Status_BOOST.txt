@@ -519,6 +519,7 @@ new entry "ForceDragonRage"
 type "StatusData"
 data "StatusType" "BOOST"
 using "BoostDragonRage"
+data "Boosts" "If(HasPassive('DragonBreathRage',context.source)):UnlockSpell(Zone_DragonsRageBreathForce);Tag(VFX_RAGE);UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue(DragonRage),Bludgeoning));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue(DragonRage),Bludgeoning));CharacterUnarmedDamage(LevelMapValue(DragonRage),Bludgeoning));FallDamageMultiplier(0.5)"
 data "Passives" "ForceDragonRageBoost"
 
 new entry "PsychicDragonRage"

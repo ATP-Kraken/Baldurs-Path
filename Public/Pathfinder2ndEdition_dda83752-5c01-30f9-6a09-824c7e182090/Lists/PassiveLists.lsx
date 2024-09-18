@@ -66,7 +66,7 @@
                 </node>
                 <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="Barbarian Level 6 Class Feats"/>
-                    <attribute id="Passives" type="LSString" value="AnimalSkin,BrutalBully,DragonsRageBreath,GiantsStature,MageHunter,AttackOfOpportunity,ScouringRage,OversizedThrow,Swipe,FuriousFinish,IntimidatingStrike,SecondWindRage,AcuteVision,RagingIntimidation,RagingThrower,SuddenCharge"/>
+                    <attribute id="Passives" type="LSString" value="AnimalSkin,BrutalBully,DragonRageBreath,GiantsStature,MageHunter,AttackOfOpportunity,ScouringRage,OversizedThrow,Swipe,FuriousFinish,IntimidatingStrike,SecondWindRage,AcuteVision,RagingIntimidation,RagingThrower,SuddenCharge"/>
                     <attribute id="UUID" type="guid" value="e3a9037b-c38d-42b9-89ea-b17aaf43f121"/>
                 </node>
             </children>

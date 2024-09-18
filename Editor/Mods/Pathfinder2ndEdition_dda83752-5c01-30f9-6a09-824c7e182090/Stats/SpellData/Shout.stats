@@ -183,7 +183,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="66857296-f832-47cd-8e36-31fd392991dc" />
         <field name="Name" type="NameTableFieldDefinition" value="AnimalRage" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="87c0b5f9-8dc4-45fd-a036-63bf1ed5d13d" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:ApplyStatus(RAGE,100,10);ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(WeaponLock,100,-1);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(AcuteVision,100,10)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:ApplyStatus(RAGE,100,10);ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(WeaponLock,100,-1);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(DARKVISION,100,10)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RAGE,100,-1);ApplyStatus(WeaponLock,100,-1);ApplyStatus(RageTempHp,100,-1)" />
       </fields>
     </stat_object>
@@ -195,7 +195,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcd5e0170gc86bg0079g7b48g9e273c1b4476" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="LevelMapValue(FuryRageDamage)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FURYRAGE,100,-1);ApplyStatus(RageTempHp,100,-1)" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:ApplyStatus(FuryRage,100,10);ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(WeaponLock,100,-1);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(AcuteVision,100,10)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:ApplyStatus(FuryRage,100,10);ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(WeaponLock,100,-1);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(DARKVISION,100,10)" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('FuryRage') and not HasStatus('CALM_EMOTIONS')" />
       </fields>
     </stat_object>
@@ -204,7 +204,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0ecae5ee-bb32-483a-a656-959de6a30ee3" />
         <field name="Name" type="NameTableFieldDefinition" value="BludgeoningDragonRage" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="66857296-f832-47cd-8e36-31fd392991dc" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(BoostDragonRage,100,10);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(AcuteVision,100,10)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="If(HasPassive('DragonBreathRage',context.source)):UnlockSpell(Zone_DragonsRageBreathBludgeoning);ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(BoostDragonRage,100,10);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(DARKVISION,100,10)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1c5bad6cg773ag6e96g840dg65fd0ec82b0f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb5bbb3cg027cgb0ffg470cg37009af77484" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="LevelMapValue(DragonRage)" />
@@ -219,7 +219,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="0ecae5ee-bb32-483a-a656-959de6a30ee3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4f8885dag6763g0e64gbec0ga2808ed82603" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PoisonDragonRage,100,-1)ApplyStatus(RageTempHp,100,-1)" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(PoisonDragonRage,100,10);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(AcuteVision,100,10)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="If(HasPassive('DragonBreathRage',context.source)):UnlockSpell(Zone_DragonsRageBreathPoison);ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(PoisonDragonRage,100,10);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(DARKVISION,100,10)" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('PoisonDragonRage') and not HasStatus('CALM_EMOTIONS')" />
       </fields>
     </stat_object>
@@ -230,7 +230,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="0ecae5ee-bb32-483a-a656-959de6a30ee3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he6288c4bg214egb24cg03d0g013229054828" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FireDragonRage,100,-1)ApplyStatus(RageTempHp,100,-1)" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(FireDragonRage,100,10);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(AcuteVision,100,10)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="If(HasPassive('DragonBreathRage',context.source)):UnlockSpell(Zone_DragonsRageBreathFire);ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(FireDragonRage,100,10);ApplyStatus(RageTempHp,100,10)IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(DARKVISION,100,10)" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('FireDragonRage') and not HasStatus('CALM_EMOTIONS')" />
       </fields>
     </stat_object>
@@ -241,7 +241,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="0ecae5ee-bb32-483a-a656-959de6a30ee3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2db2e989g9ea8g3e57gc2bdg0c13d1e50f3f" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ForceDragonRage,100,-1)ApplyStatus(RageTempHp,100,-1)" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(ForceDragonRage,100,10);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(AcuteVision,100,10)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(ForceDragonRage,100,10);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(DARKVISION,100,10)" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('ForceDragonRage') and not HasStatus('CALM_EMOTIONS')" />
       </fields>
     </stat_object>
@@ -252,7 +252,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="0ecae5ee-bb32-483a-a656-959de6a30ee3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96b52460g47f0gce08gfbbdg843d9d405d49" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PsychicDragonRage,100,-1)ApplyStatus(RageTempHp,100,-1)" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(PsychicDragonRage,100,10);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(AcuteVision,100,10)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="If(HasPassive('DragonBreathRage',context.source)):UnlockSpell(Zone_DragonsRageBreathPsychic);ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(PsychicDragonRage,100,10);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(DARKVISION,100,10)" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('PsychicDragonRage') and not HasStatus('CALM_EMOTIONS')" />
       </fields>
     </stat_object>
@@ -263,7 +263,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="ff2fdbbc-a1cb-4df4-9775-6721d4347d05" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="LevelMapValue(GiantRageDamage)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GiantRageStatus,100,-1);ApplyStatus(RageTempHp,100,-1)" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:ApplyStatus(GiantRageStatus,100,10);ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(AcuteVision,100,10)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:ApplyStatus(GiantRageStatus,100,10);ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(DARKVISION,100,10)" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('GiantRageStatus') and not HasStatus('CALM_EMOTIONS')" />
       </fields>
     </stat_object>
@@ -292,7 +292,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h74a1b864g4945gf8a3g6250ga50d47fa621a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h13978518ga7bdg0180g127bg41f9f2f1d401" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SpiritRAGE,100,-1);ApplyStatus(RageTempHp,100,-1)" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:ApplyStatus(FuryRage,100,10);ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(AcuteVision,100,10)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:ApplyStatus(FuryRage,100,10);ApplyStatus(RAGE_MUTE,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(RageTempHp,100,10);IF(HasPassive('AcuteVision',context.Source)):ApplyStatus(DARKVISION,100,10)" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('SpiritRageStatus') and not HasStatus('CALM_EMOTIONS')" />
       </fields>
     </stat_object>

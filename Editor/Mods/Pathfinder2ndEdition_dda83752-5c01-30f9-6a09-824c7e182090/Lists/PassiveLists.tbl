@@ -89,7 +89,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e3a9037b-c38d-42b9-89ea-b17aaf43f121" />
         <field name="Name" type="NameTableFieldDefinition" value="Barbarian Level 6 Class Feats" />
-        <field name="Passives" type="StringTableFieldDefinition" value="AnimalSkin,BrutalBully,DragonsRageBreath,GiantsStature,MageHunter,AttackOfOpportunity,ScouringRage,OversizedThrow,Swipe,FuriousFinish,IntimidatingStrike,SecondWindRage,AcuteVision,RagingIntimidation,RagingThrower,SuddenCharge" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AnimalSkin,BrutalBully,DragonRageBreath,GiantsStature,MageHunter,AttackOfOpportunity,ScouringRage,OversizedThrow,Swipe,FuriousFinish,IntimidatingStrike,SecondWindRage,AcuteVision,RagingIntimidation,RagingThrower,SuddenCharge" />
       </fields>
     </stat_object>
   </stat_objects>
