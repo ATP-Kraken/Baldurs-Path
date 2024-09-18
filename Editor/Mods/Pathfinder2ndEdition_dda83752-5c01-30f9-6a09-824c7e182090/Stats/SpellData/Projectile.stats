@@ -132,6 +132,20 @@
         <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a25d9121-5fa8-4d60-aac4-6c6a4ba07109" />
+        <field name="Name" type="NameTableFieldDefinition" value="OversizedThrow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f63be83-178b-4daa-beb3-e0fbdf20fd3d" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="7" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BoulderToss)+StrengthModifier,Bludgeoning); Force(1)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self()" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BoulderToss)+StrengthModifier,Bludgeoning);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedUnarmedAttack" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
+        <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Big" enumeration_type_name="SpellSoundMagnitude" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="eae820eb-dbfb-4b37-b5da-f8aefbc16d1a" />

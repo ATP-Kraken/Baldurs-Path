@@ -56,6 +56,25 @@
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b0972e9-af38-4f37-b915-6994b3b41e33" />
+        <field name="Name" type="NameTableFieldDefinition" value="BARBARIAN" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f5c92e6-a775-402e-9a7b-7df479514783" />
+        <field name="Name" type="NameTableFieldDefinition" value="FuriousFinish" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e1772ad5-cf56-4e88-89c7-c431112fd712" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions() and HasStatus('BoostDragonRage')" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon+1d10, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);RemoveStatus(SELF, BoostDragonRage)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="RemoveStatus(SELF, BoostDragonRage)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdff55a45g459bg24fcg55d3ge386824176a3" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon+1d10, MainMeleeWeaponDamageType);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="494fa027-e377-4252-91fc-ed59f36cecee" />
         <field name="Name" type="NameTableFieldDefinition" value="FIGHTER" />
       </fields>
