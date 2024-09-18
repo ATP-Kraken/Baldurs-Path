@@ -1,73 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="c75b1787-58d1-4696-8d05-4acbda82eda1">
   <stat_objects>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab8fb4a8-f1ae-4bee-a383-2f806aa4d4fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="COMMON" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="5cce39b4-8be9-46d3-86b3-ed1fa836d336" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ce057a73-49c5-4518-ba0b-65f03bf5038b" />
         <field name="Name" type="NameTableFieldDefinition" value="Throw" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1,Bludgeoning);TARGET:IF(HasStatus('MAG_PROJECTILE_SHOES_TECHNICAL', context.HitDescription.ThrownObject)):DealDamage(2d4, Psychic,Magical,,0,,true);TARGET:IF(HasStatus('MAG_THE_THORNS_WEAPON_BOND', context.HitDescription.ThrownObject)):ApplyStatus(MAG_THE_THORNS_AOE_DAMAGE_TECHNICAL, 100, 0);TARGET:IF(HasStatus('MAG_FIRE_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Fire,Magical,,0,,true);TARGET:IF(HasStatus('MAG_COLD_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Cold,Magical,,0,,true);TARGET:IF(HasStatus('MAG_LIGHTNING_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Lightning,Magical,,0,,true);TARGET:IF(HasStatus('MAG_THUNDER_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Thunder,Magical,,0,,true);TARGET:IF(HasStatus('MAG_ACID_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Acid,Magical,,0,,true);TARGET:IF(HasStatus('MAG_POISON_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Poison,Magical,,0,,true);TARGET:IF(HasStatus('MAG_NECROTIC_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Necrotic,Magical,,0,,true);TARGET:IF(HasStatus('MAG_FORCE_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Force,Magical,,0,,true);TARGET:IF(HasStatus('MAG_PSYCHIC_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Psychic,Magical,,0,,true);TARGET:IF((HasStatus('BURNING', context.HitDescription.ThrownObject) or HasStatus('FLAMING_SPHERE_AURA', context.HitDescription.ThrownObject))):ApplyStatus(SELF, BURNING,100,1)" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="ThrownObjectRange" />
-        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="1" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:IF(IsLightThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(1,Bludgeoning);TARGET:IF(IsMediumThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(1d4,Bludgeoning);TARGET:IF(IsHeavyThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(2d4,Bludgeoning);TARGET:IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject)):DealDamage(ThrownWeapon, ThrownWeaponDamageType);TARGET:IF(HasWeightGreaterThan(context.Target.Weight/2, context.HitDescription.ThrownObject)):Force(2);TARGET:IF(HasWeightGreaterThan(context.Target.Weight, context.HitDescription.ThrownObject)):ApplyStatus(PRONE,100,1);TARGET:IF(Tagged('BOO',context.HitDescription.ThrownObject)):ApplyStatus(BLINDED,100,1,,,,not SavingThrow(Ability.Dexterity, 15));TARGET:IF(Tagged('DWARF', context.Source) and HasStatus('MAG_DWARVEN_THROWER_TECHNICAL', context.HitDescription.ThrownObject) and not SizeEqualOrGreater(Size.Large)):DealDamage(1d8, Bludgeoning,Magical,,0,,true);TARGET:IF(Tagged('DWARF', context.Source) and HasStatus('MAG_DWARVEN_THROWER_TECHNICAL', context.HitDescription.ThrownObject) and SizeEqualOrGreater(Size.Large)):DealDamage(2d8, Bludgeoning,Magical,,0,,true);IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject) and HasStatus('HUNTERS_MARK',context.Target,context.Source)):DealDamage(1d6, ThrownWeaponDamageType,Magical,,0,,true)" />
-        <field name="Template" type="StringTableFieldDefinition" value="a82d0147-9ecd-455a-a9ef-c6d2b8119777" />
-        <field name="Trajectories" type="StringTableFieldDefinition" value="rules:861d0046-1858-401e-b97b-28f7b3e3e89a,d5e54f29-f80f-4105-96b2-23b5af9321c7,bac38aab-dfa7-4a5a-9c2a-552b0b626ee3" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Throw" />
-        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="InventorySelection;RangeIgnoreVerticalThreshold;IsHarmful;HasHighGroundRangeExtension;IgnoreSilence;IgnoreVisionBlock;AddFallDamageOnLand;AbortOnSecondarySpellRollFail;CombatLogSetSingleLineRoll" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="b1befe57-ee3e-4126-8c9d-3b6cec7eb3f4,,;f2803838-31cf-471b-85d1-92fa2d0eb7c2,,;4be0751c-9fca-4c35-9337-6bf8a321c516,,;86b52093-596c-4054-bb1d-2dbdfcdc4347,,;5b4905be-03fd-42fb-9652-c2d1c772f4d3,,;9673b7c5-9928-44ce-ae4f-a85be2683981,,;e81ffae4-6be0-47fd-8502-48b9961004e9,,;,,;,," />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf7f182begc3f4gca0eg1a4egdda4c256572e" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7bd14e09g607eg73b9gaa6dg4d75a534c68f" version="1" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedUnarmedAttack)" />
-        <field name="ThrowableTargetConditions" type="StringTableFieldDefinition" value="CanThrowWeight() and not Grounded() and not IsItemDisabled() and not HasAttribute('InventoryBound') and (IsMovable() or Character() or Dead()) and CanMove(context.Target, context.Source, false) and (not IsEquipped() or IsEquipmentSlot(EquipmentSlot.MeleeMainHand) or IsEquipmentSlot(EquipmentSlot.MeleeOffHand) or IsEquipmentSlot(EquipmentSlot.Boots)) and not Tagged('CANT_SHOVE_THROW')" />
-        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
-        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self()" />
-        <field name="SpellActionType" type="EnumerationTableFieldDefinition" value="Throw" enumeration_type_name="SpellActionType" version="1" />
-        <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ede0c318-7f5d-43b4-bc73-a50e0a528d55" />
-        <field name="SpellAnimationType" type="EnumerationTableFieldDefinition" value="Throwing" enumeration_type_name="SpellAnimationType" version="1" />
-        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
-        <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Small" enumeration_type_name="SpellSoundMagnitude" version="1" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h159897f4g3721gd674g07e9g48408535ec76" version="1" />
-        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
-        <field name="PrepareSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Start" />
-        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
-        <field name="ThrowableSpellRoll" type="StringTableFieldDefinition" value="ThrowableCheck()" />
-        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5cce39b4-8be9-46d3-86b3-ed1fa836d336" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a9faaf05-4440-4bcf-839e-22c2eb8d7839" />
-        <field name="Name" type="NameTableFieldDefinition" value="ReboundingToss" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5cce39b4-8be9-46d3-86b3-ed1fa836d336" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:IF(IsLightThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(1,Bludgeoning);TARGET:IF(IsMediumThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(1d4,Bludgeoning);TARGET:IF(IsHeavyThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(2d4,Bludgeoning);TARGET:IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject)):DealDamage(ThrownWeapon, ThrownWeaponDamageType);TARGET:IF(HasWeightGreaterThan(context.Target.Weight/2, context.HitDescription.ThrownObject)):Force(2);TARGET:IF(HasWeightGreaterThan(context.Target.Weight, context.HitDescription.ThrownObject)):ApplyStatus(PRONE,100,1);TARGET:IF(Tagged('BOO',context.HitDescription.ThrownObject)):ApplyStatus(BLINDED,100,1,,,,not SavingThrow(Ability.Dexterity, 15));TARGET:IF(Tagged('DWARF', context.Source) and HasStatus('MAG_DWARVEN_THROWER_TECHNICAL', context.HitDescription.ThrownObject) and not SizeEqualOrGreater(Size.Large)):DealDamage(1d8, Bludgeoning,Magical,,0,,true);TARGET:IF(Tagged('DWARF', context.Source) and HasStatus('MAG_DWARVEN_THROWER_TECHNICAL', context.HitDescription.ThrownObject) and SizeEqualOrGreater(Size.Large)):DealDamage(2d8, Bludgeoning,Magical,,0,,true);IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject) and HasStatus('HUNTERS_MARK',context.Target,context.Source)):DealDamage(1d6, ThrownWeaponDamageType,Magical,,0,,true);ApplyStatus(SELF,ReboundingTossAttack,100,1);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SELF,ReboundingTossAttack,100,1)" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6220135bg0376gcbd0gbceag742b65d40960" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1889ba8cgebffgd733gd891g90018b3a55ab" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="723e1a40-1da9-44b2-a981-3f48baa689cb" />
-        <field name="Name" type="NameTableFieldDefinition" value="ReboundingTossBonus" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5cce39b4-8be9-46d3-86b3-ed1fa836d336" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:0" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1bfc5ef4gd12cg1082gd028gcdd5cac988ba" version="1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ab93ff70-8ad6-4e7a-8d6a-41236001d740" />
+        <field name="Name" type="NameTableFieldDefinition" value="BARBARIAN" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ce82fda4-bbe0-4bb2-b6a2-e93151005efa" />
         <field name="Name" type="NameTableFieldDefinition" value="FrenziedThrow" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5cce39b4-8be9-46d3-86b3-ed1fa836d336" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf2829407gaeb6g2e03ga813g6af9de62f3d5" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce057a73-49c5-4518-ba0b-65f03bf5038b" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc69ab204ge45dg45c5g89fdg759bc9c74cdd" version="1" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="b1befe57-ee3e-4126-8c9d-3b6cec7eb3f4,,;697d5963-13d6-4737-8de7-80b97dfe2216,,;f8baa5a0-4c8d-4cab-8fc1-04d3e2fba478,,;29f1f751-fd05-429f-9e67-4368c63623af,,;5b4905be-03fd-42fb-9652-c2d1c772f4d3,,;5d37434a-b746-4eb9-9bdb-487e9a21ff7f,,;e81ffae4-6be0-47fd-8502-48b9961004e9,,;,,;,," />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:IF(IsLightThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(1+StrengthModifier,Bludgeoning);IF(IsMediumThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(1d4+StrengthModifier,Bludgeoning);TARGET:IF(IsHeavyThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(2d4+StrengthModifier,Bludgeoning);TARGET:IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject)):DealDamage(ThrownWeapon+StrengthModifier, ThrownWeaponDamageType);TARGET:IF(HasWeightGreaterThan(context.Target.Weight/2, context.HitDescription.ThrownObject)):Force(2);TARGET:IF(HasWeightGreaterThan(context.Target.Weight, context.HitDescription.ThrownObject)):ApplyStatus(PRONE,100,1);ApplyStatus(PRONE,100,1);IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject) and HasStatus('HUNTERS_MARK',context.Target,context.Source)):DealDamage(1d6, ThrownWeaponDamageType,Magical,,0,,true);TARGET:IF(Tagged('DWARF', context.Source) and HasStatus('MAG_DWARVEN_THROWER_TECHNICAL', context.HitDescription.ThrownObject) and not SizeEqualOrGreater(Size.Large)):DealDamage(1d8, Bludgeoning,Magical,,0,,true);TARGET:IF(Tagged('DWARF', context.Source) and HasStatus('MAG_DWARVEN_THROWER_TECHNICAL', context.HitDescription.ThrownObject) and SizeEqualOrGreater(Size.Large)):DealDamage(2d8, Bludgeoning,Magical,,0,,true)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_FrenziedThrow" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc90b2cc9gcb03g60eag5f5fg1d42dd8d8a49" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h464ce5a8gf21fgb899g48d7g36b95067757f" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PRONE,100,1)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="RangeIgnoreVerticalThreshold;IsHarmful;HasHighGroundRangeExtension;IgnoreSilence;IgnoreVisionBlock;AddFallDamageOnLand;InventorySelection;CombatLogSetSingleLineRoll" enumeration_type_name="SpellFlagList" version="1" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SG_Rage')" />
@@ -76,7 +38,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="7a553dd4-06bf-4092-b211-8de50aabed0f" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_FrenziedThrow" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h81aaf250gb461gdc40gcda1g4271d53fcf05" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h897ea02bgef62g7519g404egd6b2e0eb95d4" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1,Bludgeoning);TARGET:IF(HasStatus('MAG_THE_THORNS_WEAPON_BOND', context.HitDescription.ThrownObject)):ApplyStatus(MAG_THE_THORNS_AOE_DAMAGE_TECHNICAL, 100, 0);TARGET:IF(HasStatus('MAG_FIRE_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Fire,Magical,,0,,true);TARGET:IF(HasStatus('MAG_COLD_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Cold,Magical,,0,,true);TARGET:IF(HasStatus('MAG_LIGHTNING_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Lightning,Magical,,0,,true);TARGET:IF(HasStatus('MAG_THUNDER_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Thunder,Magical,,0,,true);TARGET:IF(HasStatus('MAG_ACID_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Acid,Magical,,0,,true);TARGET:IF(HasStatus('MAG_POISON_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Poison,Magical,,0,,true);TARGET:IF(HasStatus('MAG_NECROTIC_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Necrotic,Magical,,0,,true);TARGET:IF(HasStatus('MAG_FORCE_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Force,Magical,,0,,true);TARGET:IF(HasStatus('MAG_PSYCHIC_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Psychic,Magical,,0,,true);TARGET:IF((HasStatus('BURNING', context.HitDescription.ThrownObject) or HasStatus('FLAMING_SPHERE_AURA', context.HitDescription.ThrownObject))):ApplyStatus(SELF, BURNING,100,1)" />
       </fields>
     </stat_object>
@@ -88,6 +50,33 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_ImprovisedWeapon_Bonus" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="InventorySelection;RangeIgnoreVerticalThreshold;IsHarmful;IgnoreSilence;IgnoreVisionBlock;AddFallDamageOnLand;PickupEntityAndMove;Temporary;CombatLogSetSingleLineRoll" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="81c3ab5d-0441-4803-a52a-8425d2bdb954" />
+        <field name="Name" type="NameTableFieldDefinition" value="FIGHTER" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a9faaf05-4440-4bcf-839e-22c2eb8d7839" />
+        <field name="Name" type="NameTableFieldDefinition" value="ReboundingToss" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce057a73-49c5-4518-ba0b-65f03bf5038b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:IF(IsLightThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(1,Bludgeoning);TARGET:IF(IsMediumThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(1d4,Bludgeoning);TARGET:IF(IsHeavyThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(2d4,Bludgeoning);TARGET:IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject)):DealDamage(ThrownWeapon, ThrownWeaponDamageType);TARGET:IF(HasWeightGreaterThan(context.Target.Weight/2, context.HitDescription.ThrownObject)):Force(2);TARGET:IF(HasWeightGreaterThan(context.Target.Weight, context.HitDescription.ThrownObject)):ApplyStatus(PRONE,100,1);TARGET:IF(Tagged('BOO',context.HitDescription.ThrownObject)):ApplyStatus(BLINDED,100,1,,,,not SavingThrow(Ability.Dexterity, 15));TARGET:IF(Tagged('DWARF', context.Source) and HasStatus('MAG_DWARVEN_THROWER_TECHNICAL', context.HitDescription.ThrownObject) and not SizeEqualOrGreater(Size.Large)):DealDamage(1d8, Bludgeoning,Magical,,0,,true);TARGET:IF(Tagged('DWARF', context.Source) and HasStatus('MAG_DWARVEN_THROWER_TECHNICAL', context.HitDescription.ThrownObject) and SizeEqualOrGreater(Size.Large)):DealDamage(2d8, Bludgeoning,Magical,,0,,true);IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject) and HasStatus('HUNTERS_MARK',context.Target,context.Source)):DealDamage(1d6, ThrownWeaponDamageType,Magical,,0,,true);ApplyStatus(SELF,ReboundingTossAttack,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SELF,ReboundingTossAttack,100,1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6220135bg0376gcbd0gbceag742b65d40960" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1889ba8cgebffgd733gd891g90018b3a55ab" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="723e1a40-1da9-44b2-a981-3f48baa689cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="ReboundingTossBonus" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce057a73-49c5-4518-ba0b-65f03bf5038b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1bfc5ef4gd12cg1082gd028gcdd5cac988ba" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

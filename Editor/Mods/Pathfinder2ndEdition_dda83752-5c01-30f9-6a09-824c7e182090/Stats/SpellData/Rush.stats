@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="bbe0e72e-fa2a-41d2-be9a-c604af561421">
   <stat_objects>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7d5de98e-a141-4cce-95a5-2394d1c5408e" />
+        <field name="Name" type="NameTableFieldDefinition" value="FEATS" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="395497c9-5271-4fb6-b95e-4b631d859939" />
@@ -37,24 +43,6 @@
         <field name="HitExtension" type="FloatTableFieldDefinition" value="1" />
         <field name="OnlyHit1Target" type="BoolTableFieldDefinition" value="True" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="bff1d63f-e227-4381-9433-c97dd5670ee7" />
-        <field name="Name" type="NameTableFieldDefinition" value="MF_ForceTunnel" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="2d94c996-2313-4a4a-b756-37a4c5fa5652" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="12" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d10+4,Force,Magical);TARGET:IF(not SavingThrow(Ability.Strength,17)):ApplyStatus(PRONE,100,2);" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(12)" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d10+4,Force)" />
-        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeUnarmedAttack;Strength" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PRONE,100,2)" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;AddFallDamageOnLand;Wildshape" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6540c78fg8675ge74eg167eg822abf642ca9" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -114,6 +102,30 @@
         <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="ee7db620-5d9e-4c73-958d-e941975b0380" />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a6b4121-2587-4e06-9b47-27947e9ca5ba" />
+        <field name="Name" type="NameTableFieldDefinition" value="ILLITHID" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bff1d63f-e227-4381-9433-c97dd5670ee7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MF_ForceTunnel" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d94c996-2313-4a4a-b756-37a4c5fa5652" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="12" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d10+4,Force,Magical);TARGET:IF(not SavingThrow(Ability.Strength,17)):ApplyStatus(PRONE,100,2);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(12)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d10+4,Force)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeUnarmedAttack;Strength" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PRONE,100,2)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;AddFallDamageOnLand;Wildshape" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73e5ab49gc5d2gc1c6g9dd0g756c3d506f96" version="1" />
       </fields>
     </stat_object>
   </stat_objects>
