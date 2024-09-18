@@ -9,6 +9,20 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7386c69d-b214-4a05-a995-37b7245bd419" />
+        <field name="Name" type="NameTableFieldDefinition" value="Stupefied1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Charisma, -2);Ability(Wisdom, -2);Ability(Intelligence, -2)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f5d214f-852a-43c8-9c48-91feae3cd002" />
+        <field name="Name" type="NameTableFieldDefinition" value="Stupefied2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Charisma, -4);Ability(Wisdom, -4);Ability(Intelligence, -4)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7f2a0ac0-dbb2-4771-8640-c3a272c7f0bf" />
         <field name="Name" type="NameTableFieldDefinition" value="MAP_PENALTY" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
@@ -561,7 +575,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8266d1e9g8fe9g00e5g6ebbgffc41deaa765" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(VFX_RAGE);UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(VFX_RAGE);UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);IF(HasPassive(AnimalSkin)):ACOverrideFormula(19,true);" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RAGE_MUTE);RemoveStatus(RAGE_STOP_REMOVE);RemoveStatus(RAGE_NO_HEAVY_ARMOUR_VFX);IF(RemoveCause(StatusRemoveCause.TimeOut) or RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(RAGE_ENDED,100,1);IF(RemoveCause(StatusRemoveCause.TimeOut) or RemoveCause(StatusRemoveCause.Condition)):UseSpell(Shout_EndRage,true,true,true)" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
@@ -589,6 +603,10 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="LevelMapValue(DragonRage)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(VFX_RAGE);UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue(DragonRage),Bludgeoning));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue(DragonRage),Bludgeoning));CharacterUnarmedDamage(LevelMapValue(DragonRage),Bludgeoning));FallDamageMultiplier(0.5)" />
         <field name="Passives" type="StringTableFieldDefinition" value="DragonRageBoost" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="None&#xD;&#xA;" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="None&#xD;&#xA;" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="None&#xD;&#xA;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -613,6 +631,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ForceDragonRage" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a2bf3dd9-5dec-457a-bd61-736f2ef19f73" />
         <field name="Passives" type="StringTableFieldDefinition" value="ForceDragonRageBoost" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="If(HasPassive('DragonBreathRage',context.source)):UnlockSpell(Zone_DragonsRageBreathForce);Tag(VFX_RAGE);UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue(DragonRage),Bludgeoning));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue(DragonRage),Bludgeoning));CharacterUnarmedDamage(LevelMapValue(DragonRage),Bludgeoning));FallDamageMultiplier(0.5)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -630,6 +649,10 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="855fb809-8a50-44a1-98fc-911b67ed0f33" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="LevelMapValue(FuryRageDamage)" />
         <field name="Passives" type="StringTableFieldDefinition" value="FuryRageBoosts;Rage_Attack;Rage_Damaged;Rage_NoHeavyArmour_VFX" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="None&#xD;&#xA;" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="None&#xD;&#xA;" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="None&#xD;&#xA;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -646,6 +669,13 @@
         <field name="Name" type="NameTableFieldDefinition" value="SpiritRageStatus" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5ddd5aab-f78f-4105-82af-67a78c79e44f" />
         <field name="Passives" type="StringTableFieldDefinition" value="SpiritRageBoosts;Rage_Attack;Rage_Damaged;Rage_NoHeavyArmour_VFX" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5060d387-981a-432f-bbb0-c01b255ff1c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="AcuteVision" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0e879fbc-8fcf-40dc-acc8-bd55954bc91a" />
       </fields>
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">

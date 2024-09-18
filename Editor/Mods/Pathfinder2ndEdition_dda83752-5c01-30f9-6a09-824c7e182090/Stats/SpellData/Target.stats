@@ -73,6 +73,17 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1cb2930a-54ec-478c-a02e-0b10896b5067" />
+        <field name="Name" type="NameTableFieldDefinition" value="MageHunter" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="18c99986-55b1-4a66-a13c-d34b178b4e9d" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon);ExecuteWeaponFunctors(MainHand);ApplyStatus(Stupefied1,100,1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hae69771egae43g1a84g39eag828ff98b5a29" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc5f4df2agb5b5g2df5g8bf9gd12a712cb67d" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(Stupefied1,100,1)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="494fa027-e377-4252-91fc-ed59f36cecee" />
@@ -342,7 +353,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="6d7dff78-bf2c-4ba7-a092-7f191758a7c6" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(Character() and not SavingThrow(Ability.Strength, ManeuverSaveDC()+2)):ApplyStatus(PRONE,100,1);DealDamage(MainMeleeWeapon);ExecuteWeaponFunctors(MainHand);ExecuteWeaponFunctors(MainHand);ApplyStatus(SELF,MAP_PENALTY,100,1)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(Character() and not SavingThrow(Ability.Dexterity, ManeuverSaveDC()+2)):ApplyStatus(PRONE,100,1);DealDamage(MainMeleeWeapon);ExecuteWeaponFunctors(MainHand);ExecuteWeaponFunctors(MainHand);ApplyStatus(SELF,MAP_PENALTY,100,1)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SELF,MAP_PENALTY,100,1)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d7921fbg4e25gc81bg895bg6289f3b848c9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc6f33e7bgfcfcg8e57g4b9agd0106d0915a6" version="1" />
@@ -361,7 +372,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="6d7dff78-bf2c-4ba7-a092-7f191758a7c6" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="CooldownType" version="1" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions() and HasStatus('MAP_PENALTY')" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(Character() and SavingThrow(Ability.Strength, ManeuverSaveDC()+2)):ApplyStatus(STUNNED1,100,1);IF(Character() and not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(STUNNED2,100,1);DealDamage(MainMeleeWeapon);ExecuteWeaponFunctors(MainHand);ExecuteWeaponFunctors(MainHand)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(Character() and SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(STUNNED1,100,1);IF(Character() and not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(STUNNED2,100,1);DealDamage(MainMeleeWeapon);ExecuteWeaponFunctors(MainHand);ExecuteWeaponFunctors(MainHand)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self() and HasStatus('Grappled')" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_ConcussiveSmash" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9c989769g6a1ag7a5fg55fagfde6a0ec5b78" version="1" />
