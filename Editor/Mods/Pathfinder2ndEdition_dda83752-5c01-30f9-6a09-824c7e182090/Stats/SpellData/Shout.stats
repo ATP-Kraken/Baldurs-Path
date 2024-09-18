@@ -363,6 +363,18 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ebeb55a7-b512-4fba-9e41-7bad629d8934" />
+        <field name="Name" type="NameTableFieldDefinition" value="SecondWindRage" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb08f27c-82d8-4518-a1fb-997b62011958" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(RageTempHp);RemoveStatus(BoostDragonRage);RemoveStatus(PoisonDragonRage);RemoveStatus(FireDragonRage);RemoveStatus(ForceDragonRage);RemoveStatus(PsychicDragonRage);RemoveStatus(FuryRage);RemoveStatus(GiantRageStatus);RemoveStatus(SpiritRageStatus)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:0" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus(RageTempHp)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="96a75c7b-fd38-472e-8702-47d99e3ba10e" />

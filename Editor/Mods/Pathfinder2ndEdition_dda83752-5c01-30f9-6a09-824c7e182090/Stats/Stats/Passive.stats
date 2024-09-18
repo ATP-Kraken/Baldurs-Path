@@ -702,15 +702,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="820668c6-5bc5-4277-91cd-4a136d885abc" />
-        <field name="Name" type="NameTableFieldDefinition" value="FuryRageBoosts" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="8af84c51-35e2-42e9-8443-eb2ae781c822" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb351f7c5g1e75g3268ga6a5g533e08d996c4" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue((FuryRageDamage));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue((FuryRageDamage));CharacterUnarmedDamage(LevelMapValue((FuryRageDamage));FallDamageMultiplier(0.5)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ad404d09-39a0-4bbe-b15d-dd10901fa63c" />
         <field name="Name" type="NameTableFieldDefinition" value="GiantInstinct" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha33da1f9gd8b6gc956g04b2g7a1a4548d6b2" version="1" />
@@ -819,8 +810,90 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="820668c6-5bc5-4277-91cd-4a136d885abc" />
+        <field name="Name" type="NameTableFieldDefinition" value="FuryRageBoosts" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8af84c51-35e2-42e9-8443-eb2ae781c822" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4788832ag55d3g3541g2142g732b643758b3" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue((FuryRageDamage));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue((FuryRageDamage));CharacterUnarmedDamage(LevelMapValue((FuryRageDamage));FallDamageMultiplier(0.5)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="589a3803-1df3-449d-a172-e92b6504caef" />
         <field name="Name" type="NameTableFieldDefinition" value="AcuteVision" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Darkvision" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="170db6d0-5d50-4925-89a2-30efa32b8ad3" />
+        <field name="Name" type="NameTableFieldDefinition" value="RagingIntimidation" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0da1b61f-d8f1-4e48-b3e5-6fd412d2fb6b" />
+        <field name="Name" type="NameTableFieldDefinition" value="RagingThrower" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ba1a9d3-bcda-492b-abf2-1725a381f5bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="FuriousFinish" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FuriousFinish)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ec17210-8700-404c-afed-2a510ae55c5c" />
+        <field name="Name" type="NameTableFieldDefinition" value="SecondWindRage" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SecondWindRage)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f220d5b0-7001-4cc3-b89c-74af73cb7ba7" />
+        <field name="Name" type="NameTableFieldDefinition" value="OversizedThrow" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_OversizedThrow)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7d3f920-fd4b-42fe-99cc-dbd9c6ee536d" />
+        <field name="Name" type="NameTableFieldDefinition" value="AnimalSkin" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9b04495-7a62-48e1-a023-67ec01efb8e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="BrutalBully" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3151ec5f-5420-4257-b88a-7563dc865609" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonRageBreath" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c61690f6-6082-45ce-9f27-583e825ad391" />
+        <field name="Name" type="NameTableFieldDefinition" value="GiantStature" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2f918567-55c5-4ed8-a6ae-a0a34cf9f1fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="MageHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="daa5cd76-dea1-4b28-9a96-ad57e76c6536" />
+        <field name="Name" type="NameTableFieldDefinition" value="ScouringRage" />
       </fields>
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">

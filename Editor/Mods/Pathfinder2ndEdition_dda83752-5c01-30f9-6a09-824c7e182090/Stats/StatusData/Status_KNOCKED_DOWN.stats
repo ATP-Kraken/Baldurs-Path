@@ -9,7 +9,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3578cb77g1ee7gae35gfc8cgda107b1f2b90" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Status_Prone" />
         <field name="FormatColor" type="EnumerationTableFieldDefinition" value="White" enumeration_type_name="FormatStringColor" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ApplyStatus(SELF,OFF_BALANCED,100,1)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AC(-2)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoredByImmobilized;InitiateCombat;DisableOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn;OnMove" enumeration_type_name="StatusEvent" version="1" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="UseActionResource(Action,1,0,true)" />
@@ -20,6 +20,7 @@
         <field name="SplatterDirtAmount" type="FloatTableFieldDefinition" value="0.1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="StatusSheathing" version="1" />
         <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="KO" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CIRCUMSTANCE_PENALTY_AC" />
       </fields>
     </stat_object>
   </stat_objects>

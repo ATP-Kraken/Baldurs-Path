@@ -475,21 +475,6 @@ data "Description" "h94755ee4ga304g29ffg469bg8e4ac76fb522;1"
 data "Icon" "Action_Barbarian_Rage"
 data "Boosts" "UnlockSpell(Shout_FuryRage)"
 
-new entry "Rage_Rage_Boosts"
-type "PassiveData"
-data "DisplayName" "h3575a711g8387ge4efgce9egaf2cbc717f67;1"
-data "Description" "hebfdfaa9gbeeaged7bg276ag92b9c9fd1197;1"
-data "Properties" "IsHidden"
-data "BoostContext" "OnEquip;OnCreate"
-data "BoostConditions" "not HasHeavyArmor(context.Source)"
-data "Boosts" "IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue(RageDamage));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue(RageDamage));CharacterUnarmedDamage(LevelMapValue(RageDamage));FallDamageMultiplier(0.5)"
-
-new entry "FuryRageBoosts"
-type "PassiveData"
-using "Rage_Rage_Boosts"
-data "Description" "hb351f7c5g1e75g3268ga6a5g533e08d996c4;1"
-data "Boosts" "IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue((FuryRageDamage));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue((FuryRageDamage));CharacterUnarmedDamage(LevelMapValue((FuryRageDamage));FallDamageMultiplier(0.5)"
-
 new entry "GiantInstinct"
 type "PassiveData"
 data "DisplayName" "ha33da1f9gd8b6gc956g04b2g7a1a4548d6b2;1"
@@ -516,6 +501,15 @@ type "PassiveData"
 data "DisplayName" "h2884aca9g0fb5g8779g7511g8c3efa9f7873;1"
 data "Icon" "Action_Barbarian_Rage"
 data "Boosts" "UnlockSpell(Shout_AnimalRage)"
+
+new entry "Rage_Rage_Boosts"
+type "PassiveData"
+data "DisplayName" "h3575a711g8387ge4efgce9egaf2cbc717f67;1"
+data "Description" "hebfdfaa9gbeeaged7bg276ag92b9c9fd1197;1"
+data "Properties" "IsHidden"
+data "BoostContext" "OnEquip;OnCreate"
+data "BoostConditions" "not HasHeavyArmor(context.Source)"
+data "Boosts" "IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue(RageDamage));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue(RageDamage));CharacterUnarmedDamage(LevelMapValue(RageDamage));FallDamageMultiplier(0.5)"
 
 new entry "DragonRageBoost"
 type "PassiveData"
@@ -544,6 +538,12 @@ type "PassiveData"
 using "DragonRageBoost"
 data "Boosts" "IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue((DragonRage),Psychic));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue((DragonRage),Psychic));CharacterUnarmedDamage(LevelMapValue((DragonRage),Psychic));FallDamageMultiplier(0.5)"
 
+new entry "FuryRageBoosts"
+type "PassiveData"
+using "Rage_Rage_Boosts"
+data "Description" "h4788832ag55d3g3541g2142g732b643758b3;1"
+data "Boosts" "IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue((FuryRageDamage));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue((FuryRageDamage));CharacterUnarmedDamage(LevelMapValue((FuryRageDamage));FallDamageMultiplier(0.5)"
+
 new entry "GiantRageBoosts"
 type "PassiveData"
 using "FuryRageBoosts"
@@ -555,6 +555,46 @@ using "FuryRageBoosts"
 data "Boosts" "IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue((FuryRageDamage),Force));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue((FuryRageDamage),Force));CharacterUnarmedDamage(LevelMapValue((FuryRageDamage),Force));FallDamageMultiplier(0.5)"
 
 new entry "AcuteVision"
+type "PassiveData"
+data "Icon" "Spell_Evocation_Darkvision"
+data "Properties" "Highlighted"
+
+new entry "RagingIntimidation"
+type "PassiveData"
+data "Properties" "Highlighted"
+
+new entry "RagingThrower"
+type "PassiveData"
+data "Properties" "Highlighted"
+
+new entry "FuriousFinish"
+type "PassiveData"
+data "Boosts" "UnlockSpell(Target_FuriousFinish)"
+
+new entry "SecondWindRage"
+type "PassiveData"
+data "Boosts" "UnlockSpell(Shout_SecondWindRage)"
+
+new entry "OversizedThrow"
+type "PassiveData"
+data "Boosts" "UnlockSpell(Projectile_OversizedThrow)"
+
+new entry "AnimalSkin"
+type "PassiveData"
+
+new entry "BrutalBully"
+type "PassiveData"
+
+new entry "DragonRageBreath"
+type "PassiveData"
+
+new entry "GiantStature"
+type "PassiveData"
+
+new entry "MageHunter"
+type "PassiveData"
+
+new entry "ScouringRage"
 type "PassiveData"
 
 new entry "BARD"
