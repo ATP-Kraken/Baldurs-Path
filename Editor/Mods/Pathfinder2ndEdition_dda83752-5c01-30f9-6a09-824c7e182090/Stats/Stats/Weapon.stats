@@ -1401,6 +1401,7 @@
         <field name="ItemGroup" type="StringTableFieldDefinition" value="Dummy" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="91696f37-5a03-4f10-b636-2e5e2096a594" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Light;Finesse" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

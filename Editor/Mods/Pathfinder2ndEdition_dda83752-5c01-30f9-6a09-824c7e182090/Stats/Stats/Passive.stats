@@ -745,7 +745,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3575a711g8387ge4efgce9egaf2cbc717f67" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hebfdfaa9gbeeaged7bg276ag92b9c9fd1197" version="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue(RageDamage));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue(RageDamage));CharacterUnarmedDamage(LevelMapValue(RageDamage));FallDamageMultiplier(0.5)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue(RageDamage));IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue(RageDamage));CharacterUnarmedDamage(LevelMapValue(RageDamage));FallDamageMultiplier(0.5)" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="not HasHeavyArmor(context.Source)" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
@@ -756,7 +756,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DragonRageBoost" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8af84c51-35e2-42e9-8443-eb2ae781c822" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="Combat()&#xD;&#xA;" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue((DragonRage),Bludgeoning));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue((DragonRage),Bludgeoning));CharacterUnarmedDamage(LevelMapValue((DragonRage),Bludgeoning));FallDamageMultiplier(0.5)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue(DragonRage),Bludgeoning);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue(DragonRage),Bludgeoning);CharacterUnarmedDamage(LevelMapValue(DragonRage),Bludgeoning);FallDamageMultiplier(0.5)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1310,6 +1310,12 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dcb476cb-5ab8-42a1-b394-964c39803d3b" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonStance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a33a7c5g6b13g4187g53c1g7cf794f934c9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4320c14cg089ag831fgd6deg0cb2837bff8d" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dragonborn_BreathWeapon_FireCone" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DragonStance)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1466,6 +1472,33 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fac545ce-8194-4563-8d6e-b1138ad11f47" />
         <field name="Name" type="NameTableFieldDefinition" value="WolfDrag" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aefb8db8-1a3d-4796-a085-75b92ff492f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MartialArts_BonusUnarmedStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0adc4b14g2f70gc6a4ge326g59da28790666" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1f0bf372g34d4g7f79g99fdg8f8f20b04b7b" version="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and IsMeleeUnarmedAttack() and not SpellId('Target_UnarmedStrike_Monk')" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,MARTIAL_ARTS_BONUS_UNARMED_STRIKE,100,1)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack;OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MartialArts), Bludgeoning)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MartialArts_BonusUnarmedStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2c8917a-2082-475d-b1d7-27fc8eb5ee40" />
+        <field name="Name" type="NameTableFieldDefinition" value="MartialArts_DextrousUnarmedAttacks" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h258b5b00g9684gcee6g1ccegaabee4e83f97" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf9a477c9ga1fdgfed8gd02fgcf6bdbc84d99" version="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="MonkWeaponAttackOverride();CharacterUnarmedDamage(-DexterityModifier)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MartialArts_DextrousUnarmedAttacks" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;OnLongRest;OnInventoryChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="IsDexterityGreaterThanStrength()" />
       </fields>
     </stat_object>
   </stat_objects>
