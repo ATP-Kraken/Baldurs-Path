@@ -254,9 +254,9 @@
                     <attribute id="Boosts" type="LSString" value="ProficiencyBonus(Skill,Perception);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Constitution);"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Monk"/>
-                    <attribute id="PassivesAdded" type="LSString" value="SkillActions,PathfinderStatBoosts;ReflexExpert;WillExpert;FortitudeExpert;UnarmoredDefense_Monk;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SkillActions,PathfinderStatBoosts;ReflexExpert;WillExpert;FortitudeExpert;UnarmoredDefense_Monk;MartialArts_UnarmedDamage;Monk_SoundSwitch;MartialArts_BonusUnarmedStrike;MartialArts_DextrousUnarmedAttacks"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(5f1c7177-6e28-4a42-a7a5-cfaf4c31519c,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,1,1),SelectPassives(3dad33a0-1141-4758-b2da-774b4ca6f43d,1,ClassFeat)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(5f1c7177-6e28-4a42-a7a5-cfaf4c31519c,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,1,1);SelectPassives(3dad33a0-1141-4758-b2da-774b4ca6f43d,1,ClassFeat)"/>
                     <attribute id="TableUUID" type="guid" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e"/>
                     <attribute id="UUID" type="guid" value="c091d27e-009b-4841-8bde-5e63e5ca8f4e"/>
                 </node>
