@@ -5,7 +5,7 @@
   <content contentuid="h684e62cag7544g024ag0ff3g78e6a030a383" version="2">MAP</content>
   <content contentuid="h056855c2gf3dcg0c49ge1c1g8858262f579b" version="1">Jump</content>
   <content contentuid="h56dee416gd9c4g299ag70f4gab5daf0171f7" version="1">Jump up, down, and across. Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; affects how far you can jump.</content>
-  <content contentuid="h7ad2ed48g2addg377dg388egdf2acab7eda4" version="1">The second time you use an attack action during your turn, you take a –5 penalty to your check. The third time you attack, and on any subsequent attacks, you take a –10 penalty to your check.</content>
+  <content contentuid="h7ad2ed48g2addg377dg388egdf2acab7eda4" version="2">You have -5 to your second attack roll this turn. If your weapon is light, reduce this to -4.</content>
   <content contentuid="hed13fbefg500dg3b71g1378g90ef4a1595d3" version="2">Slashing Gust</content>
   <content contentuid="hdf4532cfg80f5gb63fg2428g3cf1f3917a91" version="1">You slash your hand through the air, channeling miniature ripples of air from each finger to slice your enemy</content>
   <content contentuid="h0e4cbfd2g3b9agb981g6751g9575bec2d928" version="1">Puff of Poison</content>
@@ -1746,4 +1746,14 @@
   <content contentuid="h7d3b786bg74f7gea68g335fgcff3ed4669b0" version="1">Grapple a creature.</content>
   <content contentuid="h6002a181gf58cg7166g33fagc7f124fb91db" version="1">Gaze of the Dead</content>
   <content contentuid="hbd2a11f4g79dcg1ce9gc6fcgdd5d9ab22cbb" version="1">Cast your empty eyes towards a creature and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; it.</content>
+  <content contentuid="h4788832ag55d3g3541g2142g732b643758b3" version="1">Your rage comes from a deep and purely personal well within you. You use your rage as you choose. &lt;br&gt; Instinct Ability—Unstoppable Frenzy Increase the additional damage from Rage from 2 to 3.</content>
+  <content contentuid="hdff55a45g459bg24fcg55d3ge386824176a3" version="1">Furious Finish</content>
+  <content contentuid="hdf07cfbagb2a2g69e5g7b6fg7d7bea381275" version="1">You have -10 to your third and all subsequent attack roll this turn. If your weapon is light, reduce this to -8.</content>
+  <content contentuid="h5f4b5801g2851g6551g39d4g9ddeff522a13" version="1">Multiple Attack Bonus</content>
+  <content contentuid="he6aa4142g16dfg79b7g7404g85d7138afdbc" version="1">Exacting Strike (Ranged)</content>
+  <content contentuid="ha6b51966g0da5g6685g2d51g1d1a1d34dedc" version="1">Exacting Strike</content>
+  <content contentuid="h4972540bg5734g4cc3gdc0dgd4fcf67f1620" version="1">You make a controlled follow-up attack, fully accounting for your momentum. Make a Strike. If you miss, this attack does not count toward your multiple attack penalty.</content>
+  <content contentuid="hc70d5ed2g48cegfc53ga966g83d64a524b04" version="1">You make a controlled follow-up attack, fully accounting for your momentum. Make a Strike. If you miss, this attack does not count toward your multiple attack penalty.</content>
+  <content contentuid="h0199ee55g5606gafb4g22eeg81e5eabf92ac" version="1">Exacting Strike (Melee)</content>
+  <content contentuid="h65b11835ge9f9gf71bg5a32gadb34be8c941" version="1">You make a controlled follow-up attack, fully accounting for your momentum. Make a Strike. If you miss, this attack does not count toward your multiple attack penalty.</content>
 </contentList>

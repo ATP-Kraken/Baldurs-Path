@@ -12,9 +12,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7db18009-933c-46a3-994e-ed9e28aee806" />
         <field name="Name" type="NameTableFieldDefinition" value="MultipleAttackPenalty" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h684e62cag7544g024ag0ff3g78e6a030a383" version="2" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() or IsUnarmedAttack() or IsSpellAttack()" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, MAP_PENALTY, 100, 1)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('MAP_PENALTY_2ND', context.Source) and IsAttack()):ApplyStatus(SELF,MAP_PENALTY_3RD,100,1);IF(not HasStatus('MAP_PENALTY_3RD', context.Source) and not HasStatus('MAP_PENALTY_2ND', context.Source) and IsAttack()):ApplyStatus(SELF,MAP_PENALTY_2ND,100,1)" />
         <field name="Icon" type="StringTableFieldDefinition" value="statIcons_Goaded" />
       </fields>
     </stat_object>
@@ -41,7 +40,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="51141426-0212-46ef-8486-243e7c57c166" />
         <field name="Name" type="NameTableFieldDefinition" value="PathfinderStatBoosts" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h394df0e6g9729g8d59gbcdcg6a82876cdf2e" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Strength, 2);Ability(Dexterity,2);Ability(Constitution,2);Ability(Intelligence,2);Ability(Wisdom,2);Ability(Charisma,2);SpellSaveDC(2);AddProficiencyToAC()" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Strength, 2);Ability(Dexterity,2);Ability(Constitution,2);Ability(Intelligence,2);Ability(Wisdom,2);Ability(Charisma,2);AddProficiencyToAC()" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -823,6 +822,8 @@
         <field name="Name" type="NameTableFieldDefinition" value="AcuteVision" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Darkvision" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha3174577g0692g7daegfe03g1604f6cf369f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6d108bc7g5c21ga9f4gafe7g3c876964e885" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -830,6 +831,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="170db6d0-5d50-4925-89a2-30efa32b8ad3" />
         <field name="Name" type="NameTableFieldDefinition" value="RagingIntimidation" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb8f98359g2c23g682egf278g993d1aba9690" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b9a3b90g472dg4c66g5e01g2a051241c3ba" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -837,6 +840,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0da1b61f-d8f1-4e48-b3e5-6fd412d2fb6b" />
         <field name="Name" type="NameTableFieldDefinition" value="RagingThrower" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2bdc3972ge76eg93f9g1288g340d6cffece4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6cbd5f94gec50gdeebg16f0g71bf9b43fb4d" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -844,6 +849,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0ba1a9d3-bcda-492b-abf2-1725a381f5bb" />
         <field name="Name" type="NameTableFieldDefinition" value="FuriousFinish" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FuriousFinish)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbf1ea475gc2dbg7238g479ag7164d7340396" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h485a69f6gc95cg2853ga706g396359f511c6" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -851,6 +859,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8ec17210-8700-404c-afed-2a510ae55c5c" />
         <field name="Name" type="NameTableFieldDefinition" value="SecondWindRage" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SecondWindRage)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6bd32f1g0678g36abgaa75gee3e4898afa9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h500e341eg12b2gab07g7edagc27991b6416d" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -858,42 +869,63 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f220d5b0-7001-4cc3-b89c-74af73cb7ba7" />
         <field name="Name" type="NameTableFieldDefinition" value="OversizedThrow" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_OversizedThrow)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46b0e0cagb843gdbafgb77ag92fda3ffa28a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h313f0894ga953gc983g6fe4ga25a95e926cb" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a7d3f920-fd4b-42fe-99cc-dbd9c6ee536d" />
         <field name="Name" type="NameTableFieldDefinition" value="AnimalSkin" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b6aa7ecc-5234-4fd1-ac0d-f0b06484574e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff9f4afbg1d46g9c14ga2f4g153538f9bb3e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he218425dg8051g459agfc53g72211b9a02bf" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(14,tue,Dexterity)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e9b04495-7a62-48e1-a023-67ec01efb8e3" />
         <field name="Name" type="NameTableFieldDefinition" value="BrutalBully" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha9d08fc6g6616g3f7ag09afg0f3a3bd5f884" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3151ec5f-5420-4257-b88a-7563dc865609" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonRageBreath" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f03d2a2ge8e9g0ef1g5b26g5b61cf106e43" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c61690f6-6082-45ce-9f27-583e825ad391" />
         <field name="Name" type="NameTableFieldDefinition" value="GiantStature" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1aa41c51g5244gba2bg5fe4gc3edcceded2a" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_GiantStature)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2f918567-55c5-4ed8-a6ae-a0a34cf9f1fc" />
         <field name="Name" type="NameTableFieldDefinition" value="MageHunter" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcd4f1578g1288g9950g6cc6g21ed0d4763ca" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MageHunter)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="daa5cd76-dea1-4b28-9a96-ad57e76c6536" />
         <field name="Name" type="NameTableFieldDefinition" value="ScouringRage" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcdde7c4eg7da0g3e61g0937g8aa269bda218" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="If(HasPassive('DragonRageBoost',context.source)):UnlockSpell(Zone_ScouringRageBludgeoning);If(HasPassive('FireDragonRageBoost',context.source)):UnlockSpell(Zone_ScouringRageFire);If(HasPassive('PoisonDragonRageBoost',context.source)):UnlockSpell(Zone_ScouringRagePoison);If(HasPassive('ForceDragonRageBoost',context.source)):UnlockSpell(Zone_ScouringRageForce);If(HasPassive('PsychicDragonRageBoost',context.source)):UnlockSpell(Zone_ScouringRagePsychic)" />
       </fields>
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
@@ -955,6 +987,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FightingStyle_Archery" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PointBlankStance)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -966,6 +999,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FightingStyle_TwoWeaponFighting" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DoubleSlice)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -977,6 +1011,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Crab_CripplingPinch" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SnaggingStrike)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -988,6 +1023,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Dash" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Rush_SuddenCharge)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -999,6 +1035,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FightingStyle_GreatWeaponFighting" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ViciousSwing)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1010,6 +1047,19 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_PinDown" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_AssistingShot)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db71fc73-6f51-4329-bffd-2381d4312bf1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExactingStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6b51966g0da5g6685g2d51g1d1a1d34dedc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4972540bg5734g4cc3gdc0dgd4fcf67f1620" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Steady" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ExactingStrike);UnlockSpell(Projectile_ExactingStrike)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1021,6 +1071,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_HeartStopper" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BrutishShove)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1032,6 +1083,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_EnsnaringStrikeMelee" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CombatGrab)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1043,6 +1095,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_PostureBreaker" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DraggingStrike)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1054,6 +1107,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MenacingAttack_Melee" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_IntimidatingStrike)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1065,6 +1119,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_PiercingThrust" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Lunge)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1076,6 +1131,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Item_ARR_Arrow_Of_Ricochet" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Throw_ReboundingToss)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1087,6 +1143,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DisarmingAttack_Melee" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DuelingParry)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1097,7 +1154,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7599cb7agaf43g9db5gfc45g9d388584d006" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_HailOfThorns" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ActivateDoubleShot)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_DoubleShot);IF(SpellId('Projectile_DoubleShot')):RollBonus(Attack,-2)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1109,6 +1167,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ExtraAttack" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_QuickReversal)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1120,6 +1179,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Topple" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SlamDown)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1131,6 +1191,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleave_New" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Swipe)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1142,6 +1203,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Smash" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_AdvantageousAssault)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1153,6 +1215,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_ConcussiveSmash" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DazingBlow)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1193,6 +1256,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Utility" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RicochetStance)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1204,6 +1268,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MenacingAttack_Melee" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ShatterDefenses)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1214,7 +1279,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3dce4443gca63g0fc0g3fdbg35a25302dd2f" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_HordeBreaker_Ranged" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ActivateTripleShot);UnlockSpell(Shout_ActivateUpgradedDoubleShot);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_UpgradedDoubleShot);UnlockSpell(Projectile_TripleShot);IF(SpellId('Projectile_UpgradedDoubleShot')):RollBonus(Attack,-2);IF(SpellId('Projectile_TripleShot')):RollBonus(Attack,-4);" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:3" />
       </fields>
     </stat_object>
   </stat_objects>

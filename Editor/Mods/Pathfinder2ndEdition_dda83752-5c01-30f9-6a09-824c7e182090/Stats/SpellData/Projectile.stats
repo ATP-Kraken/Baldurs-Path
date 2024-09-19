@@ -170,7 +170,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="Ammunition" enumeration_type_name="WeaponFlags" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IsDefaultWeaponAction" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions();HasStatus('MAP_PENALTY')" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="(HasStatus('MAP_PENALTY_2ND') or HasStatus('MAP_PENALTY_3RD')) and CanUseWeaponActions()" />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="cb7f062b-0a9f-423a-945c-64de24a9301b" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="732c29ee-1083-44b1-8974-4e8973a1b51c" />
@@ -213,7 +213,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DoubleShot" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="2" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedWeaponAttack)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType); ExecuteWeaponFunctors(MainHand)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType); ExecuteWeaponFunctors(MainHand);ApplyStatus(SELF,MAP_PENALTY_3RD,100,1)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self()" />
         <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="61cecd47-317e-406e-ad3c-1eb5ecfbc317,b5984f66-22fc-aa2c-5e71-9456ef207db0" />
@@ -221,7 +221,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hffb0de9dgc580g3008g301eg0d4dc662b9cf" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heea2ab3agd24dg57e4gb182gf41ffb774f6e" version="1" />
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
         <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="Ammunition;Twohanded" enumeration_type_name="WeaponFlags" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IsDefaultWeaponAction;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
@@ -230,6 +230,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="86d932a4-ff1b-410d-8f73-c5f5a2529862" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="36" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="dc75f60c-beac-4588-a14a-43834eeb8f8f" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SELF,MAP_PENALTY_3RD,100,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -251,6 +252,23 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h339d386agadffgaa5eg3687g7a1e3b4699ba" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc7ea6d7cg52b0g7e62ga3d1g7cde2f085453" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IsDefaultWeaponAction" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a34718f4-70fd-49d0-8bc4-2451ddc5ee9a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExactingStrike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dc75f60c-beac-4588-a14a-43834eeb8f8f" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(1,MainRangedWeapon), MainRangedWeaponDamageType); ExecuteWeaponFunctors(MainHand);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SELF,MAP_PENALTY_2ND,100,1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Steady_Ranged" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he6aa4142g16dfg79b7g7404g85d7138afdbc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc70d5ed2g48cegfc53ga966g83d64a524b04" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IsDefaultWeaponAction" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('MAP_PENALTY_2ND') and CanUseWeaponActions()" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="cb7f062b-0a9f-423a-945c-64de24a9301b" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="cf56fd6b-7ff8-43fd-90f6-7677e396a7da" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

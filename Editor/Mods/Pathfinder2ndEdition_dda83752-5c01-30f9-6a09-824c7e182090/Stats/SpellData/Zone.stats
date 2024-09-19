@@ -58,6 +58,197 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5bc99492-f5bb-4d2e-b01b-9210b99388f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ScouringRageFire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2fc44fc6-35d3-4b3e-b442-2b09b5279a67" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, ManeuverSaveDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel),Fire)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Enemy()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h578bbbbfg2227ga10agb596g6e6ec1ae40ea" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd43b6d93g1701g74acg75a8g70ed99aecb9f" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="Range" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Angle" type="IntegerTableFieldDefinition" value="0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:0" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel)/2,Fire)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel),Fire)" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('FireDragonRage')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d74e6a8-87ad-4515-ad00-29f4d06d2e7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ScouringRageBludgeoning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="75cd9dec-55ed-4dd6-a1dd-6db014dadb42" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, ManeuverSaveDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel),Bludgeoning)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Enemy()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h316d55c9g0594g3249g149dga47f74d792f3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h48c07535g10c7ga21dg2b04gf76baaeb7fe0" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="Range" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Angle" type="IntegerTableFieldDefinition" value="0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:0" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel)/2,Bludgeoning)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel),Bludgeoning)" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('BoostDragonRage')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f737aa2-23af-4290-b81c-c6e8fc03088a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ScouringRagePoison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b6f6577d-2d08-456e-86e0-9a5f5d7334c4" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, ManeuverSaveDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel),Poison)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Enemy()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7c134106g301agd971gc426g22c42cc5d3d2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1c0e1e76gfab8g8036g54d7gbbfb47ed05a6" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="Range" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Angle" type="IntegerTableFieldDefinition" value="0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:0" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel)/2,Poison)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel),Poison)" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('PoisonDragonRage')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ef57920-b1ac-4a03-affe-f31e7cd42739" />
+        <field name="Name" type="NameTableFieldDefinition" value="ScouringRageForce" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6e6c2d07-8246-47ef-a976-644e228edadd" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, ManeuverSaveDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel),Force)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Enemy()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8f44f5d6g24f5ga992g707fga7f8ac9939a2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf6c5d73dgbf63g8aa6ga184gc48ff1673b85" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="Range" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Angle" type="IntegerTableFieldDefinition" value="0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:0" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel)/2,Force)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel),Force)" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('ForceDragonRage')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d4f4e0a-f0a1-4563-a186-c7aee7d4fec1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ScouringRagePsychic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dbc73047-9abf-4026-afcc-784fb2269c21" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, ManeuverSaveDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel),Psychic)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Enemy()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h50a88239g5513g97fdg7c76g80f10e0eb01f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haa06639fgc53ag2b23g9930gc044f129b49f" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="Range" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Angle" type="IntegerTableFieldDefinition" value="0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:0" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel)/2,Psychic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CharacterLevel),Psychic)" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('PsychicDragonRage')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2fc44fc6-35d3-4b3e-b442-2b09b5279a67" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonsRageBreathFire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0f4d9d05-8635-4b28-8dce-763e5edc005b" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, ManeuverSaveDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel),Fire)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel)/2,Fire)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dragonborn_BreathWeapon_FireCone" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7849e914gccebg0222gc921gf5d68ad4d704" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h52f6d62ag8d25ga09cga5f3gc86e8d7ede3a" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel),Fire)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_BreathWeapon_Fire" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Damage_BreathWeapon_Fire" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_BreathWeapon_Fire" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="Shape" type="StringTableFieldDefinition" value="Cone" />
+        <field name="FrontOffset" type="IntegerTableFieldDefinition" value="-2" />
+        <field name="Range" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Angle" type="IntegerTableFieldDefinition" value="60" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="ce0aa392-7d13-45a2-8a59-e6786830265d,,;,,;bd10df60-20c2-4711-a1b0-cef708fa0f11,bd10df60-20c2-4711-a1b0-cef708fa0f11,bd10df60-20c2-4711-a1b0-cef708fa0f11;af7ebc22-2ad5-4a39-ad4f-4e93e45f88c1,,;4354d3c1-ffc2-4da2-9840-d8c5f0932cbf,,;,,;c6951776-8830-4d97-9286-35899fe08d0b,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="CanAreaDamageEvade" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('FireDragonRage')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="75cd9dec-55ed-4dd6-a1dd-6db014dadb42" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonsRageBreathBludgeoning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2fc44fc6-35d3-4b3e-b442-2b09b5279a67" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel),Bludgeoning)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel)/2,Bludgeoning)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel),Bludgeoning)" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('BoostDragonRage')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b6f6577d-2d08-456e-86e0-9a5f5d7334c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonsRageBreathPoison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2fc44fc6-35d3-4b3e-b442-2b09b5279a67" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dragonborn_BreathWeapon_Poison" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_BreathWeapon_Poison" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Damage_BreathWeapon_Poison" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_BreathWeapon_Poison" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="3a7adcc2-5545-4359-8faa-d07152fcfdfb" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="334876ed-be5d-43d4-85db-c143c393e5ac" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="41c997d7-a298-482c-befb-bdedc4c78d3e" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Poison" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel),Poison)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel)/2,Poison)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel),Poison)" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('PoisonDragonRage')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e6c2d07-8246-47ef-a976-644e228edadd" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonsRageBreathForce" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2fc44fc6-35d3-4b3e-b442-2b09b5279a67" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_BreathWeapon_Lightning" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Damage_BreathWeapon_Lightning" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_BreathWeapon_Lightning" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel),Force)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel)/2,Force)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel),Force)" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('ForceDragonRage')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dbc73047-9abf-4026-afcc-784fb2269c21" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonsRageBreathPsychic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2fc44fc6-35d3-4b3e-b442-2b09b5279a67" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_BreathWeapon_Lightning" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Damage_BreathWeapon_Lightning" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_BreathWeapon_Lightning" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel),Psychic)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel)/2,Psychic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6PerLevel),Psychic)" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('PsychicDragonRage')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8a247b05-5948-49eb-8d07-23548b46a248" />
         <field name="Name" type="NameTableFieldDefinition" value="BurningHands" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9e9c743c-5bb9-46f6-8aab-141b3006d430" />
