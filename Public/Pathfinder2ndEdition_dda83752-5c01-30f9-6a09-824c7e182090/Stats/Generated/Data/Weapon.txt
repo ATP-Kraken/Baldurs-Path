@@ -1087,4 +1087,5 @@ data "ValueUUID" "91696f37-5a03-4f10-b636-2e5e2096a594"
 data "Slot" "Melee Main Weapon"
 data "InventoryTab" "Hidden"
 data "Weapon Group" "SimpleMeleeWeapon"
+data "Weapon Properties" "Light;Finesse"
 
