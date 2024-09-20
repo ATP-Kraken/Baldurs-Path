@@ -1401,6 +1401,31 @@
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7f19102-cd3e-4ca5-b2bd-f50a8d9f497e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WIZARD" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1bf06f4c-f06b-411e-9287-17d0e5214b96" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpellBlending" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="65be4741-b683-414e-a269-4208e1739d72" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="SpellBlending_1_2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h77d22550g940bgacbfgd52bge169a73b8e2d" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value=";" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="054b2846-6bd8-4fe2-8df7-1fe7ef8f1b85" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpellBlending_1_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cfb873e9-5424-48cd-b803-ea282a3f7fca" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_SpellBlending" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlot:2:1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="10ccbc81-321c-465c-9c3d-ae5ae1082b70" />
         <field name="Name" type="NameTableFieldDefinition" value="SPELLS" />
       </fields>

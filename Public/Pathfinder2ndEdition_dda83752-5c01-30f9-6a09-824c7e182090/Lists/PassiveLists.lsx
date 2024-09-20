@@ -69,6 +69,28 @@
                     <attribute id="Passives" type="LSString" value="AnimalSkin,BrutalBully,DragonRageBreath,GiantsStature,MageHunter,AttackOfOpportunity,ScouringRage,OversizedThrow,Swipe,FuriousFinish,IntimidatingStrike,SecondWindRage,AcuteVision,RagingIntimidation,RagingThrower,SuddenCharge"/>
                     <attribute id="UUID" type="guid" value="e3a9037b-c38d-42b9-89ea-b17aaf43f121"/>
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Wizard Arcane Thesis"/>
+                    <attribute id="Passives" type="LSString" value="ExperimentalSpellshaping_Reach,ExperimentalSpellshaping_Widen,ImprovedFamiliarAttunement,SpellBlending"/>
+                    <attribute id="UUID" type="guid" value="6143117b-fe06-4f2a-a031-c70c8916efd1"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Wizard Level 1 Class Feats"/>
+                    <attribute id="Passives" type="LSString" value="Metamagic_ReachSpell,PotentCantrip"/>
+                    <attribute id="UUID" type="guid" value="1e144df7-a18c-42ac-b8a3-fa837fb3d5ce"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Wizard Level 2 Class Feats"/>
+                    <attribute id="UUID" type="guid" value="c42a676e-5657-4c4f-88b1-5557783c735c"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Wizard Level 4 Class Feats"/>
+                    <attribute id="UUID" type="guid" value="5dc4d5e7-27a7-464e-86d6-93bf79d6c6d7"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Wizard Level 6 Class Feats"/>
+                    <attribute id="UUID" type="guid" value="d83f0ce2-41b1-4b5e-a5c3-64186a3c9e37"/>
+                </node>
             </children>
         </node>
     </region>

@@ -684,6 +684,17 @@ data "Boosts" "TemporaryHP(2+ConstitutionModifier)"
 data "RemoveConditions" "not HasTemporaryHP() or not Combat()"
 data "RemoveEvents" "OnCombatEnded"
 
+new entry "WIZARD"
+type "StatusData"
+data "StatusType" "BOOST"
+
+new entry "ReachSpell"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "Metamagic_ReachSpell"
+data "StatusPropertyFlags" "RemoveOnLongRest"
+data "StatusGroups" "SG_RemoveOnRespec"
+
 new entry "SPELLS"
 type "StatusData"
 data "StatusType" "BOOST"

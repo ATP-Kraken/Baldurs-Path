@@ -1756,4 +1756,25 @@
   <content contentuid="hc70d5ed2g48cegfc53ga966g83d64a524b04" version="1">You make a controlled follow-up attack, fully accounting for your momentum. Make a Strike. If you miss, this attack does not count toward your multiple attack penalty.</content>
   <content contentuid="h0199ee55g5606gafb4g22eeg81e5eabf92ac" version="1">Exacting Strike (Melee)</content>
   <content contentuid="h65b11835ge9f9gf71bg5a32gadb34be8c941" version="1">You make a controlled follow-up attack, fully accounting for your momentum. Make a Strike. If you miss, this attack does not count toward your multiple attack penalty.</content>
+  <content contentuid="h13a11a29g5821g0339g7367ge7c9ebf4361d" version="1">Class Feat</content>
+  <content contentuid="hf11260b8gbd3cg09c6g1466g3f688216bef0" version="1">Ability Boosts</content>
+  <content contentuid="h51f4e01bgbcc9g4172gd0e6gdba405dfdf8a" version="1">Arcane Thesis</content>
+  <content contentuid="h43e82f67g4eadgf08bgb8dfg2412782ceb67" version="1">During your studies to become a full-fledged wizard, you produced a thesis of unique magical research. You gain a special benefit depending on the topic of your thesis research.</content>
+  <content contentuid="h2936ff57g4dbcg04b8g0424g909015f4a60b" version="1">Unified Magical Theory</content>
+  <content contentuid="h604cbaffg381dg7347gce62ga8b5cb117ff2" version="1">Universalist</content>
+  <content contentuid="h0e43a852g6be9g250dgf7c8ge48e532a3302" version="1">You eschew the idea that magic can be neatly expressed by the teachings of any single school or college, instead directing your self-study to pick up the best of every school of magic.</content>
+  <content contentuid="h8802da52g6e86gee59gd78cgc4090f9abb62" version="1">General Feat</content>
+  <content contentuid="h57fd5d27g2b7bgbfcdgc62egc90e3bd9140c" version="1">Expert Spellcaster</content>
+  <content contentuid="h9129ce1cg1909gd657g70bbg8f7037a78f36" version="1">You gain a +2 bonus to &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt; and spell &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt;.</content>
+  <content contentuid="h138eac8fg5e36g5e9fg687fgb3ee71f549d0" version="1">Improved Familiar Attunement</content>
+  <content contentuid="h85a4e713g17d8g8827g1f06gc63aed05f991" version="1">You've long held that fine-tuning the magic that bonds a wizard and their familiar can improve the mystic connection and yield greater results, compared to the safe yet generic bond most wizards currently use. You've formed such a pact with your familiar, gaining more advantages from it than most wizards.</content>
+  <content contentuid="ha18755e3g7742gd2c2g1c24g66c6c388b773" version="1">Spell Blending</content>
+  <content contentuid="ha7d31f8eg0ac4g431dgfbccgfe496bd4fc3c" version="1">You theorize that spell slots are a shorthand for an underlying energy that powers all spellcasting, and you've found a way to tinker with the hierarchy of spell slots, combining them to fuel more powerful spells.</content>
+  <content contentuid="h0023443dgc31bg78e7ge6c4g41b12bb3a34d" version="1">Experimental Spellshaping: Reach Spell</content>
+  <content contentuid="hfb31d7c9gdac2g3a17g1a3fg46b7408461e6" version="1">Experimental Spellshaping: Widen Spell</content>
+  <content contentuid="h140b0601gb81ag87aag7f46g9084d38f4b66" version="1">Reach Spell</content>
+  <content contentuid="h9aeffcc4gd487ge7ebg84acg953e13ad0041" version="1">You can extend your spells’ range. If the next action you use is to Cast a Spell that has a range, increase that spell’s range by [1]. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to [1].</content>
+  <content contentuid="h77d22550g940bgacbfgd52bge169a73b8e2d" version="1">Sacrifice spell slots to unlock a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+  <content contentuid="ha9b515e4g10a9g928ag0142gde5d61f46bd5" version="1">You can extend your spells’ range. If the next action you use is to Cast a Spell that has a range, increase that spell’s range by [1]. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to [1].</content>
+  <content contentuid="h8eb716b0g5d18gffa5g33dfg25ecb86b1751" version="1">Your thesis posits that the magical practice of spellshaping can be realized more efficiently by altering variables and parameters as you cast. Starting at 4th level, during your daily preparations, you can gain a spellshape wizard feat of your choice that has a level requirement of no more than half your level, which you can use until your next daily preparations.</content>
 </contentList>
