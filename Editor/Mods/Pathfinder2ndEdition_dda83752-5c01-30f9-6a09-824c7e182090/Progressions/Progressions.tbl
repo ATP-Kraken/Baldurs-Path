@@ -261,9 +261,9 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Perception);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(Shortswords)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(5f1c7177-6e28-4a42-a7a5-cfaf4c31519c,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,1,1)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SkillActions,PathfinderStatBoosts;ReflexExpert;WillExpert;FortitudeExpert;UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Perception);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Constitution);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(5f1c7177-6e28-4a42-a7a5-cfaf4c31519c,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,1,1);SelectPassives(3dad33a0-1141-4758-b2da-774b4ca6f43d,1,ClassFeat)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SkillActions,PathfinderStatBoosts;ReflexExpert;WillExpert;FortitudeExpert;UnarmoredDefense_Monk;MartialArts_UnarmedDamage;Monk_SoundSwitch;MartialArts_BonusUnarmedStrike;MartialArts_DextrousUnarmedAttacks" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -102,7 +102,7 @@ data "Description" "h9ed28d15gd6aege69dg8b29g3af3bc3aead2;1"
 data "Icon" "PassiveFeature_UnarmoredDefense"
 data "Properties" "Highlighted"
 data "BoostContext" "OnEquip;OnCreate"
-data "BoostConditions" "not WearingArmor(context.Source) and not HasShieldEquipped(context.Source)"
+data "BoostConditions" "not WearingArmor(context.Source)"
 data "Boosts" "AC(4)"
 
 new entry "AcrobaticsIncrease"
@@ -508,14 +508,14 @@ data "Description" "hebfdfaa9gbeeaged7bg276ag92b9c9fd1197;1"
 data "Properties" "IsHidden"
 data "BoostContext" "OnEquip;OnCreate"
 data "BoostConditions" "not HasHeavyArmor(context.Source)"
-data "Boosts" "IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue(RageDamage));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue(RageDamage));CharacterUnarmedDamage(LevelMapValue(RageDamage));FallDamageMultiplier(0.5)"
+data "Boosts" "IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue(RageDamage));IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue(RageDamage));CharacterUnarmedDamage(LevelMapValue(RageDamage));FallDamageMultiplier(0.5)"
 
 new entry "DragonRageBoost"
 type "PassiveData"
 using "Rage_Rage_Boosts"
 data "BoostConditions" "Combat()
 "
-data "Boosts" "IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue((DragonRage),Bludgeoning));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue((DragonRage),Bludgeoning));CharacterUnarmedDamage(LevelMapValue((DragonRage),Bludgeoning));FallDamageMultiplier(0.5)"
+data "Boosts" "IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue(DragonRage),Bludgeoning);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue(DragonRage),Bludgeoning);CharacterUnarmedDamage(LevelMapValue(DragonRage),Bludgeoning);FallDamageMultiplier(0.5)"
 
 new entry "PoisonDragonRageBoost"
 type "PassiveData"
@@ -555,77 +555,82 @@ data "Boosts" "IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDa
 
 new entry "AcuteVision"
 type "PassiveData"
-data "DisplayName" "ha3174577g0692g7daegfe03g1604f6cf369f;1"
-data "Description" "h6d108bc7g5c21ga9f4gafe7g3c876964e885;1"
+data "DisplayName" "ha3174577g0692g7daegfe03g1604f6cf369f;2"
+data "Description" "h6d108bc7g5c21ga9f4gafe7g3c876964e885;2"
 data "Icon" "Spell_Evocation_Darkvision"
 data "Properties" "Highlighted"
 
 new entry "RagingIntimidation"
 type "PassiveData"
-data "DisplayName" "hb8f98359g2c23g682egf278g993d1aba9690;1"
-data "Description" "h4b9a3b90g472dg4c66g5e01g2a051241c3ba;1"
+data "DisplayName" "hb8f98359g2c23g682egf278g993d1aba9690;2"
+data "Description" "h4b9a3b90g472dg4c66g5e01g2a051241c3ba;2"
 data "Properties" "Highlighted"
 
 new entry "RagingThrower"
 type "PassiveData"
-data "DisplayName" "h2bdc3972ge76eg93f9g1288g340d6cffece4;1"
-data "Description" "h6cbd5f94gec50gdeebg16f0g71bf9b43fb4d;1"
+data "DisplayName" "h2bdc3972ge76eg93f9g1288g340d6cffece4;2"
+data "Description" "h6cbd5f94gec50gdeebg16f0g71bf9b43fb4d;2"
 data "Properties" "Highlighted"
 
 new entry "FuriousFinish"
 type "PassiveData"
-data "DisplayName" "hbf1ea475gc2dbg7238g479ag7164d7340396;1"
-data "Description" "h485a69f6gc95cg2853ga706g396359f511c6;1"
+data "DisplayName" "hbf1ea475gc2dbg7238g479ag7164d7340396;2"
+data "Description" "h485a69f6gc95cg2853ga706g396359f511c6;2"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Target_FuriousFinish)"
 
 new entry "SecondWindRage"
 type "PassiveData"
-data "DisplayName" "ha6bd32f1g0678g36abgaa75gee3e4898afa9;1"
-data "Description" "h500e341eg12b2gab07g7edagc27991b6416d;1"
+data "DisplayName" "ha6bd32f1g0678g36abgaa75gee3e4898afa9;2"
+data "Description" "h500e341eg12b2gab07g7edagc27991b6416d;2"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Shout_SecondWindRage)"
 
 new entry "OversizedThrow"
 type "PassiveData"
-data "DisplayName" "h46b0e0cagb843gdbafgb77ag92fda3ffa28a;1"
-data "Description" "h313f0894ga953gc983g6fe4ga25a95e926cb;1"
+data "DisplayName" "h46b0e0cagb843gdbafgb77ag92fda3ffa28a;2"
+data "Description" "h313f0894ga953gc983g6fe4ga25a95e926cb;2"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Projectile_OversizedThrow)"
 
 new entry "AnimalSkin"
 type "PassiveData"
 using "UnarmoredDefense_Monk"
-data "DisplayName" "hff9f4afbg1d46g9c14ga2f4g153538f9bb3e;1"
-data "Description" "he218425dg8051g459agfc53g72211b9a02bf;1"
+data "DisplayName" "hff9f4afbg1d46g9c14ga2f4g153538f9bb3e;2"
+data "Description" "he218425dg8051g459agfc53g72211b9a02bf;2"
 data "Properties" "Highlighted"
 data "Boosts" "ACOverrideFormula(14,tue,Dexterity)"
 
 new entry "BrutalBully"
 type "PassiveData"
-data "DisplayName" "ha9d08fc6g6616g3f7ag09afg0f3a3bd5f884;1"
+data "DisplayName" "ha9d08fc6g6616g3f7ag09afg0f3a3bd5f884;2"
+data "Description" "h38e91672g5cbdgf695g7ecdg0de176b4c5c3;1"
 data "Properties" "Highlighted"
 
 new entry "DragonRageBreath"
 type "PassiveData"
-data "DisplayName" "h0f03d2a2ge8e9g0ef1g5b26g5b61cf106e43;1"
+data "DisplayName" "h0f03d2a2ge8e9g0ef1g5b26g5b61cf106e43;2"
+data "Description" "hf76932c8gc250g1f23g7ab5g700eb09af265;1"
 data "Properties" "Highlighted"
 
 new entry "GiantStature"
 type "PassiveData"
-data "DisplayName" "h1aa41c51g5244gba2bg5fe4gc3edcceded2a;1"
+data "DisplayName" "h1aa41c51g5244gba2bg5fe4gc3edcceded2a;2"
+data "Description" "h9b1c1790gf231gbe41ge4b8g2b366808de6d;1"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Shout_GiantStature)"
 
 new entry "MageHunter"
 type "PassiveData"
-data "DisplayName" "hcd4f1578g1288g9950g6cc6g21ed0d4763ca;1"
+data "DisplayName" "hcd4f1578g1288g9950g6cc6g21ed0d4763ca;2"
+data "Description" "h83dab50dg40afg9c78g6f45g7e502ec5105f;1"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Target_MageHunter)"
 
 new entry "ScouringRage"
 type "PassiveData"
-data "DisplayName" "hcdde7c4eg7da0g3e61g0937g8aa269bda218;1"
+data "DisplayName" "hcdde7c4eg7da0g3e61g0937g8aa269bda218;2"
+data "Description" "h97a94336g8266g16a7gd60cga512abdf3911;1"
 data "Properties" "Highlighted"
 data "Boosts" "If(HasPassive('DragonRageBoost',context.source)):UnlockSpell(Zone_ScouringRageBludgeoning);If(HasPassive('FireDragonRageBoost',context.source)):UnlockSpell(Zone_ScouringRageFire);If(HasPassive('PoisonDragonRageBoost',context.source)):UnlockSpell(Zone_ScouringRagePoison);If(HasPassive('ForceDragonRageBoost',context.source)):UnlockSpell(Zone_ScouringRageForce);If(HasPassive('PsychicDragonRageBoost',context.source)):UnlockSpell(Zone_ScouringRagePsychic)"
 
@@ -887,4 +892,124 @@ data "TooltipUseCosts" "ActionPoint:3"
 data "Icon" "Action_HordeBreaker_Ranged"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Projectile_UpgradedDoubleShot);UnlockSpell(Projectile_TripleShot);IF(SpellId('Projectile_UpgradedDoubleShot')):RollBonus(Attack,-2);IF(SpellId('Projectile_TripleShot')):RollBonus(Attack,-4);"
+
+new entry "MONK"
+type "PassiveData"
+
+new entry "CraneStance"
+type "PassiveData"
+data "DisplayName" "hec819abcg2935g5d06g21b9g455180d3e5fc;1"
+data "Description" "h71a1b7ddg9627gd5edge2c0gee9fdf94f941;1"
+data "TooltipUseCosts" "ActionPoint:1"
+data "Icon" "Spell_Conjuration_FindFamiliar_Raven"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_CraneStance)"
+
+new entry "DragonStance"
+type "PassiveData"
+data "DisplayName" "h7a33a7c5g6b13g4187g53c1g7cf794f934c9;1"
+data "Description" "h4320c14cg089ag831fgd6deg0cb2837bff8d;1"
+data "TooltipUseCosts" "ActionPoint:1"
+data "Icon" "Action_Dragonborn_BreathWeapon_FireCone"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_DragonStance)"
+
+new entry "MonasticArcherStance"
+type "PassiveData"
+
+new entry "MonasticWeaponry"
+type "PassiveData"
+
+new entry "MountainStance"
+type "PassiveData"
+
+new entry "QiRush"
+type "PassiveData"
+
+new entry "QiStrike"
+type "PassiveData"
+
+new entry "TigerStance"
+type "PassiveData"
+
+new entry "WolfStance"
+type "PassiveData"
+
+new entry "CrushingGrab"
+type "PassiveData"
+
+new entry "ElementalFist"
+type "PassiveData"
+
+new entry "StunningBlows"
+type "PassiveData"
+
+new entry "CobraStance"
+type "PassiveData"
+
+new entry "DeflectProjectile"
+type "PassiveData"
+
+new entry "FlurryOfManuevers"
+type "PassiveData"
+
+new entry "FlyingKick"
+type "PassiveData"
+
+new entry "GuardedMovement"
+type "PassiveData"
+
+new entry "HarmonizeSelf"
+type "PassiveData"
+
+new entry "QiBlast"
+type "PassiveData"
+
+new entry "ShrinkTheSpan"
+type "PassiveData"
+
+new entry "AlignQi"
+type "PassiveData"
+
+new entry "CraneFlutter"
+type "PassiveData"
+
+new entry "DragonRoar"
+type "PassiveData"
+
+new entry "MountainStronghold"
+type "PassiveData"
+
+new entry "OneInchPunch"
+type "PassiveData"
+
+new entry "ReturnFire"
+type "PassiveData"
+
+new entry "TigerSlash"
+type "PassiveData"
+
+new entry "WolfDrag"
+type "PassiveData"
+
+new entry "MartialArts_BonusUnarmedStrike"
+type "PassiveData"
+data "DisplayName" "h0adc4b14g2f70gc6a4ge326g59da28790666;1"
+data "Description" "h1f0bf372g34d4g7f79g99fdg8f8f20b04b7b;2"
+data "DescriptionParams" "DealDamage(LevelMapValue(MartialArts), Bludgeoning)"
+data "Icon" "PassiveFeature_MartialArts_BonusUnarmedStrike"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnAttack;OnCast"
+data "Conditions" "IsMeleeAttack() and IsMeleeUnarmedAttack() and not SpellId('Target_UnarmedStrike_Monk')"
+data "StatsFunctors" "ApplyStatus(SELF,MARTIAL_ARTS_BONUS_UNARMED_STRIKE,100,1)"
+
+new entry "MartialArts_DextrousUnarmedAttacks"
+type "PassiveData"
+data "DisplayName" "h258b5b00g9684gcee6g1ccegaabee4e83f97;1"
+data "Description" "hf9a477c9ga1fdgfed8gd02fgcf6bdbc84d99;2"
+data "Icon" "PassiveFeature_MartialArts_DextrousUnarmedAttacks"
+data "Properties" "Highlighted"
+data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;OnLongRest;OnInventoryChanged"
+data "BoostConditions" "IsDexterityGreaterThanStrength()"
+data "Boosts" "MonkWeaponAttackOverride();CharacterUnarmedDamage(-DexterityModifier)"
 

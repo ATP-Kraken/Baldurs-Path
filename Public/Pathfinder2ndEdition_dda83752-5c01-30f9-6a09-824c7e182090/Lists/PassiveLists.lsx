@@ -69,6 +69,11 @@
                     <attribute id="Passives" type="LSString" value="AnimalSkin,BrutalBully,DragonRageBreath,GiantsStature,MageHunter,AttackOfOpportunity,ScouringRage,OversizedThrow,Swipe,FuriousFinish,IntimidatingStrike,SecondWindRage,AcuteVision,RagingIntimidation,RagingThrower,SuddenCharge"/>
                     <attribute id="UUID" type="guid" value="e3a9037b-c38d-42b9-89ea-b17aaf43f121"/>
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Monk Level 1 Class Feats"/>
+                    <attribute id="Passives" type="LSString" value="CraneStance,DragonStance,MonasticArcherStance,MonasticWeaponry,QiRush,QiStrike,TigerStance,WolfStance"/>
+                    <attribute id="UUID" type="guid" value="3dad33a0-1141-4758-b2da-774b4ca6f43d"/>
+                </node>
             </children>
         </node>
     </region>

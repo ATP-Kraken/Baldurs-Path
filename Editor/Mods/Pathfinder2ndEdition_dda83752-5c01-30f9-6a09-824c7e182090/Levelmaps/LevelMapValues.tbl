@@ -123,7 +123,7 @@
         <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399" />
         <field name="Level1" type="StringTableFieldDefinition" value="2" />
         <field name="FallbackValue" type="StringTableFieldDefinition" value="2" />
-        <field name="Level7" type="StringTableFieldDefinition" value="6" />
+        <field name="Level7" type="StringTableFieldDefinition" value="5" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -293,6 +293,15 @@
         <field name="Level10" type="StringTableFieldDefinition" value="10" />
         <field name="Level11" type="StringTableFieldDefinition" value="11" />
         <field name="Level12" type="StringTableFieldDefinition" value="12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="D8Unarmed" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ac83c776-6e62-4d1f-bf29-023c6acde77e" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level4" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level12" type="StringTableFieldDefinition" value="3d8" />
       </fields>
     </stat_object>
   </stat_objects>
