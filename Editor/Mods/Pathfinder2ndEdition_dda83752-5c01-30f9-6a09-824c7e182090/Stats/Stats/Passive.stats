@@ -85,6 +85,16 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7fddec6-1401-4882-b808-d54378719808" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpellExpert" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h57fd5d27g2b7bgbfcdgc62egc90e3bd9140c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9129ce1cg1909gd657g70bbg8f7037a78f36" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Magical" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="SpellSaveDC(2);RollBonus(MeleeSpellAttack,2);RollBonus(RangedSpellAttack,2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="978e50e2-8290-4eb8-ac38-424855b73a6a" />
         <field name="Name" type="NameTableFieldDefinition" value="ReflexExpert" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h46f07caag814dgf0c9gb5b0g947febc3ca6a" version="1" />
@@ -1281,6 +1291,66 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_UpgradedDoubleShot);UnlockSpell(Projectile_TripleShot);IF(SpellId('Projectile_UpgradedDoubleShot')):RollBonus(Attack,-2);IF(SpellId('Projectile_TripleShot')):RollBonus(Attack,-4);" />
         <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:3" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1aed7aa5-0699-4e02-a7e3-65017c3ca3df" />
+        <field name="Name" type="NameTableFieldDefinition" value="WIZARD" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8f6e048-3d44-4aaa-9476-59c8f30cc073" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpellBlending" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha18755e3g7742gd2c2g1c24g66c6c388b773" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha7d31f8eg0ac4g431dgfbccgfe496bd4fc3c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Sorcerer_CreateSpellSlot_1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SpellBlending)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a0326c9-c8ad-433d-ae76-846af2dd47ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="ImprovedFamiliarAttunement" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h138eac8fg5e36g5e9fg687fgb3ee71f549d0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h85a4e713g17d8g8827g1f06gc63aed05f991" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Warlock_PactOfTheChain_Quasit" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FindFamiliar_Ritual);UnlockSpell(Target_PactOfTheChain_Imp);UnlockSpell(Target_PactOfTheChain_Quasit)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49cfc9c1-2f3e-4cd0-99f9-f01e4fd3f3c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExperimentalSpellshaping_Reach" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0023443dgc31bg78e7ge6c4g41b12bb3a34d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8eb716b0g5d18gffa5g33dfg25ecb86b1751" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha9b515e4g10a9g928ag0142gde5d61f46bd5" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnLongRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(ReachSpell,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a41b2507-772b-4d43-9b56-34be5683800c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExperimentalSpellshaping_Widen" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="49cfc9c1-2f3e-4cd0-99f9-f01e4fd3f3c4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfb31d7c9gdac2g3a17g1a3fg46b7408461e6" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2cd3df8d-45d5-48ef-804d-57f5ae609826" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic_ReachSpell" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5fae949d-95d0-4d52-980d-093d3641808a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h140b0601gb81ag87aag7f46g9084d38f4b66" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9aeffcc4gd487ge7ebg84acg953e13ad0041" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('ActionPoint', 1, 0, false, false, context.Source)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(DistantSpellCheck(),ModifyTargetRadius(Additive,9),ModifyUseCosts(Add,ActionPoint,1,0));UnlockSpellVariant(DistantTouchSpellCheck(),ModifyTargetRadius(Override,9),ModifySpellFlags(Melee,0),ModifyUseCosts(Add,ActionPoint,1,0))" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -5,7 +5,7 @@
   <content contentuid="h684e62cag7544g024ag0ff3g78e6a030a383" version="2">MAP</content>
   <content contentuid="h056855c2gf3dcg0c49ge1c1g8858262f579b" version="1">Jump</content>
   <content contentuid="h56dee416gd9c4g299ag70f4gab5daf0171f7" version="1">Jump up, down, and across. Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; affects how far you can jump.</content>
-  <content contentuid="h7ad2ed48g2addg377dg388egdf2acab7eda4" version="1">The second time you use an attack action during your turn, you take a –5 penalty to your check. The third time you attack, and on any subsequent attacks, you take a –10 penalty to your check.</content>
+  <content contentuid="h7ad2ed48g2addg377dg388egdf2acab7eda4" version="2">You have -5 to your second attack roll this turn. If your weapon is light, reduce this to -4.</content>
   <content contentuid="hed13fbefg500dg3b71g1378g90ef4a1595d3" version="2">Slashing Gust</content>
   <content contentuid="hdf4532cfg80f5gb63fg2428g3cf1f3917a91" version="1">You slash your hand through the air, channeling miniature ripples of air from each finger to slice your enemy</content>
   <content contentuid="h0e4cbfd2g3b9agb981g6751g9575bec2d928" version="1">Puff of Poison</content>
@@ -837,37 +837,37 @@
   <content contentuid="h1c8cfbf0gb330gdabag4bcfg115e4e95a516" version="1">Ritually bound to its wielder. &lt;br&gt;&lt;br&gt;The weapon can't be knocked out of the wielder's hand, and automatically returns to the wielder when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;.</content>
   <content contentuid="h91aef90bg9ceeg3522g99a2g4a8d5a628d81" version="1">Stance</content>
   <content contentuid="haa905e16g2a36g05c1g180eg20bf6b5fd0fc" version="1">You are currently in a stance and can only be in one at a time.</content>
-  <content contentuid="hf734f430g9777g8939g25aaga4a152c34da4" version="1">Skill Mastery Athletics</content>
+  <content contentuid="hf734f430g9777g8939g25aaga4a152c34da4" version="1">Skill Mastery: Athletics</content>
   <content contentuid="h1a6063e3gd65fga8cfg3813g6b9c58d2e47b" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="h1669d7d0gfdd6gd76egd423g4d98553bdcc9" version="1">Skill Mastery Deception</content>
+  <content contentuid="h1669d7d0gfdd6gd76egd423g4d98553bdcc9" version="1">Skill Mastery: Deception</content>
   <content contentuid="hdb8e05e4gf6d8gd938ga800g86e6271354eb" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="h6fd8b3ecg894ag5888gb940g96fc575004ef" version="1">Skill Mastery History</content>
+  <content contentuid="h6fd8b3ecg894ag5888gb940g96fc575004ef" version="1">Skill Mastery: History</content>
   <content contentuid="h7da0e89fg3441ga443gd060g70d6b2adadce" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="hd8110d32gef1cg80b5gaca4g323fb54220ff" version="1">Skill Mastery Insight</content>
+  <content contentuid="hd8110d32gef1cg80b5gaca4g323fb54220ff" version="1">Skill Mastery: Insight</content>
   <content contentuid="h3c141cdbg573bgf079g9b8ag5420c878b48f" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="h31ad8297gd4d6g1052gf9f2gbcfbab742d41" version="1">Skill Mastery Intimidation</content>
+  <content contentuid="h31ad8297gd4d6g1052gf9f2gbcfbab742d41" version="1">Skill Mastery: Intimidation</content>
   <content contentuid="h023fe770gafa0g6257g9ee1gcea94c7928b1" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="h505256d2g05bdg6971g2cceg68eeb7dc3385" version="1">Skill Mastery Investigation</content>
+  <content contentuid="h505256d2g05bdg6971g2cceg68eeb7dc3385" version="1">Skill Mastery: Investigation</content>
   <content contentuid="h9b4ef3c2gb7e6g4a91gc128g06c99fd30054" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="h1df7c9f7g139eg302fg9269g5dd452aff382" version="1">Skill Mastery Medicine</content>
+  <content contentuid="h1df7c9f7g139eg302fg9269g5dd452aff382" version="1">Skill Mastery: Medicine</content>
   <content contentuid="h2b363ebegacbage51dg169cgb9bb43f24a69" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="hb6715898g10ebg39e4g19fage8eb3e2e7c79" version="1">Skill Mastery Nature</content>
+  <content contentuid="hb6715898g10ebg39e4g19fage8eb3e2e7c79" version="1">Skill Mastery: Nature</content>
   <content contentuid="hffe24d17ga54cgb86eg9f64g08b7de67e77a" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="h81d6cd48g557dg9dc4g26e2g570511d64d9b" version="1">Skill Mastery Perception</content>
+  <content contentuid="h81d6cd48g557dg9dc4g26e2g570511d64d9b" version="1">Skill Mastery: Perception</content>
   <content contentuid="h58a5eb81g825cgb794ga8dbg4164397c6ee4" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="h8bdde537g09a0g6bb6gd197gdf8ef5526d54" version="1">Skill Mastery Diplomacy</content>
+  <content contentuid="h8bdde537g09a0g6bb6gd197gdf8ef5526d54" version="1">Skill Mastery: Diplomacy</content>
   <content contentuid="h3e13166fgef14gd7b6g00d2g2ad8235324fa" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="h63653763gcb7eg8321g842bg81a2cc724df2" version="1">Skill Mastery Religion</content>
+  <content contentuid="h63653763gcb7eg8321g842bg81a2cc724df2" version="1">Skill Mastery: Religion</content>
   <content contentuid="hc9a53350g268dgadb4ge448ge35a82bf5950" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="h01832e1bg1b3cgb6d8g5bcag121afadb3141" version="1">Skill Mastery Thievery </content>
+  <content contentuid="h01832e1bg1b3cgb6d8g5bcag121afadb3141" version="1">Skill Mastery: Thievery </content>
   <content contentuid="he542a8acg738age607gb28agb4e8e5fdf10e" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="hcdef692fg3d52gd9e8gdc70g17683860ba1a" version="1">Skill Mastery Stealth</content>
+  <content contentuid="hcdef692fg3d52gd9e8gdc70g17683860ba1a" version="1">Skill Mastery: Stealth</content>
   <content contentuid="h23da86c6g40c3g045fgb34dg21ca267a9c11" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="h883db128g8bc1g5043gb889g81b8382eb9f9" version="1">Skill Mastery Animal Handling</content>
+  <content contentuid="h883db128g8bc1g5043gb889g81b8382eb9f9" version="1">Skill Mastery: Animal Handling</content>
   <content contentuid="hf4861125gc2c0gf997g5905geb36bd815f05" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="hfd03fc05gb84cgfbfcg3c34g3f2fa42c14b8" version="1">Skill Mastery Arcana</content>
+  <content contentuid="hfd03fc05gb84cgfbfcg3c34g3f2fa42c14b8" version="1">Skill Mastery: Arcana</content>
   <content contentuid="hb10e8fcbg42ffgc990g7aaegf79b966585a4" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
-  <content contentuid="h991cc4a9g030eg9a9dg448fg07739ed9ebd6" version="1">Skill Mastery Survival</content>
+  <content contentuid="h991cc4a9g030eg9a9dg448fg07739ed9ebd6" version="1">Skill Mastery: Survival</content>
   <content contentuid="hd0dfcea3g1514g8e6eg64c4gdba9e3f03d88" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
   <content contentuid="hd4c19fb8g9158gb131ge227g450308dececc" version="1">Charisma Ability Boost</content>
   <content contentuid="hfaee9561g800bgbf0cgf17dg8d09182e3b53" version="1">Increase this ability score by 2</content>
@@ -881,7 +881,7 @@
   <content contentuid="haa7052ccg3b20g5249gd9a2gd69a47ff3580" version="1">Increase this ability score by 2</content>
   <content contentuid="he6dccef5gcc6dgde36g8a15gef741ae1a063" version="1">Wisdom Ability Boost</content>
   <content contentuid="h52881d92g6b73gb063gbd53ga3a5010cf796" version="1">Increase this ability score by 2</content>
-  <content contentuid="h262d6758ge85bg12ecg594fge6708385d7d5" version="2">Skill Mastery Perception</content>
+  <content contentuid="h262d6758ge85bg12ecg594fge6708385d7d5" version="2">Skill Mastery: Perception</content>
   <content contentuid="h618af430gb241gc315g8fedg0022ded83eca" version="2">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
   <content contentuid="h4f880e27gd07fg0bc0gd2e2g92fb8146c8d4" version="1">Animal Instinct Ape</content>
   <content contentuid="hbfda5164g8929g1ccfg8af1g77fa07c82b4f" version="1">Animal Instinct Bull</content>
@@ -1214,4 +1214,567 @@
   <content contentuid="he42a5fdeg4519g2d87g75cdg6fadc708d6d5" version="1">Your rage gives you the raw power and size of a giant. This doesn’t necessarily mean you revere giants—you might scoff at them or even aspire to slay them! &lt;br&gt; When wielding a larger weapon in combat, increase your additional damage from Rage from 2 to 6, but you have the clumsy 1 condition because of the weapon’s unwieldy size. You can’t remove this clumsy condition or ignore its penalties by any means while wielding the weapon</content>
   <content contentuid="h3d62464dgbf8fgf696g3a4bg4e4faf1bfa65" version="1">Whether you are emotionally sensitive to the spirits around you; worship ancestors or apparitions; or are haunted by the specter of an ancestor, relative, friend, or foe, your rage takes the form of a spiritual possession. &lt;br&gt; Instinct Ability—Spirit Rage While raging, you can increase the additional damage from Rage from 2 to 3 and change its damage type to force, instead of the damage type for your weapon or unarmed attack</content>
   <content contentuid="hb351f7c5g1e75g3268ga6a5g533e08d996c4" version="1">Your rage comes from a deep and purely personal well within you. You use your rage as you choose. &lt;br&gt; Instinct Ability—Unstoppable Frenzy Increase the additional damage from Rage from 2 to 3.</content>
+  <content contentuid="h219a314ag7a33ge1f6g9216g4c8b8a0022aa" version="1">Bardic Inspiration</content>
+  <content contentuid="h2638f75fg8678gbd5fg63d8gdda5e1ae5b53" version="1">Can use &lt;LSTag Type="Spell" Tooltip="Target_BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;.</content>
+  <content contentuid="h394df0e6g9729g8d59gbcdcg6a82876cdf2e" version="1">Character creation ability scores can't be changed, so this gives a +2 bonus to all ability scores.</content>
+  <content contentuid="hc5698bf2g0479g35c8g0df6g5a9ddd76af17" version="1">Champion Reaction</content>
+  <content contentuid="ha2fb4733g9fe1gab3dged3eg8f4f1dec57e2" version="1">You protect your ally and strike your enemy reducing damage by 2 + your level.</content>
+  <content contentuid="h262b4cabg2d29ga529g1c7agdb5a3337cfef" version="1">Human Versatility</content>
+  <content contentuid="hb7090984g6347gb73dg23a0g873e8ea42acb" version="1">Select an additional &lt;LSTag Tooltip="Skill"&gt;Skill&lt;/LSTag&gt; to be &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; in. Your carrying capacity is increased by a quarter.</content>
+  <content contentuid="h7edd1886g7606ga502g27b9g10b8e40de2b1" version="1">Fighter Improved Critical</content>
+  <content contentuid="h85afaedag47bdg5173ga4afg12a09ed6d1b2" version="1">Fighters are more accurate than other classes and roll a critical hit on an 18-20</content>
+  <content contentuid="h09f44982g7102g118eg01e5gfc6ced374a21" version="1">Triple Shot</content>
+  <content contentuid="h3dce4443gca63g0fc0g3fdbg35a25302dd2f" version="1">You can quickly fire multiple shots with greater control. When you use Double Shot, you can make the attacks against the same target. You can add an additional action to Double Shot to make three ranged Strikes instead of two. If you do, the penalty is –4. All attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made all of them.</content>
+  <content contentuid="h070e8bc1g3524g9d61ga3eeg85b8198e0803" version="1">Shatter Defenses</content>
+  <content contentuid="hebb4ed38g1553g6b63g0c58gbd4b83d326a5" version="1">1 Action &lt;br&gt; Press &lt;br&gt; Your offense exploits your enemy’s fear. Make a melee Strike against a frightened creature. If you hit and deal damage, the target becomes off-guard until next turn.</content>
+  <content contentuid="hdc0ed3c6g5ca7geb7cgf37egc39892e0716d" version="1">Richochet Stance</content>
+  <content contentuid="h0b8a684bg75b5gfb53g298cgd4fb32ff2d2a" version="1">1 Action &lt;br&gt; Stance &lt;br&gt; You adopt a stance to rebound your thrown weapons toward you. While you are in this stance, your main hand weapon will return to you after being thrown.</content>
+  <content contentuid="h5a52755cgb1e9g36b0gf182g149df2e707b9" version="1">Reflexive Shield</content>
+  <content contentuid="h614b61a2g7478g8b61g5002g0b1154109775" version="1">You can use your shield to fend off explosions and the like. When you Raise your Shield, you gain your shield’s circumstance bonus to Reflex saves.</content>
+  <content contentuid="h63890dccg8acag4cf0g732eg01544e4a478a" version="1">Furious Footfalls</content>
+  <content contentuid="hdf7893ceg957eg32fcg1ab9g1a9590528516" version="1">The urge to fight drives you ever forward. You gain a +10 bonus to your speed.</content>
+  <content contentuid="hd9b61be4gb5c5g1d5eg1de5g03e1b42e04fa" version="1">Furious Focus</content>
+  <content contentuid="ha4fac8a4g1f6agbc9agfed7g342b1760c8fe" version="1">Requirements Vicious Swing &lt;br&gt; You’ve learned to maintain your balance even when swinging furiously. When you make a Vicious Swing with a melee weapon you’re wielding in two hands, it counts as one attack toward your multiple attack penalty instead of two.</content>
+  <content contentuid="hf3447c53g4404gf611gd597gedab434968ac" version="1">Dazing Blow</content>
+  <content contentuid="h534d398dgdf82g23c6g2794g1e740066b138" version="1">1 Action &lt;br&gt; Press &lt;br&gt; Requirements The creature is grabbed &lt;br&gt; You pummel a held foe, hoping to stagger them. Make a melee Strike against a creature you have grabbed. The weapon damage from this Strike is bludgeoning damage. If the Strike hits, the creature must attempt a Fortitude save against your class DC. &lt;br&gt;Success Stunned 1 &lt;br&gt; Failure Stunned 2</content>
+  <content contentuid="h28b8d9b7gaf3fge9a5g4b88g608e59e8665a" version="1">Advantageous Assault</content>
+  <content contentuid="hea44a544ge68cg3357ge83dg34ebe823723e" version="1">1 Action &lt;br&gt; Press &lt;br&gt; After compromising your enemy’s movement, you deliver a more deadly blow. Make a Strike against a creature that is grabbed, prone, or restrained. You gain a +2 circumstance bonus to damage &lt;br&gt; The Strike gains the following failure effect. Failure You deal 2 damage.</content>
+  <content contentuid="hd293404fg1661g58a5ga527g3e5a6db81ff8" version="1">Swipe</content>
+  <content contentuid="h6898ae49g5ef4g776fg707egdee736316c32" version="1">2 Actions &lt;br&gt; You make a wide, arcing swing. Make a melee Strike and compare the attack roll result to the AC of up to two foes, each of whom must be within your melee reach and adjacent to each other. </content>
+  <content contentuid="h1217396bg7b4cg14cbg8c35gb095c774ebf2" version="1">Slam Down</content>
+  <content contentuid="hc41c33afg61adg19d0g334dged62b925559c" version="1">2 Actions &lt;br&gt; You make an attack to knock a foe off balance, then follow up immediately with a sweep to topple them. Make a melee Strike. If it hits and deals damage, you can attempt an Athletics check to Trip the creature you hit. If you’re wielding a two-handed melee weapon, you can ignore Trip’s requirement that you have a hand free. Both attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made both of them.</content>
+  <content contentuid="hb99d9d20g61e8gcd4ag37e6gdbf7985c6151" version="1">Quick Reversal</content>
+  <content contentuid="h48af4b2fg1688g7655g62c5g6d255279adc9" version="1">1 Action &lt;br&gt; Flourish, Press &lt;br&gt; Requirements Two enemies in melee range &lt;br&gt; You turn your foes’ flanking against them with a quick reverse. Make a melee Strike against one of the flanking enemies and make a second Strike with the same weapon or unarmed attack against a different enemy that is flanking you. This second Strike has the same multiple attack penalty of the initial attack and doesn’t count toward your multiple attack penalty.</content>
+  <content contentuid="hf1e8b2c5g4656gf31dg83e0gafba4e2c2e15" version="1">Double Shot</content>
+  <content contentuid="h7599cb7agaf43g9db5gfc45g9d388584d006" version="1">2 Actions &lt;br&gt; Requirements Using a ranged weapon with reload 0 &lt;br&gt; You shoot twice in blindingly fast succession. Make two Strikes, each against a separate target and with a –2 penalty. Both attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made both of them.</content>
+  <content contentuid="h9dc50d01ga959g1e97g1572gc0bbe3db3100" version="1">Dueling Parry</content>
+  <content contentuid="h594222afgbd25g559ag0015gdafceba46c91" version="1">1 Action &lt;br&gt; Requirements Using a one handed weapon and have a free hand &lt;br&gt; You can parry attacks against you with your one-handed weapon. You gain a +2 circumstance bonus to AC until the start of your next turn as long as you continue to meet the requirements.</content>
+  <content contentuid="hdff3f897gdee6g3ed9g0b28gd06945f0f08f" version="1">DCs are base 10</content>
+  <content contentuid="h07f7b560gf34dgdf73g3d1dg9a5369f5689e" version="1">Pathfinder has a base DC of 10 instead of 8.</content>
+  <content contentuid="h14c948d3ge9dcg52fcg5007gce18a9d15851" version="1">Rebounding Toss</content>
+  <content contentuid="h849cf305ge188gd75dgf645g746740198975" version="1">2 Actions &lt;BR&gt; Requirements Using a thrown weapon &lt;br&gt; You bounce your weapon off one foe to strike another. Make a ranged Strike with a thrown weapon. If this Strike hits, the weapon rebounds toward an enemy within 10 feet of the original target. Make an additional Strike against this second target. Both attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made both attacks.</content>
+  <content contentuid="ha7864509gcb45gcb78g10b3g685153afe3e3" version="1">Lunge</content>
+  <content contentuid="h37e7169cgb4d6gdd21gb0e0g4f6851e70818" version="1">1 Action &lt;br&gt; You attack an enemy at the edge of your reach. Make a Strike with a melee weapon, increasing your reach by 5 feet for that Strike.</content>
+  <content contentuid="hed33c4e8g2d96gd011g960fg7906b81c5ba5" version="1">Intimidating Strike</content>
+  <content contentuid="h257005abg18a0gb962gc96cg5bd8faed30f6" version="1">2 Actions &lt;br&gt; Your blow not only wounds creatures but also shatters their confidence. Make a melee Strike. If you hit and deal damage, the target is frightened 1.</content>
+  <content contentuid="h5d999beag0d5cgb3a7g0658gbbee06a513e9" version="1">Dragging Strike</content>
+  <content contentuid="hef13571cg563eg3311ge901gc0f0095c6334" version="1">1 Action &lt;br&gt; Press &lt;br&gt; You aim your weapon to snag a foe's armor, clothing, or flesh to pull them closer. Make a melee Strike. If you hit a target, that creature is flat-footed until the end of your current turn, and you can move it 5 feet toward you. &lt;br&gt;Failure The target becomes flat-footed until the end of your current turn.</content>
+  <content contentuid="hf7d42bb9ge394g7432gef6cgf4302d6878a7" version="1">Combat Grab</content>
+  <content contentuid="ha8d75ed1gcd91gf5c9gc096g163de3cc7afc" version="1">1 Action &lt;br&gt; Press &lt;br&gt; Requirements You have one hand free &lt;br&gt; Using your prior attack to shift your opponent’s guard, you take another swing and grab them. Make a melee Strike while keeping one hand free. If the Strike hits, you grab the target using your free hand. </content>
+  <content contentuid="h4d9bee07g1e41g47efgd2f6gd4f652d3e59c" version="1">Brutish Shove</content>
+  <content contentuid="h86ee2b25g5ec5gcafag28e9gdaa054e8ea80" version="1">1 Action &lt;br&gt; Press &lt;br&gt; Requirements Using a two-handed weapon &lt;br&gt; Using the momentum of your last attack to throw your weight into another, you make your opponent stumble back. Make a Strike with a two-handed melee weapon. If you hit, that creature is off-guard until the end of your current turn, and you automatically Shove it. &lt;br&gt; This Strike has the following failure effect. Failure The target becomes off-guard until the end of your current turn.</content>
+  <content contentuid="h2816d7d2g45a7gabb0ga15ege2209fc81291" version="1">Assisting Shot</content>
+  <content contentuid="he51bdf3ag7aeeg43ffg9bc0g82ef3869002d" version="1">1 Action &lt;br&gt; Press &lt;br&gt; Requirements Using a ranged weapon &lt;br&gt;Using your last shot to gauge your accuracy, you can fire off a quick shot to interfere with a foe in combat. Make a Strike with a ranged weapon. If the Strike hits, the next creature other than you to attack the same target before the start of your next turn gains a +1 circumstance bonus to their roll, or a +2 circumstance bonus if your Strike was a critical hit.</content>
+  <content contentuid="h601c6f7dg9f99ged56gf2f7gc142de0afa31" version="1">Vicious Swing</content>
+  <content contentuid="hda9f8c16gdab2gcb11gaa06gc3b12869cd23" version="1">2 Actions &lt;br&gt; Requirements Using a melee weapon &lt;br&gt; You unleash a particularly powerful attack that clobbers your foe but leaves you a bit unsteady. Make a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you deal an extra die of weapon damage. If you’re at least 10th level, increase this to two extra dice, and if you’re at least 18th level, increase it to three extra dice.</content>
+  <content contentuid="h76a9272bge580g1339g87f6g8f163b9a8476" version="1">Sudden Charge</content>
+  <content contentuid="hf2cc5982g92edg9c76g9097g96e72128376b" version="1">2 Actions &lt;br&gt; Requirements Using a melee weapon &lt;br&gt; With a quick sprint, you dash up to your foe and swing. Stride twice. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy. You can use Sudden Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.</content>
+  <content contentuid="h39f831beg7293gc516g24dcg053bce079a3c" version="1">Snagging Strike</content>
+  <content contentuid="h1d13ed53g15b3gf58dg89cbg25d47b309c43" version="1">1 Action &lt;br&gt; You combine an attack with quick grappling moves to throw an enemy off balance as long as it stays in your reach. Make a Strike while keeping one hand free. If this Strike hits, the target is off-guard until the start of your next turn or until it’s no longer within the reach of your hand, whichever comes first.</content>
+  <content contentuid="ha40c4c6eg09dfgeba0g25c9g8f94248c192a" version="1">Point Blank Stance</content>
+  <content contentuid="he1252815gf7f1gd1efg86e5g92d9eba04813" version="1">1 Action &lt;br&gt; While in this stance and using a ranged weapon that doesn’t have the volley trait, you gain a +2 circumstance bonus to damage rolls on attacks against targets within the weapon’s first range increment.</content>
+  <content contentuid="h35b5d70ag7791gea6cg55a1g0e8af3e9aa4a" version="1">Double Slice</content>
+  <content contentuid="hf82b47eagd3bfg352ag60f4gcfded8eafe3e" version="1">2 Actions &lt;br&gt; Requirements You are wielding two weapons &lt;br&gt; You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn’t have the agile trait, it takes a –2 penalty.</content>
+  <content contentuid="hb1d9b8a0gdbbcg2afdgfd1dg8f5acc6617cf" version="1">Incredible Initiative</content>
+  <content contentuid="h87d83afdgd172ga509ga08egf533201ece57" version="1">You react more quickly than others can. You gain a +2 circumstance bonus to initiative rolls.</content>
+  <content contentuid="h2200b330g9e07gfbdfgea7bg46f788e82ce8" version="1">Moderately Armoured</content>
+  <content contentuid="h92add13eg8e5egb4c3g6245gf29439e58022" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour.</content>
+  <content contentuid="h51cbb829g1af8g9769g8c6egd645fbd10c43" version="1">Lightly Armoured</content>
+  <content contentuid="hd2f41a7bg260cgda79ga779g16d262207a09" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Light Armour.</content>
+  <content contentuid="h4fb74674gb0degae10g2b09g4639cb9f5858" version="1">Heavily Armoured</content>
+  <content contentuid="h8b71c9begdd3cgd1a7g5cfagec98d18fd9f6" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Heavy Armour.</content>
+  <content contentuid="h43db7592g593fga3e2gbfc5g8d5273d1a48a" version="1">Fleet</content>
+  <content contentuid="h3115f521g6d08g83aag7773gefdcc2b13c26" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1].</content>
+  <content contentuid="h030488c0gb7a3ge520gba9dgdb699e7a4382" version="1">Toughness</content>
+  <content contentuid="h7f06bb41g0172g6f74g59bag8f76eb9de0f7" version="1">Your hit point maximum increases by 1 for every level you have gained.</content>
+  <content contentuid="h3f6984d2g0902g176eg5be4g538e8815f171" version="1">Martial Weapon Proficiency</content>
+  <content contentuid="h3b989c2bg2797g9910g1bc4gd69de7d6d048" version="1">You become trained in all martial weapons.</content>
+  <content contentuid="h0b779539ga6cagfcfeg497fgf58269c8afeb" version="1">Invocation: False Life</content>
+  <content contentuid="h20d36313gfce9g7113g934bg5a170326a36a" version="1">Gain [1].</content>
+  <content contentuid="hcf8fce81g049eg9583g4d5egf5309d986dac" version="1">False Life</content>
+  <content contentuid="h0814d3f3gb7b9ge81ag4f33g490d2b834604" version="1">Gain [1].</content>
+  <content contentuid="hb2686886g404fg6c6cgaf6fg17c048d766ca" version="1">False Life</content>
+  <content contentuid="hc2fab28bg120egcc63ga7fcga83eeb42aad8" version="1">False Life</content>
+  <content contentuid="h529c14dfg9efeg68efga8bfgd2efec1c6e76" version="1">Gain [1].</content>
+  <content contentuid="h6ea545a1gef3bg1c20g754bg231e228ce644" version="1">Legacy of Cania: Flame Blade</content>
+  <content contentuid="hfb0b509ag7b33g9138gb8fdg61c21f9424b8" version="1">Flame Blade</content>
+  <content contentuid="h61dfa01cg4395gf625g6711g6032200886eb" version="1">Conjure a flaming scimitar in your hand that deals [1] and sheds bright light in a [2] radius and dim light in a [3] radius. </content>
+  <content contentuid="h04e7f7e1g1c4agc184g0cc0g5df2da565961" version="1">The blade can be unequipped and equipped again, but has to stay on the spellcaster's person.</content>
+  <content contentuid="hc27f7ccbgb904gde2eg5d97gf0da07c98964" version="1">Healing Radiance</content>
+  <content contentuid="hc5104466ga3d0gda5cg24f4g7dff25289f7c" version="1">Heal yourself and all nearby allies for [1]. Regain another [1] next turn.</content>
+  <content contentuid="h0606bd81g234fg3900gf10cg45448b413856" version="1">Whenever you successfully evade an attack, one of the duplicates disappears.</content>
+  <content contentuid="h1b39177ag85b1ge6ebg6c6cg60400bc468d1" version="1">Mirror Image</content>
+  <content contentuid="ha446a42fg4080gbefcg31e9gc0260b0c7be8" version="1">Create 3 illusory duplicates of yourself that distract attackers. Each duplicate increases your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 3.</content>
+  <content contentuid="h9bc2c9e4gfa95g68a3g4b98g0197616b4449" version="1">Whenever you successfully evade an attack, one of the duplicates disappears.</content>
+  <content contentuid="h52c458eeg086fgd5c3g8eb1g412fa9cdcfb5" version="1">Invocation: Armour of Shadows</content>
+  <content contentuid="h2b5f6b46gd215g4ceag4905g82ef9f4dbdb0" version="1">Protective shadows surround you. They increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 3.</content>
+  <content contentuid="hd94fb708gf4a0g276fg77bdg42dc756fb299" version="1">Rage</content>
+  <content contentuid="h89633994gf607g375fgfe2cga1abaa54e56a" version="1">Deal [1] extra damage with melee and improvised weapons and thrown weapons.</content>
+  <content contentuid="h0abbd419gd5cfg90bdg9407g1147e33da844" version="1">Rage: Bear Heart</content>
+  <content contentuid="hfef13bcag119fg3fbbg700bgfa0bcd9b0362" version="1">Enter a &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; that makes you tough enough to stand up to any punishment.</content>
+  <content contentuid="hea72759dgae15g6132g8b9eg41d8b5be7904" version="1">You can use &lt;LSTag Type="Spell" Tooltip="Shout_FerociousAppetite"&gt;Unrelenting Ferocity&lt;/LSTag&gt;, and have Resistance to all damage except Psychic damage.</content>
+  <content contentuid="h74a1b864g4945gf8a3g6250ga50d47fa621a" version="1">Spirit Rage</content>
+  <content contentuid="h13978518ga7bdg0180g127bg41f9f2f1d401" version="1">Deal [1] extra force damage with melee and improvised weapons and thrown weapons.</content>
+  <content contentuid="ha83a8773g9f6bg361cg5527gf16852bf3541" version="1">Frenzy</content>
+  <content contentuid="h1acebaefga488g50f7gbc2ag74d80bc1c344" version="1">Your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; turns into a frenzy! You gain &lt;LSTag Type="Spell" Tooltip="Target_FrenziedStrike"&gt;Frenzied Strike&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Throw_FrenziedThrow"&gt;Enraged Throw&lt;/LSTag&gt;. You can also make an &lt;LSTag Type="Spell" Tooltip="Throw_ImprovisedWeaponBerserker"&gt;Improvised Weapon Attack&lt;/LSTag&gt; as a bonus action.</content>
+  <content contentuid="he3eb6e29g8f33g4282g97d4g520041fd1378" version="1">Fury Rage</content>
+  <content contentuid="he35f8616g57cdg8903g85d0g195630644151" version="1">Animal Rage</content>
+  <content contentuid="h96b52460g47f0gce08gfbbdg843d9d405d49" version="1">Deal [1] extra psychic damage with melee and improvised weapons and thrown weapons.</content>
+  <content contentuid="h2db2e989g9ea8g3e57gc2bdg0c13d1e50f3f" version="1">Deal [1] extra force damage with melee and improvised weapons and thrown weapons.</content>
+  <content contentuid="he6288c4bg214egb24cg03d0g013229054828" version="1">Deal [1] extra fire damage with melee and improvised weapons and thrown weapons.</content>
+  <content contentuid="h4f8885dag6763g0e64gbec0ga2808ed82603" version="1">Deal [1] extra poison damage with melee and improvised weapons and thrown weapons.</content>
+  <content contentuid="h1c5bad6cg773ag6e96g840dg65fd0ec82b0f" version="1">Dragon Rage</content>
+  <content contentuid="hcb5bbb3cg027cgb0ffg470cg37009af77484" version="1">Deal [1] extra bludgeoning damage with melee and improvised weapons and thrown weapons.</content>
+  <content contentuid="h10d4a6b1gc4a3g9156g3cfcg5e68f4f6a5f9" version="1">Reflective Shell</content>
+  <content contentuid="h3d8d09c2gc905g3018ge501g6c311d2e431a" version="1">A protective shell envelops you. It reflects any projectiles targeted at you back to their point of origin.</content>
+  <content contentuid="hefef47a1g1212g6176g4ae8g7547be00fea9" version="1">Second Wind</content>
+  <content contentuid="ha3c8652ag960dgce63g10acgbb6b26a14b4a" version="1">Draw on your stamina to heal yourself.</content>
+  <content contentuid="hfd8997f9g4399g72b2g753ag53f09d476f1c" version="1">Spirit Guardians</content>
+  <content contentuid="hbd40ff03gf834gabdagfcaag05f06982db61" version="1">Call forth spirits to protect you. Nearby enemies take [1] or [2] per turn, and their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved.</content>
+  <content contentuid="h564d3aa3g3d02g2376g991eg7e1ff7d1e98e" version="1">Shillelagh</content>
+  <content contentuid="h042725a3g6e96gd9c8g0970gb39c326dda8e" version="1">Your staff or club becomes magical: it deals [1], and uses your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+  <content contentuid="hac5e5faegea0agcac7gcb50g7faeef129d94" version="1">Wild Shape</content>
+  <content contentuid="h378d1d4ag852bgbd68g10b8g605c18f00f6b" version="1">Magically assume the shape of a beast. </content>
+  <content contentuid="h41dab1d0gb64dge504g2d3aga9b90efc68e5" version="1">While in animal shape, you can't talk or cast spells. You take on the attributes of your beast form - excluding your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;, and &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; scores. &lt;br&gt;&lt;br&gt;When your beast form drops to 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you revert to your normal form. </content>
+  <content contentuid="hcd5e0170gc86bg0079g7b48g9e273c1b4476" version="1">Fury Rage</content>
+  <content contentuid="h3725a4d7gb2a6gb765g9a20g59bccaae1129" version="1">Charm Animals and Plants</content>
+  <content contentuid="h2cf974afge4a8g7b85g4d6egc07d4ed3520a" version="1">Channel fey magic to &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; nearby beasts and plants. </content>
+  <content contentuid="heea4d5cbg2655g11a7g201ag98db94f74690" version="1">Beacon of Hope</content>
+  <content contentuid="h6519e8e0g5d12g2d7eg4b07g90e2c607db8e" version="1">Your allies will regain the maximum &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; possible when healed. They also gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and Death Saving Throws.</content>
+  <content contentuid="hed4e6454g0b7dgf5a1g0374g868223cc7cde" version="1">Prevent targets from using reactions.</content>
+  <content contentuid="he61cf624g1b25g463fg9948g2bae1bc63cca" version="1">Arms of Hadar</content>
+  <content contentuid="hf65145b0g8829g20f4g1899gef3d9c817d6d" version="1">Prevent targets from using reactions.</content>
+  <content contentuid="h9cb8a5dcg5415g19f1gc5c6g31ee796f00f0" version="1">Arms of Hadar</content>
+  <content contentuid="hacfe3114gddc3g16aegaf53gfa3a9f761309" version="1">Arms of Hadar</content>
+  <content contentuid="h72be864eg1a62g1876gc39cg5510a08f9b34" version="1">Prevent targets from using reactions.</content>
+  <content contentuid="h2e09d566gee54g7dd4g312bg12fe2312b30a" version="1">Heal your allies and increase their hit point maximum by [1].</content>
+  <content contentuid="h5f4605d3gcf7eg5c7cg14abged609fe42dd7" version="1">Aid</content>
+  <content contentuid="hcf14da13g78d9g5188g8a35g26d6ad399508" version="1">Heal your allies and increase their hit point maximum by [1].</content>
+  <content contentuid="he1ebedf4gbd6bg36fag4a15gc96a60873352" version="1">Dreadful Aspect</content>
+  <content contentuid="he09eced6gc314g98b4g7237gb52b8914cff8" version="1">Let your darkest emotions burst forth as a menacing pulse to &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; nearby enemies.</content>
+  <content contentuid="h96a63c93g9898gddd9g70ceg504cd1174ae4" version="1">Prayer of Healing</content>
+  <content contentuid="h9013ca9bga4dcga83eg8db1g2e853f655ad3" version="1">Heal all allies you can see.</content>
+  <content contentuid="h4bc8306dg6884g964fgd63bgc42869fd82e2" version="1">Mass Healing Word</content>
+  <content contentuid="hb70accf3g5aa0g7402ga8f8g9d739040a9de" version="1">Heal your nearby allies.</content>
+  <content contentuid="hae335d83gb7aegdc98g4f5fg17dd5b8ac9d5" version="1">You and nearby allies gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Falling damage.</content>
+  <content contentuid="h19144a2cgfad2g9e11ga17fg14a52a8e6c9e" version="1">Feather Fall</content>
+  <content contentuid="h2c400806g7d80g6eb4g451cg38a7b45b3697" version="1">You and nearby allies gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Falling damage.</content>
+  <content contentuid="hc14e9e61g9b8cg1dc4g81aeg5e46872ebb64" version="1">Feather Fall</content>
+  <content contentuid="h674b8663g5faegd9c0gc887g48102b894031" version="1">Feather Fall</content>
+  <content contentuid="hb8914fe5gda5cge829g5b47g20f8bf5ac757" version="1">You and nearby allies gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Falling damage.</content>
+  <content contentuid="h756899c1gfbdfg3e49gbcddg3eac8c356832" version="1">Create Lava</content>
+  <content contentuid="ha3955956g184agee42g65fbgeec54be72e7d" version="1">Draw on the Plane of Fire to melt the ground and create a small lava surface under you.</content>
+  <content contentuid="hbd2c78b1g0b16ga1bbg39b8g58c9f306e539" version="1">Nimble Escape</content>
+  <content contentuid="h449fcceagdbdcg3700g81d5g6eccda7f7b07" version="1">Dismiss Summon</content>
+  <content contentuid="h82fe8485g574cg9d8agd648g75498a20017d" version="1">Dismiss yourself from your summoner's service.</content>
+  <content contentuid="h1570f1fag6ab8gb7e1g4b87g9cec43ee0a78" version="1">Go into a frenzy, increasing your size and becoming stronger through raw anger.</content>
+  <content contentuid="hf8dbb6a7gc8a6ga76fg5d79g8f7e0fe6748c" version="1">While raging, your melee attacks deal an additional [1]. &lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage, and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;You can use &lt;LSTag Type="Spell" Tooltip="Target_FrenziedStrike_Boar"&gt;Frenzied Strike&lt;/LSTag&gt;.</content>
+  <content contentuid="h0a8c1133gcd61g85bagc739g142b58bc7773" version="1">Wild Shape: Dire Wolf</content>
+  <content contentuid="h1733a13bg8be0g5b7dg9545gceeeeaf4ae91" version="1">Take the shape of a white wolf.</content>
+  <content contentuid="hc196d7fbg5b52g3bbfgd6bcgd15499b829ad" version="1">Wild Shape: Wolf</content>
+  <content contentuid="haab34bc2g7abbg8288g0f03g9bf8a1c8c66b" version="1">Take the shape of a wolf.</content>
+  <content contentuid="hfe17b354g4705g5007gdb2cgfd8e81238f3a" version="1">Your wolf shape has [1].</content>
+  <content contentuid="h654b865agc893g5dbega216gf8e01e13c407" version="1">Wild Shape: Spider</content>
+  <content contentuid="h28cd2801g0fa2g8300g2da7g84af40fb5e36" version="1">Wild Shape: Deep Rothé</content>
+  <content contentuid="h6b3e27f1gceefg9fc1g9c95g6f385f17c29e" version="1">Wild Shape: Boar</content>
+  <content contentuid="h7498bf48g7941g087fg156cge644da4a2ca4" version="1">Your boar shape has [1].</content>
+  <content contentuid="hb69bf064g0757g6280g5d4dg9f06191504e3" version="1">Wild Shape: Polar Bear</content>
+  <content contentuid="h0e904cf7gc366g3842g8b23g6c033fd29f10" version="1">Wild Shape: Grey Bear</content>
+  <content contentuid="h0ef3ee80g44bbg50d6gb41eg8cca8bd7e346" version="1">Wild Shape: Black Bear</content>
+  <content contentuid="h9868a011ga16fg98d2gb81dgfd9d3faa4afc" version="1">Wild Shape: Bear</content>
+  <content contentuid="h78b3119dg58ddg4678g417egff48c9f78156" version="1">Your bear shape has [1].</content>
+  <content contentuid="h6e12591fg4d64g93e2g0abcg6b58502744f8" version="1">Wild Shape: Badger</content>
+  <content contentuid="h6548b941ge15cgaaedg31d7g713427ed6b7e" version="1">Song of Rest</content>
+  <content contentuid="hb8289329g0886g11cdgac19ga4db201ae3ee" version="1">You and your allies are revitalised as though you would have taken a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="hf3a322e5g34f6geb8fgc5b8g624e3ccaf337" version="1">Heroes' Feast</content>
+  <content contentuid="h7e3d341cg24f7ge1f9g1ccdgc046885b6cbb" version="1">You and everyone around can't be poisoned, diseased, or frightened. Your &lt;LSTag Tooltip="HitPoints"&gt;HP&lt;/LSTag&gt; increases, and you make Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saves&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+  <content contentuid="h4323f3ddg26bbg0826g1929g4f44298094dc" version="1">Destructive Wave: Radiant</content>
+  <content contentuid="h6e05ad76g3349g645fgc6abg20079abef719" version="1">Emit a shockwave of divine thunder that damages nearby creatures and possibly knocks them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+  <content contentuid="h9a81db34g4c3eg7c21g7c7bg2d821f6c6641" version="1">Destructive Wave: Necrotic</content>
+  <content contentuid="hadfa701fg8fffg79b2g2c89g46f993c8a985" version="1">Emit a shockwave of malevolent thunder that damages nearby creatures and possibly knocks them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+  <content contentuid="h7bd128aeg2e88g60e0gb930g2c8791e4be78" version="1">Destructive Wave</content>
+  <content contentuid="hf6f0088egfd3cge2c0g0170gb802e25ba57d" version="1">Create a shockwave of either divine or malevolent thunder that damages nearby creatures and possibly knocks them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+  <content contentuid="ha938e9cag21fag756cga9f9gc9f0e3e8c9df" version="1">See Invisibility</content>
+  <content contentuid="h60db95ddg0febg7c27g271dga3d553190571" version="1">Become able to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures, and possibly reveal them to others.</content>
+  <content contentuid="he1c4559egcdd5gbb3ag6c82g235dba075bfa" version="1">Wild Shape: Water Myrmidon</content>
+  <content contentuid="h5fc9b151g440bgae8ege8cag887eef182aac" version="1">Take the shape of a water myrmidon. </content>
+  <content contentuid="hcd1e8a94gcf00ge1e8g90acgc79f22ac625e" version="1">Your water myrmidon shape has a starting health of [1] that increases every two druid levels. It can cast &lt;LSTag Type="Spell" Tooltip="Target_FreezingStrike_Myrmidon_Water"&gt;Hiemal Strike&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_HealingMist_Myrmidon_Water"&gt;Healing Vapours&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Projectile_ExplosiveIcicle_Myrmidon_Water"&gt;Explosive Icicle&lt;/LSTag&gt;.</content>
+  <content contentuid="hcd5acaa5g686egf09ag7329g38150f6379d7" version="1">Wild Shape: Fire Myrmidon</content>
+  <content contentuid="h02c07cadg2423g18a6g9f8ag9f0aa596e780" version="1">Take the shape of a fire myrmidon. </content>
+  <content contentuid="h3aca39fag4868g04f0g6482ga15b607ec73e" version="1">Your fire myrmidon shape has a starting health of [1] that increases every two druid levels. It can cast &lt;LSTag Type="Spell" Tooltip="Target_FieryStrike_Myrmidon_Fire"&gt;Scorching Strike&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_BurningRage_Myrmidon_Fire"&gt;Myrmidon's Immolation&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Zone_RangedSwipe_Myrmidon_Fire"&gt;Cinderous Swipe&lt;/LSTag&gt;.</content>
+  <content contentuid="h57e91483g0285gfafeg2c72gf3c38ab9b2ec" version="1">Wild Shape: Earth Myrmidon</content>
+  <content contentuid="h773f5e57gde33g8544gddf4ge146ee7287d0" version="1">Take the shape of an earth myrmidon. </content>
+  <content contentuid="hf6741296gd75eg4367gfb72gae2edb0ae5d2" version="1">Your earth myrmidon shape has a starting health of [1] that increases every two druid levels. It can cast &lt;LSTag Type="Spell" Tooltip="Shout_MetalCoating_Myrmidon_Earth"&gt;Muck to Metal&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_MudSlap_Myrmidon_Earth"&gt;Sludgy Sling&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_Burrow_Myrmidon_Earth"&gt;Burrow&lt;/LSTag&gt;.</content>
+  <content contentuid="hf9b97428g5088gcac8g5d6cg002d2d662c38" version="1">Wild Shape: Air Myrmidon</content>
+  <content contentuid="hdea3e0a3gff20g94e8g8eb4g5c69f17e9b45" version="1">Take the shape of an air myrmidon. </content>
+  <content contentuid="hc1e0e0e0g79a5g80c0g605dg7e556390dd26" version="1">Your air myrmidon shape has a starting health of [1] that increases every two druid levels. It can cast &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Invisibility&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_LightningStrike_Myrmidon_Air"&gt;Electrified Flail&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_RagingVortex_Myrmidon_Air"&gt;Raging Vortex&lt;/LSTag&gt;.</content>
+  <content contentuid="h62c581a9gb061g9e82g34fcg2ae76948ff98" version="1">Lunar Mend: Level 6</content>
+  <content contentuid="h21c923c7g4c9fgc0d5g3ddbga77d0a13c930" version="1">Expend a Level 6 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; to heal yourself.</content>
+  <content contentuid="hc4ddaaa5gaa25g900fgb7e3g8233801c4230" version="1">Lunar Mend: Level 5</content>
+  <content contentuid="hecf651fdg8182g7cb1gb3ffg307b7c8b4e57" version="1">Expend a Level 5 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; to heal yourself.</content>
+  <content contentuid="he8e0580eg73feg73f4g687eg6847fc7f0700" version="1">Expend a Level 4 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; to heal yourself.</content>
+  <content contentuid="h09560016gefa9g5675g8647g510ba88c6a10" version="1">Lunar Mend: Level 4</content>
+  <content contentuid="h1d11d997g3204gc37cga335gce58d3f7773e" version="1">Fire Shield: Warm</content>
+  <content contentuid="h64a6829fgd6e0g4a93g8cadg6e0af95015ae" version="1">Scorching flames shed light in a [2] radius. You take only &lt;LSTag Tooltip="Resistant"&gt;half the damage&lt;/LSTag&gt; of all Cold damage, and deal [1] to anyone who hits you with a melee attack.</content>
+  <content contentuid="h4a5d0a24g7580g9cc4gb001g58ed554f421b" version="1">Fire Shield: Chill</content>
+  <content contentuid="h8a30f708g9b2dg8c23gf74fgd66bd0bb455e" version="1">Ice-cold flames shed light in a [2] radius. You take only &lt;LSTag Tooltip="Resistant"&gt;half the damage&lt;/LSTag&gt; of all Fire damage, and deal [1] to anyone who hits you with a melee attack.</content>
+  <content contentuid="h11611ef3g8ddeg127agf9d0ga0b7f7eb6985" version="1">Divine Favour</content>
+  <content contentuid="h4f1425e0g5dd9g382ag9c74g4dd7e45562e4" version="1">Your weapon attacks deal an additional [1].</content>
+  <content contentuid="h119eeb88g6bb2gf672ged7dge776b476f938" version="1">Step of the Wind: Disengage</content>
+  <content contentuid="hf651ad9ag70e1g09ffg8bffg28bae083bc34" version="1">Spend [1] ki point to gain the &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt; action as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; this turn.</content>
+  <content contentuid="h32e2adc9gb771g41ddg65e2g14ca21c6bcf1" version="1">Cunning Action: Disengage</content>
+  <content contentuid="h3beb9b57ge925g4f65gbea5g99d392909f9f" version="1">Retreat safely: moving won't provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+  <content contentuid="hf84344f8gbaefg59f0gb6c2gc1d96f0446cb" version="1">Disengage: Bonus Action</content>
+  <content contentuid="h9c17cceagfb2bge509ged47g2b735549d60b" version="1">Retreat safely: moving won't provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+  <content contentuid="h406305d5g3ccagbb27g5863g0946ef257b5d" version="1">Stride</content>
+  <content contentuid="h24cc49dcg1c35gb8c7g55ddg51542a5c0477" version="1">Move up to your Speed.</content>
+  <content contentuid="h1cd39a3fgadb6g572dg8478ga72ebdb3cca9" version="1">Slayer</content>
+  <content contentuid="h59908b07gd115g4b95gbcb9g4ccfb7ac5421" version="1">Manifest your savage compulsions and assume your sinuously deadly Slayer form. Your Slayer form has [1] (increases to [2] at Level 10).</content>
+  <content contentuid="h6dc935e2g477bgc1e1g541fg3004444a4c21" version="1">While in Slayer form, you can't talk or cast spells.&lt;br&gt;&lt;br&gt;When your Slayer form drops to 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you revert to your normal form.</content>
+  <content contentuid="hb08d759dgab7ag6379g85b1g5fb8d7d57970" version="1">Click Heels</content>
+  <content contentuid="hb2e0f365gb882gc2c0gf298g5755d865ae49" version="1">Click the heels of your boots to gain speed and freedom of movement. </content>
+  <content contentuid="hed89507cgfdfcg0afdg83fbgb47910e7cf7d" version="1">Your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; doubles, and enemies have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; against you.</content>
+  <content contentuid="h847fed51gea74gc41fgca34g4fbbb7f91951" version="1">Create Spell Slot: Level 5</content>
+  <content contentuid="h5dfc42c1g27c3g93bfg19e4gadf5b617dceb" version="1">Create Spell Slot: Level 4</content>
+  <content contentuid="h1d04a247g8885g6cdbg6444g15ca45ca8e86" version="1">Create Spell Slot: Level 3</content>
+  <content contentuid="h767f461eg6f15gf136g5a35ga55d0a5075d1" version="1">Create Spell Slot: Level 2</content>
+  <content contentuid="h4e51d81fg14c8gd69cg1af9gcde7ca12ea7b" version="1">Create Spell Slot: Level 1</content>
+  <content contentuid="h67ca1510g563ag6f11g44faga17a1bb145c0" version="1">Spend [1] Sorcery Points to unlock a level [2] &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+  <content contentuid="h54d4494eg8c56gcebfgf3c3gc3f03957abdb" version="1">Create Spell Slot</content>
+  <content contentuid="ha7b2fd84g931dg60b3gc91ag7435aae27964" version="1">Spend Sorcery Points to unlock a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+  <content contentuid="h19694a9cgc9d7g97e1gf5adgc55a2bf00380" version="1">Create Sorcery Points: 5</content>
+  <content contentuid="hb4d239aage891g9eccg8213gb46d871e3cf8" version="1">Create Sorcery Points: 4</content>
+  <content contentuid="hab65ac14ge3b5gb74fg0009g6b6c89dd574c" version="1">Create Sorcery Points: 3</content>
+  <content contentuid="ha707a5a8gaccega5f7g66ffga213a9805550" version="1">Create Sorcery Points: 2</content>
+  <content contentuid="h1a56bcceg1915g7830g4be8g139a8de9478d" version="1">Spend a Level [1] &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; to gain [1] Sorcery Points.</content>
+  <content contentuid="h1872d5e7gb888g5e43g5a18g50a156aedb17" version="1">Create Sorcery Points: 1</content>
+  <content contentuid="h0b40ea3fg175ag3b78ga559g327fbdc0ffd3" version="1">Spend a level [1] &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; to gain [1] Sorcery Point.</content>
+  <content contentuid="h6eba37bdg8b36g56c4g422fg9682a413579e" version="1">Create Sorcery Points</content>
+  <content contentuid="haa596b67gc9b7gf98fgf403g0ce6b13cc3ea" version="1">Spend &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; to gain Sorcery Points.</content>
+  <content contentuid="hc70d80cagfb61gc294ga5d6gb3f0ec66fbb7" version="1">Step of the Wind: Dash</content>
+  <content contentuid="h5542291dg317ag847fg50eeg4c71a7921705" version="1">Double your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;. Jump no longer requires a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
+  <content contentuid="hfef8dbf3gd864g9674gd842g8005c97049bd" version="1">Wild Magic: Teleport</content>
+  <content contentuid="h2d7fe362gdf77g0c94gcdb7g6ae23d5633a3" version="1">Until the end of your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt;, you can &lt;LSTag Type="Spell" Tooltip="Target_WildMagicBarbarian_Teleport"&gt;Teleport&lt;/LSTag&gt; each turn.</content>
+  <content contentuid="hee639192ga683gc2e4g35fcg52e2f98e3a91" version="1">Anyone within range adds their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against spells.</content>
+  <content contentuid="h8f0ff2c9g31f8g54b7gdb12g7e693f32249a" version="1">Magic Awareness</content>
+  <content contentuid="h0b434754gc792gaa84g8a00g3e680ad183c6" version="1">End Rage</content>
+  <content contentuid="hb658e0b8g60a7gd9f5g99d4g7ca428b0da4f" version="1">Use a bonus action to end your Rage.</content>
+  <content contentuid="hab9eec2cgf776gcda5ga8e4g3c8962a62de1" version="1">Invocation: False Life</content>
+  <content contentuid="h428ab59egc124g5696gea7dgbfdfa32bfde3" version="1">Weapon Bond</content>
+  <content contentuid="hb52aca4dg3fadg061fg6fcagcae81499645c" version="1">Ritually bind the weapon in your main hand. The weapon can't be knocked out of your hand, and it automatically returns to you when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;.</content>
+  <content contentuid="haf7d8f9egadd0ge043g37dbga12c2bc365ec" version="1">Prepare Triple Shot </content>
+  <content contentuid="h6b60d4e3g79a7gb7e8g570fg976b8fa410b2" version="1">3 Actions &lt;br&gt; Requirements Using a ranged weapon with reload 0 &lt;br&gt; You shoot thrice in blindingly fast succession. Make three Strikes with a –4 penalty. All three attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made all of them.</content>
+  <content contentuid="h67bd2d8eg9966g1d5egfa8eg9067970a43d8" version="1">Ricochet Stance</content>
+  <content contentuid="h64df97f9g71c5gc716g99f6g74c63bbc534b" version="1">1 Action &lt;br&gt; Stance &lt;br&gt; You adopt a stance to rebound your thrown weapons toward you. While you are in this stance, any thrown weapons you use as part of a ranged Strike immediately return to your hand, enabling you to use them for additional Strikes.</content>
+  <content contentuid="h69d6f420g3eeagb6d1g8acdgcbf3577914c8" version="1">Prepare Double Shot </content>
+  <content contentuid="h1204a3f6gfb71ge89dg0b03g6ecae53ddce5" version="1">2 Actions &lt;br&gt; Requirements Using a ranged weapon with reload 0 &lt;br&gt; You shoot twice in blindingly fast succession. Make two Strikes, each against a separate target and with a –2 penalty. Both attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made both of them.</content>
+  <content contentuid="heb549da0g2ee7g454fg32ccg5b0f88662ca6" version="1">Dueling Parry</content>
+  <content contentuid="h3adb0a73gb526ga70cg5efeg827dc2e76500" version="1">You can parry attacks against you with your one-handed weapon. You gain a +2 circumstance bonus to AC until the start of your next turn as long as you continue to meet the requirements.</content>
+  <content contentuid="h1504acaega60bg0ff4g88dfgdbedca8a5be7" version="1">Raise a Shield</content>
+  <content contentuid="hd5da12fdg0b47g13c0g96c8gdcb95bf3a4ee" version="1">You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn.</content>
+  <content contentuid="h9ee149cdg210bg816fg0f68gdd9ecb6e4c53" version="1">Point Blank Stance</content>
+  <content contentuid="h336f425cgd80fg30ddg7151gec57df0233a6" version="1">1 Action &lt;br&gt; Stance &lt;br&gt; While in this stance and using a ranged weapon that doesn’t have the volley trait, you gain a +2 circumstance bonus to damage rolls on attacks against targets within the weapon’s first range increment.</content>
+  <content contentuid="h86fcb1e2ge1edg8417g14f4g65fe54d96a7b" version="1">Step of the Wind: Dash</content>
+  <content contentuid="h35a3139dg5e0age5d3gf4ecg81603590ba10" version="1">Double your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;. Jump no longer requires a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
+  <content contentuid="h532f1336g1ec2gcd02g9c28ge9007767af61" version="1">Click Heels</content>
+  <content contentuid="h06612a21g6a7agb6fcgc870g8d10627e91a6" version="1">Click the heels of your boots to gain speed and freedom of movement. </content>
+  <content contentuid="h25132c20g07b5g85a3g91b9gfb3d61329dd9" version="1">Your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; doubles, and enemies have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; against you.</content>
+  <content contentuid="hedcf2206g071fgb352g7118g7ad42b02361e" version="1">Slayer</content>
+  <content contentuid="h99f2a1cfg1172g9304g1476g20c145308492" version="1">Manifest your savage compulsions and assume your sinuously deadly Slayer form. Your Slayer form has [1] (increases to [2] at Level 10).</content>
+  <content contentuid="he847c0fag44e2gf237g02bfgc2c3a3fe1017" version="1">While in Slayer form, you can't talk or cast spells.&lt;br&gt;&lt;br&gt;When your Slayer form drops to 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you revert to your normal form.</content>
+  <content contentuid="h5e87ace2ga29ag30b1g5080g0ab1091e632a" version="1">Charm Animals and Plants</content>
+  <content contentuid="h89d4e36dg87c7g3e32g3fd6g193f7c9cb8da" version="1">Channel fey magic to &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; nearby beasts and plants. </content>
+  <content contentuid="ha1cd9c9fg6b52g7807gccaagafa8c391cfaa" version="1">Mass Healing Word</content>
+  <content contentuid="he9a60b2ag48dfga5dbgda2bge59c0b60dcc9" version="1">Heal your nearby allies.</content>
+  <content contentuid="h9dade3c3g4492g1630g7349gaf7bdae24226" version="1">Skill Mastery: Perception</content>
+  <content contentuid="h7ea1e28dg95e8gf5b6gb3f9g3c05e3e2dcbd" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
+  <content contentuid="h67a81018g8923gaeafgb1b3g7760a46b1b19" version="1">You have a become a master with this skill and gain a +2 proficiency bonus to it.</content>
+  <content contentuid="hc69ab204ge45dg45c5g89fdg759bc9c74cdd" version="1">Pick up an item or creature and throw it at a target, dealing additional damage and knocking it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+  <content contentuid="h464ce5a8gf21fgb899g48d7g36b95067757f" version="1">Enraged Throw</content>
+  <content contentuid="h897ea02bgef62g7519g404egd6b2e0eb95d4" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; affects how much weight you can throw. Heavier items deal more damage. &lt;br&gt;&lt;br&gt;The damage of &lt;LSTag Tooltip="Thrown"&gt;Thrown Weapons&lt;/LSTag&gt; is the same as the weapon's melee damage.&lt;br&gt;&lt;br&gt;You also deal additional damage based on your Strength.</content>
+  <content contentuid="hb6425cc4gaf1cg246bg1e2dgcc5688ed680a" version="1">Raise a Shield</content>
+  <content contentuid="h6314ee86g4db1gec74gc31bge855866ff742" version="1">You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn.</content>
+  <content contentuid="hcf05ac53gf74dg1721g6754gb1eb3bf272e2" version="1">Cleave</content>
+  <content contentuid="hb08f76eeg158agf4fbgcb77gd56a0a917c41" version="1">Swing your weapon in a large arc to attack up to [1] enemies at once.</content>
+  <content contentuid="h4f6c80b3g8bfdgb9f3gef43g63936b295a1f" version="1">Gain [1].</content>
+  <content contentuid="h0b0750b2g5b39ged29gf6f1g8a9a1b2b1757" version="1">False Life</content>
+  <content contentuid="h7b9ac195ga441gd845gc208g3815ad72173a" version="1">Dip</content>
+  <content contentuid="hbeb6cc56gf898gea41g8d87gba1a4618ba4e" version="1">Dip a weapon into a surface to alter the surface or enhance the weapon. If you are dual-wielding, you dip both weapons.</content>
+  <content contentuid="hcaf98568g38beg6c2cg3ab4g9973dba7035a" version="1">Charger: Push</content>
+  <content contentuid="hda7badcbg7203g3423g8a4egb8a523c8254a" version="1">Charge forward and Shove the first enemy in your way. Your chances depend on your Athletics, and are higher if you're hidden or invisible.</content>
+  <content contentuid="hf7bdc626ga3acg8467gd7dcg4d68fa635d72" version="1">The shove distance depends on your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; and the target's weight.</content>
+  <content contentuid="h4e9a36c9g364fgd357gc37bgc7407649da3f" version="1">Flourish</content>
+  <content contentuid="h5c0c8193gb861g52a9g2607gd9fc2e531330" version="1">Possibly throw your enemy &lt;LSTag Type="Status" Tooltip="OFF_BALANCED"&gt;Off Balance&lt;/LSTag&gt;.</content>
+  <content contentuid="h1781e342ga42ag37acgb8ebgfd0c98b8a798" version="1">Pommel Strike</content>
+  <content contentuid="habc6b216gfb7bg9afbg9de8g7e54daa14c84" version="1">Make a non-lethal attack against an enemy and possibly &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Daze&lt;/LSTag&gt; them.</content>
+  <content contentuid="h9822dc64g67e0g292egb33bg64110b273d73" version="1">Great Weapon Master: Bonus Attack</content>
+  <content contentuid="hf49e4fb0g76a0g9ca3g0ed1g8e87e126a76c" version="1">As a bonus action, make a melee attack with your equipped weapon.</content>
+  <content contentuid="had8b21f3g60fag9eb5ge12ag7d363133216b" version="1">Frenzied Strike</content>
+  <content contentuid="h7e6ad29bgc005g2df0g7824gb7e4664ede59" version="1">As a bonus action, make a melee attack with your equipped weapon.</content>
+  <content contentuid="h02e2c7a8g2648gb49eg41d3g36fec0de02ce" version="1">Will cause a stack of &lt;LSTag Type="Status" Tooltip="RAGE_FRENZY_BURNOUT"&gt;Frenzied Strain&lt;/LSTag&gt; on the barbarian.</content>
+  <content contentuid="h6a9393d9g9330g994bgf74dga28e0a224d85" version="1">Charger: Attack</content>
+  <content contentuid="h5d95e770g8e3ag70aegee0fg773f0616edc2" version="1">Charge forward and slam your weapon into the first enemy in your way.</content>
+  <content contentuid="hffc18b22g64a0gb839g76b1g29a2b605b1cd" version="1">The secondary unarmed attack your animal instinct gave you. Deals a base of 1d6 slashing damage.</content>
+  <content contentuid="h9e34fac6g3243g44ddge2a8g38ba98a8ca62" version="1">Animal Instinct Secondary Attack</content>
+  <content contentuid="hedfc868bgd317g6ce2g9a7fgcd0f31644cea" version="1">The secondary unarmed attack your animal instinct gave you. Deals a base of 1d4 bludgeoning damage.</content>
+  <content contentuid="h25f54784g8dfeg5bccge94fg52cca6fe8a99" version="1">Animal Instinct Secondary Attack</content>
+  <content contentuid="h4bb12e45g5217ge123g63aag712cf2141447" version="1">The main unarmed attack your animal instinct gave you. Deals a base of 1d10 piercing damage.</content>
+  <content contentuid="hdc08d6f4g7969gd0adg6867gef41f5b29a91" version="1">Animal Instinct Attack</content>
+  <content contentuid="he1d20237ga48fgc524gf202g236dbb46c43f" version="1">The main unarmed attack your animal instinct gave you. Deals a base of 1d10 bludgeoning damage.</content>
+  <content contentuid="h2ca45f53gd2a1g947dgcef3gc24e4308448d" version="1">Shatter Defenses</content>
+  <content contentuid="h86c2e506g286bgef4cg4b66gfbd2eadaa72a" version="1">1 Action &lt;br&gt; Press &lt;br&gt; Your offense exploits your enemy’s fear. Make a melee Strike against a frightened creature. If you hit and deal damage, the target becomes off-guard until next turn.</content>
+  <content contentuid="hddad552fg89d2g7f52gfa28g7e375535e26a" version="1">Dazing Blow</content>
+  <content contentuid="h7d85bc89g8e56ge72dg1f5dg18c0e95a5749" version="1">1 Action &lt;br&gt; Press &lt;br&gt; Requirements The creature is grabbed &lt;br&gt; You pummel a held foe, hoping to stagger them. Make a melee Strike against a creature you have grabbed. The weapon damage from this Strike is bludgeoning damage. If the Strike hits, the creature must attempt a Fortitude save against your class DC. &lt;br&gt;Success Stunned 1 &lt;br&gt; Failure Stunned 2</content>
+  <content contentuid="hc32a9b3cg716dgcd50g386bg982961c883b5" version="1">Advantageous Assault</content>
+  <content contentuid="h87a0c3bbg89feg1b90gdb8fg0f1fc625fde6" version="1">1 Action &lt;br&gt; Press &lt;br&gt; After compromising your enemy’s movement, you deliver a more deadly blow. Make a Strike against a creature that is grabbed, prone, or restrained. You gain a +2 circumstance bonus to damage &lt;br&gt; The Strike gains the following failure effect. Failure You deal 2 damage.</content>
+  <content contentuid="h29852767g83ccg6fa8g104fg5a49ec7f1bbb" version="1">Swipe</content>
+  <content contentuid="h8dd573f8ge839g8f0dge9e3g6ebfc27cec13" version="1">2 Actions &lt;br&gt; You make a wide, arcing swing. Make a melee Strike and compare the attack roll result to the AC of up to two foes, each of whom must be within your melee reach and adjacent to each other. </content>
+  <content contentuid="ha949817cg6c87g953bg43dcg188455583b30" version="1">Slam Down</content>
+  <content contentuid="hb922a151g90bfg595bg99b0g5ea31b4ffef1" version="1">2 Actions &lt;br&gt; You make an attack to knock a foe off balance, then follow up immediately with a sweep to topple them. Make a melee Strike. If it hits and deals damage, you can attempt an Athletics check to Trip the creature you hit. If you’re wielding a two-handed melee weapon, you can ignore Trip’s requirement that you have a hand free. Both attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made both of them.</content>
+  <content contentuid="hfb4b077bgafffg8ebbg8725g4252596a2ec3" version="1">Quick Reversal</content>
+  <content contentuid="hef16404ag3d22g7f74gfa49g5644e14a5540" version="1">1 Action &lt;br&gt; Flourish, Press &lt;br&gt; Requirements Two enemies in melee range &lt;br&gt; You turn your foes’ flanking against them with a quick reverse. Make a melee Strike against one of the flanking enemies and make a second Strike with the same weapon or unarmed attack against a different enemy that is flanking you. This second Strike has the same multiple attack penalty of the initial attack and doesn’t count toward your multiple attack penalty.</content>
+  <content contentuid="h7950cda7gf260g99a6gbc1ag7ad95947582d" version="1">Flurry of Blows</content>
+  <content contentuid="h55e3048cg118egedd2g09d5g784e538b118f" version="1">Flourish &lt;br&gt; Make a second unarmed Strike.</content>
+  <content contentuid="h8e029a65gf8e1gacf2g5461g108889672740" version="1">Main Hand Attack</content>
+  <content contentuid="h357d1f4bgb35cg0c0ag16cdga94925d57ff2" version="1">Make a melee attack with your equipped weapon.</content>
+  <content contentuid="h614683bcg30e7g3374g52d6g7f2513cc9269" version="1">Off-Hand Attack (Melee)</content>
+  <content contentuid="hbb2f1e52g4ec3ge193ga97eg46cd0fc932a0" version="1">Make a melee attack with your off-hand weapon.</content>
+  <content contentuid="h924b173dgead4g519bg49d8g8b1d74b5d9dc" version="1">Lunge</content>
+  <content contentuid="hfec90177g8a56gc95ag8549ga586476fbb06" version="1">1 Action &lt;br&gt; You attack an enemy at the edge of your reach. Make a Strike with a melee weapon, increasing your reach by 5 feet for that Strike.</content>
+  <content contentuid="h57fa3388g54afgdfa9g10c6g3bcf2195bf8b" version="1">Intimidating Strike</content>
+  <content contentuid="h1b268df1ga4cagb6aeg2623g59744ca63d5e" version="1">2 Actions &lt;br&gt; Your blow not only wounds creatures but also shatters their confidence. Make a melee Strike. If you hit and deal damage, the target is frightened 1.</content>
+  <content contentuid="hc2ec454agc138gda30g3f17g6779bdbe5938" version="1">Dragging Strike</content>
+  <content contentuid="hec345283g965ega136g08d5gf02437f1c1c7" version="1">1 Action &lt;br&gt; Press &lt;br&gt; You aim your weapon to snag a foe's armor, clothing, or flesh to pull them closer. Make a melee Strike. If you hit a target, that creature is flat-footed until the end of your current turn, and you can move it 5 feet toward you. &lt;br&gt;Failure The target becomes flat-footed until the end of your current turn.</content>
+  <content contentuid="h86d0346cg2ad7g6187g10efg983bd544e6f3" version="1">Combat Grab</content>
+  <content contentuid="hcc25ea03g3082ge0f7g4dadge72e41de97c3" version="1">1 Action &lt;br&gt; Press &lt;br&gt; Requirements You have one hand free &lt;br&gt; Using your prior attack to shift your opponent’s guard, you take another swing and grab them. Make a melee Strike while keeping one hand free. If the Strike hits, you grab the target using your free hand. </content>
+  <content contentuid="hb2aafc20g6567g1a0fg0b71gdc0620b9256c" version="1">Vicious Swing</content>
+  <content contentuid="h373eb912g3b4dg0fbagac8cg27453f625a99" version="1">2 Actions &lt;br&gt; Requirements Using a melee weapon &lt;br&gt; You unleash a particularly powerful attack that clobbers your foe but leaves you a bit unsteady. Make a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you deal an extra die of weapon damage. If you’re at least 10th level, increase this to two extra dice, and if you’re at least 18th level, increase it to three extra dice.</content>
+  <content contentuid="h79cd2888g8caag98b9g1501g7298d7069cbb" version="1">Shove</content>
+  <content contentuid="hb1663df0g19b0gcea8g6660gf7a09ff56ec2" version="1">Try to push a target away. Your chances depend on your Athletics, and are higher if you're hidden or invisible. </content>
+  <content contentuid="ha9660900g349fg3e64g71deg67f01a96b7ce" version="1">The shove distance depends on your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; and the target's weight.</content>
+  <content contentuid="hcf878b6eg8c6fg56ddg21c3gc34deaabb54e" version="1">Brutish Shove</content>
+  <content contentuid="hb0c8aa8fgc916ge94eg97a5g0ada7555ae37" version="1">1 Action &lt;br&gt; Press &lt;br&gt; Requirements Using a two-handed weapon &lt;br&gt; Using the momentum of your last attack to throw your weight into another, you make your opponent stumble back. Make a Strike with a two-handed melee weapon. If you hit, that creature is off-guard until the end of your current turn, and you automatically Shove it. &lt;br&gt; This Strike has the following failure effect. Failure The target becomes off-guard until the end of your current turn.</content>
+  <content contentuid="h2c0cc5b3g1235g43b3g9c7bga106210572ae" version="1">DoubleSlice</content>
+  <content contentuid="h1b081be3gd518g8d07g5e4bg7e3daa26c00b" version="1">You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn’t have the agile trait, it takes a –2 penalty.</content>
+  <content contentuid="hf22b07c3gd2f7g3b52g6c07g95c09b5934d1" version="1">Snagging Strike</content>
+  <content contentuid="h54f2d9bfg17daga164gfe51g28ba7cfc99ae" version="1">You combine an attack with quick grappling moves to throw an enemy off balance as long as it stays in your reach. Make a Strike while keeping one hand free. If this Strike hits, the target is off-guard until the start of your next turn or until it’s no longer within the reach of your hand, whichever comes first.</content>
+  <content contentuid="h0082fb69g8ca5g1697g7a2cg3b8e69323402" version="1">Intimidating Strike</content>
+  <content contentuid="h372d6f24ga9b9ga84fg2116ge4bb3393ac86" version="1">2 Actions &lt;br&gt; Your blow not only wounds creatures but also shatters their confidence. Make a melee Strike. If you hit and deal damage, the target is frightened 1.</content>
+  <content contentuid="h23ffc4f1gfdcfgd279g7663ga026bc94f42c" version="1">Dragging Strike</content>
+  <content contentuid="h57b541d5g4fc2gccfegbcfeg0b361579a0f4" version="1">1 Action &lt;br&gt; Press &lt;br&gt; You aim your weapon to snag a foe's armor, clothing, or flesh to pull them closer. Make a melee Strike. If you hit a target, that creature is flat-footed until the end of your current turn, and you can move it 5 feet toward you. &lt;br&gt;Failure The target becomes flat-footed until the end of your current turn.</content>
+  <content contentuid="h49f4cecag0c36g62c3gbf02g41b786694998" version="1">Combat Grab</content>
+  <content contentuid="heb2701bcg806dg390fgb03dg3487f1341711" version="1">1 Action &lt;br&gt; Press &lt;br&gt; Requirements You have one hand free &lt;br&gt; Using your prior attack to shift your opponent’s guard, you take another swing and grab them. Make a melee Strike while keeping one hand free. If the Strike hits, you grab the target using your free hand. </content>
+  <content contentuid="h6d8a4fddg50ceg4893g846eg740765e3549e" version="1">Vicious Swing</content>
+  <content contentuid="hc21c2423gdf83gdda8g65beg334b5a98a95a" version="1">2 Actions &lt;br&gt; Requirements Using a melee weapon &lt;br&gt; You unleash a particularly powerful attack that clobbers your foe but leaves you a bit unsteady. Make a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you deal an extra die of weapon damage. If you’re at least 10th level, increase this to two extra dice, and if you’re at least 18th level, increase it to three extra dice.</content>
+  <content contentuid="hab14faacg8221gf886g012age5870aaa05de" version="1">Brutish Shove</content>
+  <content contentuid="h16e71cd4g72d2g7a5dg600eg86a47bd1b79d" version="1">1 Action &lt;br&gt; Press &lt;br&gt; Requirements Using a two-handed weapon &lt;br&gt; Using the momentum of your last attack to throw your weight into another, you make your opponent stumble back. Make a Strike with a two-handed melee weapon. If you hit, that creature is off-guard until the end of your current turn, and you automatically Shove it. &lt;br&gt; This Strike has the following failure effect. Failure The target becomes off-guard until the end of your current turn.</content>
+  <content contentuid="h151a955fg4f4cg6927g4217g0727ff7112f0" version="1">DoubleSlice</content>
+  <content contentuid="h7c82ce1fgf331gef52g7128g49ffbf94bd87" version="1">You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn’t have the agile trait, it takes a –2 penalty.</content>
+  <content contentuid="hd1c93f3dg79c4g3c25ge10fg6fd24ab9f0da" version="1">Snagging Strike</content>
+  <content contentuid="h121c2e85g24d5g9398gaed2g0ddf98cd460e" version="1">You combine an attack with quick grappling moves to throw an enemy off balance as long as it stays in your reach. Make a Strike while keeping one hand free. If this Strike hits, the target is off-guard until the start of your next turn or until it’s no longer within the reach of your hand, whichever comes first.</content>
+  <content contentuid="h4d7921fbg4e25gc81bg895bg6289f3b848c9" version="1">Slam Down</content>
+  <content contentuid="hc6f33e7bgfcfcg8e57g4b9agd0106d0915a6" version="1">2 Actions &lt;br&gt; You make an attack to knock a foe off balance, then follow up immediately with a sweep to topple them. Make a melee Strike. If it hits and deals damage, you can attempt an Athletics check to Trip the creature you hit. If you’re wielding a two-handed melee weapon, you can ignore Trip’s requirement that you have a hand free. Both attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made both of them.</content>
+  <content contentuid="h6c68e38cg2990g11feg6815g70fc8d4a5991" version="1">Quick Reversal</content>
+  <content contentuid="h7025ffd0g5e69g7a51g3a31gd4cbbd48838e" version="1">1 Action &lt;br&gt; Flourish, Press &lt;br&gt; Requirements Two enemies in melee range &lt;br&gt; You turn your foes’ flanking against them with a quick reverse. Make a melee Strike against one of the flanking enemies and make a second Strike with the same weapon or unarmed attack against a different enemy that is flanking you. This second Strike has the same multiple attack penalty of the initial attack and doesn’t count toward your multiple attack penalty.</content>
+  <content contentuid="hfc6e0e80g991cgae11gdac5g209330ab14fe" version="1">Shatter Defenses</content>
+  <content contentuid="hbf06fb62g690fg3db4g06adga8b4f344b388" version="1">1 Action &lt;br&gt; Press &lt;br&gt; Your offense exploits your enemy’s fear. Make a melee Strike against a frightened creature. If you hit and deal damage, the target becomes off-guard until next turn.</content>
+  <content contentuid="h9c989769g6a1ag7a5fg55fagfde6a0ec5b78" version="1">Dazing Blow</content>
+  <content contentuid="hc87034aeg012cg0752gb8b6g17f61a9954de" version="1">1 Action &lt;br&gt; Press &lt;br&gt; Requirements The creature is grabbed &lt;br&gt; You pummel a held foe, hoping to stagger them. Make a melee Strike against a creature you have grabbed. The weapon damage from this Strike is bludgeoning damage. If the Strike hits, the creature must attempt a Fortitude save against your class DC. &lt;br&gt;Success Stunned 1 &lt;br&gt; Failure Stunned 2</content>
+  <content contentuid="h2baf0137g1efcg0367g6443gf08b7ef0f705" version="1">Lunge</content>
+  <content contentuid="h5bd2d4d1g2c41g4c75g874cgf56314617c03" version="1">1 Action &lt;br&gt; You attack an enemy at the edge of your reach. Make a Strike with a melee weapon, increasing your reach by 5 feet for that Strike.</content>
+  <content contentuid="h4845ffbege7a4g7886g8599gd416c7f43108" version="1">Demoralize</content>
+  <content contentuid="ha09b2bd8gd4f8g8137g31d9g57fc02febde3" version="1">1 Action &lt;br&gt; With a sudden shout, a well-timed taunt, or a cutting put-down, you can shake an enemy's resolve. Choose a creature within 30 feet of you who you're aware of. Attempt an Intimidation check against that target's Will DC. &lt;br&gt; Success The target becomes frightened 1</content>
+  <content contentuid="h90b58092gae5eg0574g7981ge88772d72680" version="1">Right Coin Whip</content>
+  <content contentuid="h762b4129g0b62g5b8ag5ba7gdd37203312f3" version="1">Whip a target with jingle-jangling fury.</content>
+  <content contentuid="hc11da0a2g11edg1652ga9b2g89c05212d7c3" version="1">Removing the Toll Collector's right arm makes using this attack impossible.</content>
+  <content contentuid="h35ae236cg0614g36cdg86adgc29608fff2b3" version="1">Hand Me My Trepan</content>
+  <content contentuid="h32d0d52dg3e11ga97eg6d04gbdaa6f92103e" version="1">Equips the Surgeon with a poisonous trepan, allowing him to cast &lt;LSTag Type="Spell" Tooltip="Target_SurgeryAttack_Trepan_Surgeon"&gt;Terror Trepan&lt;/LSTag&gt;.</content>
+  <content contentuid="h56c079d0g37begd664gc0d0gfbce36c9b040" version="1">Hand Me My Syringe</content>
+  <content contentuid="h19e36a9fg2af3gfe81gec32gfbba387078f2" version="1">Equips the Surgeon with a crusty, rusted syringe, allowing him to cast &lt;LSTag Type="Spell" Tooltip="Target_SurgeryAttack_Syringe_Surgeon"&gt;This Won't Hurt A Bit&lt;/LSTag&gt;.</content>
+  <content contentuid="h03bd2f0ag4359g922bg4e4bge9d90f055344" version="1">Hand Me My Leech</content>
+  <content contentuid="h086a9e15g1d4egea3cg943agd11298d8262f" version="1">Equips the Surgeon with a bloated, biting leech, allowing him to cast &lt;LSTag Type="Spell" Tooltip="Target_SurgeryAttack_Leech_Surgeon"&gt;Leech&lt;/LSTag&gt;.</content>
+  <content contentuid="hc8908a00gba28g0b3cg5a4egbad09eb77a16" version="1">Poison Hallucination</content>
+  <content contentuid="h83103deag33dcg19f4g4ec1gde3aa9cd99d8" version="1">Magically inebriated as he is, Thisobald the Brewer is hallucinating poisonous imps into existence. </content>
+  <content contentuid="h7fee332fg453ag49a8g245cge180db649e58" version="1">Lightning Hallucination</content>
+  <content contentuid="h497ae9afgfd08ga8dag9cd5gb4c1163a5184" version="1">Magically inebriated as he is, Thisobald the Brewer is hallucinating electrified imps into existence. </content>
+  <content contentuid="h3e3a4646g55e4ga320ge635g3efb57480206" version="1">Fire Hallucination</content>
+  <content contentuid="h66173c56g8430g6c45g7146g7d68822c75a2" version="1">Magically inebriated as he is, Thisobald the Brewer is hallucinating flaming imps into existence. </content>
+  <content contentuid="he00c152cg6db2g345ag16f1gc85c4fb067b0" version="1">Cold Hallucination</content>
+  <content contentuid="hcf2740bfg1572g99e1gecebgb23039c2eb2d" version="1">Magically inebriated as he is, Thisobald the Brewer is hallucinating icy imps into existence. </content>
+  <content contentuid="h20e71404gffd8g58e0g96fagdfdde4ed128e" version="1">Acid Hallucination</content>
+  <content contentuid="h0684cf1fgb016gfdefg6989g875de2148a52" version="1">Magically inebriated as he is, Thisobald the Brewer is hallucinating acidic imps into existence. </content>
+  <content contentuid="h3008cc97g9ee7g7e11g3fb3g412477da8fa9" version="1">Summon coin halberd</content>
+  <content contentuid="h18c41d03gc427g2bd9g9541g146744461762" version="1">Summon a coin halberd from a pile of gold to fight alongside you.</content>
+  <content contentuid="h45ef389age347gd576g0dc4gd19310095d6b" version="1">The pile of gold is destroyed.</content>
+  <content contentuid="h100895e8g42c6ge9c2gb886g3b152b5bd238" version="1">Exhale Fire</content>
+  <content contentuid="h4a497a53g3450g712agf801ge3d81156a40a" version="1">Engulf a target in flames that deal [1].</content>
+  <content contentuid="h0f7a7bb0g26f2gd20eg7147gdc0df3dda952" version="1">On a successful save, the target still takes half damage.</content>
+  <content contentuid="hdda3dc50g71a9g2c1eg944bg410ee671a277" version="1">Supernatural Attraction</content>
+  <content contentuid="hefedf527gb9d3g344dg3479g56a764487786" version="1">You are part of a greater whole. Concentrate on your connection to teleport to another infected creature.</content>
+  <content contentuid="h71e2469cgb8fag33c3gee15g77a834e2c17e" version="1">Psionic Pull</content>
+  <content contentuid="hb0c9f552gbaa2g5308g91edg65e4a8cb0339" version="1">Pull one creature or object towards you.</content>
+  <content contentuid="h133d2169g1499ga61fg269fg0eba2870c9c0" version="1">Fly</content>
+  <content contentuid="hf79f0fbdg9542gd883gcad8g4cd50b8d4232" version="1">Beat your draconic wings and take flight.</content>
+  <content contentuid="h899b8381g69e5gc515gcfa7g3b598c39978b" version="1">Fly</content>
+  <content contentuid="hbbadd4d6g19a5gbd5egdacfg244df9173055" version="1">Beat your draconic wings and take flight.</content>
+  <content contentuid="h15883836gfac4g5386gddb9ga5e93eb8d296" version="1">Needle Darts</content>
+  <content contentuid="hb466b5d7g8da4g6171g8fabgad0fbac70250" version="1">You shape three needles out of a piece of metal in your possession and send them flying in a tight group toward one target.</content>
+  <content contentuid="h40cf97ffg26bdg11f1g8760gef46af624ab6" version="1">Electric Arc</content>
+  <content contentuid="h108d25e7ga7abg6926g4bd4g4d66c7e65406" version="1">An arc of lightning leaps from one target to another.</content>
+  <content contentuid="h925ea039g32b2g12eag8b9eg7594bf7ba145" version="1">Hurl an acid vial that explodes on impact.</content>
+  <content contentuid="h21e9507egadd6g064dg63d2g693633ae46b6" version="1">Acid Vial</content>
+  <content contentuid="h7b17b9cdg1d01gdab6ga48ag0dc2359d11aa" version="1">Hurl a flask of liquid fire that explodes on impact.</content>
+  <content contentuid="h2cd36a7cg64d1g9dfeg3bb7g7810ceb40e61" version="1">Alchemist's Fire</content>
+  <content contentuid="h5f66a46egbdafgcbcdg6768ge854526c7b0b" version="1">Arachnid Jump</content>
+  <content contentuid="h50865aa2g6d6dga524g7712ge23ed973c750" version="1">Rays of Fire</content>
+  <content contentuid="h41cc923agbb14gfaabg1b48g05eed15ccdd5" version="1">Mobile Shot</content>
+  <content contentuid="h8b7f93b6g2c5age8f8g5a9cg9674cffd24ce" version="1">After using Dash or Disengage this turn, you can make a ranged attack as a bonus action.</content>
+  <content contentuid="h339d386agadffgaa5eg3687g7a1e3b4699ba" version="1">Triple Shot</content>
+  <content contentuid="hc7ea6d7cg52b0g7e62ga3d1g7cde2f085453" version="1">3 Actions &lt;br&gt; Requirements Using a ranged weapon with reload 0 &lt;br&gt; You shoot thrice in blindingly fast succession. Make three Strikes with a –4 penalty. All three attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made all of them.</content>
+  <content contentuid="h9b55549ag2fcfg8de4gecdbgb3362e734977" version="1">2 Actions &lt;br&gt; Requirements Using a ranged weapon with reload 0 &lt;br&gt; You shoot twice in blindingly fast succession. Make two Strikes with a –2 penalty. Both attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made both of them.</content>
+  <content contentuid="hffb0de9dgc580g3008g301eg0d4dc662b9cf" version="1">Double Shot</content>
+  <content contentuid="heea2ab3agd24dg57e4gb182gf41ffb774f6e" version="1">2 Actions &lt;br&gt; Requirements Using a ranged weapon with reload 0 &lt;br&gt; You shoot twice in blindingly fast succession. Make two Strikes, each against a separate target and with a –2 penalty. Both attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made both of them.</content>
+  <content contentuid="h96d6275cg97a4g4699ge0f0gcf27a703b5de" version="1">Rebounding Toss</content>
+  <content contentuid="hbb6565dfg22fbg4b5eg1ddcg443aa7aa57e6" version="1">2 Actions &lt;BR&gt; Requirements Using a thrown weapon &lt;br&gt; You bounce your weapon off one foe to strike another. Make a ranged Strike with a thrown weapon. If this Strike hits, the weapon rebounds toward an enemy within 10 feet of the original target. Make an additional Strike against this second target. Both attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made both attacks.</content>
+  <content contentuid="hbb44de46g672fg499cg5f23g0b41a039af18" version="1">Assisting Shot</content>
+  <content contentuid="hd06d7290gd5b2g5a1bgd860ga05f7ba4960c" version="1">1 Action &lt;br&gt; Requirements Using a ranged weapon &lt;br&gt; Make a Strike with a ranged weapon. If the Strike hits, the next creature other than you to attack the same target before the start of your next turn gains a +1 circumstance bonus to their roll</content>
+  <content contentuid="haadd38dbg8a5eg4c8cgfa05gd62e4e6cb847" version="1">Launch Protocol: Bola</content>
+  <content contentuid="h81aa5813g7afbg8f1cgf5f0gb745d731e3e8" version="1">Shoot a projectile that possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrains&lt;/LSTag&gt; your target.</content>
+  <content contentuid="h3c0e0a29ge4cag14d4g7a28g109e954180dc" version="1">Flashblinder</content>
+  <content contentuid="h0eae7950gff83g864bgeab8gf0fd4c7f7ede" version="1">Fling a Flashblinder bomb that &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; foes.</content>
+  <content contentuid="h2c76e826gbb9ag9236gab2fg0b48160a5816" version="1">Wild Magic: Bolt of Light</content>
+  <content contentuid="h63c93d06gf054g2145g4172gacfdccba3e97" version="1">Shoot a bolt of light from your chest that &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; the target.</content>
+  <content contentuid="h25834a41g788bgcca1g7713g00255abcbedc" version="1">Sneak Attack (Ranged)</content>
+  <content contentuid="haaa9d320g5a73gee85g0c53g7e5cbcf7f8c2" version="1">Deal extra damage to a foe you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against.</content>
+  <content contentuid="h3cda5fecg2b2fg7f58g52dcgeef0c0ba177a" version="1">You can also use this attack if you have an ally within [1] of the target and you don't have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+  <content contentuid="h73e5ab49gc5d2gc1c6g9dd0g756c3d506f96" version="1">Strengthened Force Tunnel</content>
+  <content contentuid="h12858ac3g428eg0e54g979bg56ba061511ba" version="1">Bane</content>
+  <content contentuid="h51a00d7fgc7b5g3294geac6g6f0c4589b944" version="1">Has a 1d4 penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+  <content contentuid="h9698d635g18bdg3317gafb2g9b6103e75a44" version="1">Magic Weapon</content>
+  <content contentuid="h96c495d9g0e3bgaf9eg5d87g0f9622dbfe86" version="1">Weapon has become magical, receiving a +[1] bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; and deals an extra die of damage.</content>
+  <content contentuid="h7930a48cgdb05g4b07g4de4ga612f30f3dcf" version="1">Guidance</content>
+  <content contentuid="hfd7e5cdeg922eg2e81gbf3dg034db35a2b75" version="1">Gains a +1d4 bonus to &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="hcdb128efg9a7fgcde2g9125g0bf20b8c07b6" version="1">Courageous Anthem</content>
+  <content contentuid="hda9c9c74gf063g0490gbe8fge4ee3568eccc" version="1"> You and all allies in the area gain a +1 status bonus to attack rolls and damage rolls</content>
+  <content contentuid="he4971eceg126fge718g60b5g281bc70f94eb" version="1">Bless</content>
+  <content contentuid="hed2dd403gd9adg0d56g996ag7e49d62b30df" version="1">Gains a +1 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+  <content contentuid="hf4c1659bg13b6g25a2gd3c1g32b6c8f7e244" version="1">Hastened</content>
+  <content contentuid="h1bc978a1gd421gf070g663bgdda750761718" version="1">Creature has one extra action each turn.</content>
+  <content contentuid="hf30a1c41g35a0g450fg63beg82e5ff79e183" version="1">Longstrider</content>
+  <content contentuid="ha26c3ea7g4627g4339g4520gee5409dab49f" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1].</content>
+  <content contentuid="h84940ef7gd283ga427ge55dg6b2a89b269b6" version="1">Dash</content>
+  <content contentuid="h7447c48egf57dge14ege752gf2a09debd419" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; is doubled.</content>
+  <content contentuid="hf8e0a8e5g208fg146eg405dg61c36e58be8f" version="1">-2 circumstance penalty to attack rolls</content>
+  <content contentuid="h78b510b8g7124g0f06g6a30g4726446d79b6" version="1">-1 circumstance penalty to attack rolls</content>
+  <content contentuid="hd8bc3c7cg54acg2044g7d4fg3fa952e4d89f" version="1">+2 circumstance bonus to AC</content>
+  <content contentuid="h168066bfg1213g68f6gd5cag1f05dc44d842" version="1">+1 circumstance bonus to AC</content>
+  <content contentuid="h0d6041f0g7b88g5d14ge486g9e365913cb8a" version="1">+2 circumstance bonus to attack rolls</content>
+  <content contentuid="h5b42b87bg3a77g826dgf0beg3a81eaf2f1d0" version="1">Circumstance Bonus</content>
+  <content contentuid="h19c1acfbg2fcbgefb8gc857g3038c5a52d68" version="1">+1 circumstance bonus to attack rolls</content>
+  <content contentuid="h838791cfgf9bagaa20gda58g37c3aab894c7" version="1">Off Guard</content>
+  <content contentuid="h2d5b6f1dgb550g7bafg14ebg889fdadec513" version="1">The affected entity is distracted or otherwise unable to focus their full attention on defense. They take a –2 circumstance penalty to AC. </content>
+  <content contentuid="hc512486cga387ga8d4g15fcg5d38a04b6b07" version="1">Ensnared</content>
+  <content contentuid="hced554b0gba71g5fb5gf0f6g51128817efe9" version="1">Affected entity can't move.</content>
+  <content contentuid="hbf1c3934gbe77g79a3gbbe4g6756a53ceae4" version="1">Grabbed</content>
+  <content contentuid="hd6a27cb8gf93agda7ageacagd3920480e68f" version="1">You're held in place by another creature, giving you the off-guard and immobilized conditions.</content>
+  <content contentuid="h7293d5fdg2caegd242ga6cdg4904905ef3ec" version="1">Stride to move</content>
+  <content contentuid="hdee05b9eg9447g71c3g5a36g9aee2aa75344" version="1">Stride to move</content>
+  <content contentuid="hd73d6a59g9b7cg9a49g2fcag6dd457087c2e" version="1">-2 circumstance penalty to AC</content>
+  <content contentuid="h3f7f7b18g90a3ga799g6fbcgec5e0bd5a706" version="1">-1 circumstance penalty to AC</content>
+  <content contentuid="hc12837c3g5ee6gb19ega0a4g2b9f5e5c87e6" version="1">-2 status penalty to AC</content>
+  <content contentuid="haf20a597gf4d5g66f6gd787g507396a87e6f" version="1">Status Penalty</content>
+  <content contentuid="h0bfa2ae7g5773ge5abg4e31g8d1253da6316" version="1">-1 status penalty to AC</content>
+  <content contentuid="he0bfad82g304bg3551gc424g8cc0fe52ef73" version="1">+2 status bonus to AC</content>
+  <content contentuid="h86a0dc15g5be8g0eb8g6ddfgcd97f3b5d21a" version="1">Status Bonus</content>
+  <content contentuid="he4918156ge111ga044ge1dfg07378e16bbf5" version="1">+1 status bonus to AC</content>
+  <content contentuid="h56edaa58gad66gbfbfgaed1g52ec4e25cb3b" version="1">Status Penalty</content>
+  <content contentuid="hb3f4bb53g4b31g3c1cg34d2gee027df648f0" version="1">-2 status penalty to attack rolls</content>
+  <content contentuid="hbd09c03cgb20bg156bgfa33g584c5ff81819" version="1">Status Penalty</content>
+  <content contentuid="h5edff149ge1f3g4cf8g416ag8377c271f82f" version="1">-1 status penalty to attack rolls</content>
+  <content contentuid="h660bfbe1gb947g14dbg3eb7g904fdbb87a47" version="1">+2 status bonus to saves</content>
+  <content contentuid="ha9395333g93a3ga7ddg289eg994552a600b0" version="1">+1 status bonus to saves</content>
+  <content contentuid="h58e2156dge161g373dg61dbgc1fd841d752f" version="1">Status Penalty</content>
+  <content contentuid="ha9c05eb5gae79g0dddgc1e2ge205ee8b7c64" version="1">-2 status penalty to attack rolls</content>
+  <content contentuid="hb9842a8ega66eg38e1ga884gb4361d7560b9" version="1">Status Penalty</content>
+  <content contentuid="h1cffde98g191fg22b6g1b1eg8c39453123c9" version="1">-1 status penalty to attack rolls</content>
+  <content contentuid="hf21585dag3811g77ffg88a2g2e5a397fa527" version="1">Status Bonus</content>
+  <content contentuid="hb38fbc63g8243g0d60g65c8g54af1311d586" version="1">+1 status bonus to attack rolls</content>
+  <content contentuid="he47474a9g49bcg51dag0a2cg7577ef30a6a8" version="1">%%% EMPTY</content>
+  <content contentuid="hae24afc0g56b8g2923g5892gc7d58ebc11fc" version="1">Heavily Encumbered</content>
+  <content contentuid="hde19f626g2538g7324gce86g8982accd86fb" version="1">Carrying far too much weight.
+
+&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; heavily reduced, and you can no longer climb or Jump.</content>
+  <content contentuid="habaefca7g5183g3610g409egdb2138021d08" version="1">Encumbered</content>
+  <content contentuid="hed303154g47ffg846cg3751gf00430e07245" version="1">Carrying too much weight.
+
+&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; is reduced, and Jump distance is halved.</content>
+  <content contentuid="h6eccb42cg2012g20bagd6ddg3bb951741cc7" version="1">Threatened</content>
+  <content contentuid="hd4c1fb41g436dg99a9g362fg65633ceef9f7" version="1">An enemy is close.</content>
+  <content contentuid="h29375789g6410g0574gb887g9ff0b1423473" version="1">%%% EMPTY</content>
+  <content contentuid="hab229e7fg7c8egda3fg6196gfec76bc0def0" version="1">Double Shot Penalty</content>
+  <content contentuid="hc8fd4c3cg6af5ga474g336dg9d6581fa4498" version="1">-2 to double shot attacks</content>
+  <content contentuid="h61021380ga4e7ge40ag45ffge7537ac834d4" version="1">Demoralize Immunity</content>
+  <content contentuid="h6229c338ga2d0gc38cg4961ge54be03d3a02" version="1">A creature already attempted to demoralize this creature making it immune.</content>
+  <content contentuid="hd6f98eeegecbbg6318g1604g4abacaba6b5d" version="1">Point Blank Stance</content>
+  <content contentuid="hd5d646eeg9ea3g296bgd13fg13cdc79d2d30" version="1">Your ranged weapon attacks deal +2 damage.</content>
+  <content contentuid="hbdcae465gb121g9a81gdca6g6fa7b2a6f291" version="1">Web Walker</content>
+  <content contentuid="he40728d8ga896g7ca3gee73g47ec6b7c978f" version="1">Enemy creatures have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against this creature.</content>
+  <content contentuid="ha14bd4d8g78e4g883cg312cgff3c2ea96703" version="1">+2 circumstance bonus to reflex saving throws.</content>
+  <content contentuid="h18ea47e1g53c2g7087gcfebg219d6a437c4b" version="1">Bound Weapon</content>
+  <content contentuid="hda5e143dg4f70g8e60g5619gff851e62414a" version="1">Ritually bound to its wielder. &lt;br&gt;&lt;br&gt;The weapon can't be knocked out of the wielder's hand, and automatically returns to the wielder when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;.</content>
+  <content contentuid="h16669024g9e15g1292g22dbga084193eb944" version="1">Poisonous Fumes</content>
+  <content contentuid="ha38f0c8age670ge80cg4686g9a34a9cb3b90" version="1">Takes [1] every turn.</content>
+  <content contentuid="hc21c55fcg6c7fg718dgee3ag2e3edc1b3333" version="1">Stance</content>
+  <content contentuid="h4930ef75g3dc4gced3g7557g602520ce1b33" version="1">Point Blank Stance</content>
+  <content contentuid="hcb626cb1g9147ge5e0g5f81gea94969abc22" version="1">Your ranged weapon attacks deal +2 damage.</content>
+  <content contentuid="h2784c358gc2bdgf6fcgcb99g1a43fba66934" version="1">Lovely Assistant</content>
+  <content contentuid="hd1e2d649g57d3g0dfag9a6dge5f0989431c2" version="1">The Surgeon reanimates the corpse of one of his nurses.</content>
+  <content contentuid="h2f9a8273g6354ge86fg1181g684e3da636db" version="1">Flurry of Blows: Push</content>
+  <content contentuid="h0a21b444gd17cge0d3g0b52g3c1232131413" version="1">Punch twice in quick succession and possibly push the target [1] away.</content>
+  <content contentuid="h45530a3fg540cg1050g5ef8g51e1ce623b0a" version="1">Flurry of Blows: Stagger</content>
+  <content contentuid="hab338624g41d8g6560g0dfcgc5bc0ffe3691" version="1">Punch twice in quick succession and &lt;LSTag Type="Status" Tooltip="OPEN_HAND_NO_REACTIONS"&gt;Stagger&lt;/LSTag&gt; the target, making it unable to take reactions.</content>
+  <content contentuid="hf355cdcfgf918ge517g3b69ga7417b9d702b" version="1">Flurry of Blows: Topple</content>
+  <content contentuid="hddb4c5adg0715g4e9fg65bege9fea55289bc" version="1">Punch twice in quick succession and possibly knock the target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+  <content contentuid="h7108aea2g931eg7a90g5792g3af4af802b99" version="1">Flurry of Blows</content>
+  <content contentuid="h3f370815g2504gd1f4g6235g5c1924242d4d" version="1">Punch twice in quick succession.</content>
+  <content contentuid="h41d80ce1g31c5g67f1gc7aeg1372477184e6" version="1">Let the ground swallow you up, only for you to re-emerge in a terrific burst of earth, damaging nearby foes. </content>
+  <content contentuid="h14fd5317gcc60g33abgbcc3g4b719872ca78" version="1">Voice of Command</content>
+  <content contentuid="h061c460bgaf3bg9d88g64b3g6070bbaa6121" version="1">Command an ally in the Dark Lord's name, letting them channel &lt;LSTag Type="Spell" Tooltip="Target_BanesWrath"&gt;Bane's Wrath&lt;/LSTag&gt;.</content>
+  <content contentuid="h110e643cg5d41g2d4agcb5cg1b942aa5499d" version="1">Spreading Spores</content>
+  <content contentuid="ha910d374ga59agfbbfge8cag27a60cca925a" version="1">Seed an area in deadly spores that deal [1] per turn to all creatures that inhale them, except you and your allies.</content>
+  <content contentuid="h1590d121g819bg3ffcg515bg601f28fa8bd8" version="1">Grapple</content>
+  <content contentuid="h7d3b786bg74f7gea68g335fgcff3ed4669b0" version="1">Grapple a creature.</content>
+  <content contentuid="h6002a181gf58cg7166g33fagc7f124fb91db" version="1">Gaze of the Dead</content>
+  <content contentuid="hbd2a11f4g79dcg1ce9gc6fcgdd5d9ab22cbb" version="1">Cast your empty eyes towards a creature and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; it.</content>
+  <content contentuid="h4788832ag55d3g3541g2142g732b643758b3" version="1">Your rage comes from a deep and purely personal well within you. You use your rage as you choose. &lt;br&gt; Instinct Ability—Unstoppable Frenzy Increase the additional damage from Rage from 2 to 3.</content>
+  <content contentuid="hdff55a45g459bg24fcg55d3ge386824176a3" version="1">Furious Finish</content>
+  <content contentuid="hdf07cfbagb2a2g69e5g7b6fg7d7bea381275" version="1">You have -10 to your third and all subsequent attack roll this turn. If your weapon is light, reduce this to -8.</content>
+  <content contentuid="h5f4b5801g2851g6551g39d4g9ddeff522a13" version="1">Multiple Attack Bonus</content>
+  <content contentuid="he6aa4142g16dfg79b7g7404g85d7138afdbc" version="1">Exacting Strike (Ranged)</content>
+  <content contentuid="ha6b51966g0da5g6685g2d51g1d1a1d34dedc" version="1">Exacting Strike</content>
+  <content contentuid="h4972540bg5734g4cc3gdc0dgd4fcf67f1620" version="1">You make a controlled follow-up attack, fully accounting for your momentum. Make a Strike. If you miss, this attack does not count toward your multiple attack penalty.</content>
+  <content contentuid="hc70d5ed2g48cegfc53ga966g83d64a524b04" version="1">You make a controlled follow-up attack, fully accounting for your momentum. Make a Strike. If you miss, this attack does not count toward your multiple attack penalty.</content>
+  <content contentuid="h0199ee55g5606gafb4g22eeg81e5eabf92ac" version="1">Exacting Strike (Melee)</content>
+  <content contentuid="h65b11835ge9f9gf71bg5a32gadb34be8c941" version="1">You make a controlled follow-up attack, fully accounting for your momentum. Make a Strike. If you miss, this attack does not count toward your multiple attack penalty.</content>
+  <content contentuid="h13a11a29g5821g0339g7367ge7c9ebf4361d" version="1">Class Feat</content>
+  <content contentuid="hf11260b8gbd3cg09c6g1466g3f688216bef0" version="1">Ability Boosts</content>
+  <content contentuid="h51f4e01bgbcc9g4172gd0e6gdba405dfdf8a" version="1">Arcane Thesis</content>
+  <content contentuid="h43e82f67g4eadgf08bgb8dfg2412782ceb67" version="1">During your studies to become a full-fledged wizard, you produced a thesis of unique magical research. You gain a special benefit depending on the topic of your thesis research.</content>
+  <content contentuid="h2936ff57g4dbcg04b8g0424g909015f4a60b" version="1">Unified Magical Theory</content>
+  <content contentuid="h604cbaffg381dg7347gce62ga8b5cb117ff2" version="1">Universalist</content>
+  <content contentuid="h0e43a852g6be9g250dgf7c8ge48e532a3302" version="1">You eschew the idea that magic can be neatly expressed by the teachings of any single school or college, instead directing your self-study to pick up the best of every school of magic.</content>
+  <content contentuid="h8802da52g6e86gee59gd78cgc4090f9abb62" version="1">General Feat</content>
+  <content contentuid="h57fd5d27g2b7bgbfcdgc62egc90e3bd9140c" version="1">Expert Spellcaster</content>
+  <content contentuid="h9129ce1cg1909gd657g70bbg8f7037a78f36" version="1">You gain a +2 bonus to &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt; and spell &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt;.</content>
+  <content contentuid="h138eac8fg5e36g5e9fg687fgb3ee71f549d0" version="1">Improved Familiar Attunement</content>
+  <content contentuid="h85a4e713g17d8g8827g1f06gc63aed05f991" version="1">You've long held that fine-tuning the magic that bonds a wizard and their familiar can improve the mystic connection and yield greater results, compared to the safe yet generic bond most wizards currently use. You've formed such a pact with your familiar, gaining more advantages from it than most wizards.</content>
+  <content contentuid="ha18755e3g7742gd2c2g1c24g66c6c388b773" version="1">Spell Blending</content>
+  <content contentuid="ha7d31f8eg0ac4g431dgfbccgfe496bd4fc3c" version="1">You theorize that spell slots are a shorthand for an underlying energy that powers all spellcasting, and you've found a way to tinker with the hierarchy of spell slots, combining them to fuel more powerful spells.</content>
+  <content contentuid="h0023443dgc31bg78e7ge6c4g41b12bb3a34d" version="1">Experimental Spellshaping: Reach Spell</content>
+  <content contentuid="hfb31d7c9gdac2g3a17g1a3fg46b7408461e6" version="1">Experimental Spellshaping: Widen Spell</content>
+  <content contentuid="h140b0601gb81ag87aag7f46g9084d38f4b66" version="1">Reach Spell</content>
+  <content contentuid="h9aeffcc4gd487ge7ebg84acg953e13ad0041" version="1">You can extend your spells’ range. If the next action you use is to Cast a Spell that has a range, increase that spell’s range by [1]. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to [1].</content>
+  <content contentuid="h77d22550g940bgacbfgd52bge169a73b8e2d" version="1">Sacrifice spell slots to unlock a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+  <content contentuid="ha9b515e4g10a9g928ag0142gde5d61f46bd5" version="1">You can extend your spells’ range. If the next action you use is to Cast a Spell that has a range, increase that spell’s range by [1]. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to [1].</content>
+  <content contentuid="h8eb716b0g5d18gffa5g33dfg25ecb86b1751" version="1">Your thesis posits that the magical practice of spellshaping can be realized more efficiently by altering variables and parameters as you cast. Starting at 4th level, during your daily preparations, you can gain a spellshape wizard feat of your choice that has a level requirement of no more than half your level, which you can use until your next daily preparations.</content>
 </contentList>
